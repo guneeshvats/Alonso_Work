@@ -1,0 +1,36 @@
+{
+    "matched": [],
+    "unmatched": [
+        {
+            "TableId": "b3fd3413-5480-44fe-aa56-3edfe3055653",
+            "Text": " | 1 | 2 | 3 | 4 | Final | Record | Baylor | 10 | 7 | 14 | 14 | 45 | 7-6 | Vanderbilt | 14 | 7 | 7 | 10 | 38 | 6-7 | ",
+            "Left": 0.07009434700012207,
+            "Top": 0.2982562482357025,
+            "Width": 0.3632875680923462,
+            "Height": 0.03794536739587784,
+            "PageNo": 49
+        },
+        {
+            "TableId": "f9d24438-4789-438f-9aaa-d95450855092",
+            "Text": "1st | 14:04 | Vanderbilt - Blasingame 65 yd pass from Shurmur (Guay PAT) |  | 9:16 | Baylor Martin 23 yd field goal |  | 2:19 | Baylor Lovett 12 yd run (Martin PAT) |  | 0:23 | Vanderbilt Vaughn 68 yd run (Guay PAT) | 2nd | 11:33 | Baylor Hastyl 18 yd run (Martin PAT) |  | 9:57 | Vanderbilt Vaughn 69 yd run (Guay PAT) | 3rd | 12:54 | Baylor Ebner 34 yd run (Martin PAT) |  | 4:51 | Baylor Brewer 1 yd run (Mayers PAT) |  | 0:16 | Vanderbilt - Blasingame 2 yd run (Guay PAT) | 4th | 9:31 | Vanderbilt - Blasingame 1 yd run (Guay PAT) |  | 9:19 | Baylor Ebner 75 yd pass from Brewer (Mayers PAT) |  | 3:30 | Vanderbilt Guay 33 yd field goal |  | 1:50 | Baylor Jones 52 yd pass from Brewer (Mayers PAT) | ",
+            "Left": 0.06947904080152512,
+            "Top": 0.3477744162082672,
+            "Width": 0.3589555025100708,
+            "Height": 0.15799112617969513,
+            "PageNo": 49
+        },
+        {
+            "TableId": "ec9b46af-754e-4fb3-b101-89a84b7c3fc9",
+            "Text": " | Baylor | Vanderbilt | First Downs | 30 | 22 | Rushes-Yards (Net) | 46-284 | 24-287 | Passing Yds (Net) | 384 | 286 | Passes Att-Comp-Int | 35-21-1 | 38-18-0 | Total Offense Plays-Yards | 81-668 | 62-573 | Punt Returns-Yards | 0-0 | 0-0 | Kickoff Returns-Yards | 1-20 | 4-74 | Interception Returns-Yards | 0-0 | 1-0 | Punts (Number-Avg) | 1-47.0 | 2-39.5 | Fumbles-Lost | 0-0 | 1-1 | Penalties-Yards | 7-50 | 4-26 | Possession Time | 35:26 | 24:34 | Third-Down Conversions | 6 of 15 | 7 of 13 | Fourth-Down Conversions | 5 5 | 1 2 | Red-Zone Scores-Chances | 4-6 | 3-3 | Sacks By: Number-Yards | 1-3 | 2-6 | ",
+            "Left": 0.06904514878988266,
+            "Top": 0.5180829167366028,
+            "Width": 0.32536882162094116,
+            "Height": 0.2070176899433136,
+            "PageNo": 49
+        }
+    ],
+    "meta": {
+        "file_name": "page-0049.png",
+        "page_no": 49
+    }
+}

@@ -1,0 +1,1833 @@
+[
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "records": [
+            {
+                "playerName": "Madre",
+                "opponentName": null,
+                "teamName": "Auburn",
+                "statValue": 186,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "RUSHING ATTEMPTS GAME 1. 45 Madre Hill vs. Auburn (186 yards, 1 TD)...."
+            },
+            {
+                "playerName": "Brandon Holmes",
+                "opponentName": "SMU",
+                "teamName": null,
+                "statValue": 143,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "42 Brandon Holmes vs. LSU (143 yards, 1 TD: David Dickey vs. SMU (133 yards, 2 TD)..."
+            },
+            {
+                "playerName": "Cedric Cobbs",
+                "opponentName": "SEC",
+                "teamName": null,
+                "statValue": 198,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2015",
+                "rawLine": "36 - Cedric Cobbs at Alabama (198 yards, 1 1D 36 Dickey Morton at SMU (189 yards, 7 35 Michael Smith at Kentucky (192 ya 35 Michael Smith at Auburn (176 yards, w r ) 40 DeCori Birmingham at Kentucky (196 yards, 2 TD)... ALEX COLLINS broke Arkansas single-season record for rushing touchdowns (20) in 2015, while equaling Darren McFaddens program records for 100-yard games (10) and 100-yard games in SEC action (6). seed 19-18"
+            },
+            {
+                "playerName": "Ben Cowins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2003",
+                "rawLine": "999-2003 YARDS PER RUSH 5 30 Ben Cowins..... SEASON (MIN. 99 RUSHES) 6. 26 Cedric Cobb:"
+            },
+            {
+                "playerName": "Felix Jones",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 156,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1994",
+                "rawLine": "1. 814 Felix Jones (133 rushes, 1,156 yards)... 7. 25 Madre Hill... 1994-98"
+            },
+            {
+                "playerName": "Jerry Eckwood",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 792,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1975",
+                "rawLine": "2. 1.62 Jerry Eckwood (104 rushes, 792 yards).. 1975: 25 David Dicke ..1966-68"
+            },
+            {
+                "playerName": "Felix Jones",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 168,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2001",
+                "rawLine": "3. 7.58 Felix Jones (154 rushes, 1,168 yards), 6 : 9 24 Matt Jones...... 2001-04"
+            },
+            {
+                "playerName": "Dickey Morton",
+                "opponentName": "Chrys Chukwuma",
+                "teamName": null,
+                "statValue": 831,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1996",
+                "rawLine": "4, 6.54 Dickey Morton (127 rushes, 831 yards)... AM: 24 Chrys Chukwuma... ..1996-99"
+            },
+            {
+                "playerName": "Knile Davis",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 322,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "5. 648 Knile Davis (204 rushes, 1,322 yards) 10:"
+            },
+            {
+                "playerName": "Ben Cowins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 162,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "6. 6.34 Ben Cowins (183 rushes, 1,162 yards) 196 : 100-YARD RUSHING GAMES 7. 632 Dennis Johnson (106 rushes, 670 yards) 20: 6.32 Darren McFadden (176 rushes, 1,113 yards)... : TO ANOX COMMIS nn ceasssnetnastnnsnnnstsnnnnisnnnntenassee 6.32 Felix Jones (99 rushes, 626 yards)......... : 10 arren McFadden........"
+            },
+            {
+                "playerName": "Rakeem Boyd",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 133,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2016",
+                "rawLine": "10. 6.16 Rakeem Boyd (184 rushes, 1,133 yards)... 37 awleigh Williams Ill. 2016"
+            },
+            {
+                "playerName": "arren McFadden",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 956,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2005",
+                "rawLine": ": arren McFadden. CAREER Cedric Cobbs 1. 7.66 Felix Jones (386 rushes, 2,956 yards)... 2005-07 6. Knile Davis......."
+            },
+            {
+                "playerName": "Matt Jones",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 535,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2001",
+                "rawLine": "2. 6.64 Matt Jones (382 rushes, 2,535 yards)..... 2001-04 Felix Jones."
+            },
+            {
+                "playerName": "Dennis Johnson",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 36,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2008",
+                "rawLine": "3. 5.98 Dennis Johnson (345 rushes, 2,036 yards).. 2008-12 Madre Hill..."
+            },
+            {
+                "playerName": "Michael Smith",
+                "opponentName": "##win",
+                "teamName": null,
+                "statValue": 103,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2006",
+                "rawLine": "4, 585 Michael Smith (359 rushes, 2,103 yards)...... 2006-09 en Cowins. 5.85 Darren McFadde 35 Bill Burnett at Baylor (133 yards, 3"
+            },
+            {
+                "playerName": "Bill Burnett",
+                "opponentName": "North Texas",
+                "teamName": null,
+                "statValue": 830,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "35 Bill Burnett vs. North Texas (185 y 1. 325 Darren McFadden (1,830 yards, 16"
+            },
+            {
+                "playerName": "Madre Hill",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 387,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "2. 307 Madre Hill (1,387 yards, 15 TD)......"
+            },
+            {
+                "playerName": "Darren McFadden",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 647,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "3. 284 Darren McFadden (1,647 yards, 14"
+            },
+            {
+                "playerName": "Alex Collins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 577,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "4 271 Alex Collins (1,577 yards, 20 TD)........."
+            },
+            {
+                "playerName": "Rawleigh Williams",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 188,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "5. 245 Rawleigh Williams Ill (1,360 ya 6. 242 Dickey Morton (1,188 yards, 6 TD)"
+            },
+            {
+                "playerName": "Bobby Burnett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 947,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "1. 232 Bobby Burnett (947 yards, 16"
+            },
+            {
+                "playerName": "Cedric Cobbs",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 320,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. 227 Cedric Cobbs (1,320 yards, 1"
+            },
+            {
+                "playerName": "Dick",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 192,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "9. 226 Dickey No Ma aT 10. 220 ins (1,192 yards, 14 1D)."
+            },
+            {
+                "playerName": "##Fadden",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 590,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "1. 785 cFadden (4,590 yards, 41 TD)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 703,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "2. 665 ins (3,703 yards, 36 TD)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 570,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "3. 635 ins (3,570 yards, 30 TD)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 317,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "4 595 orton (3,317 yards, 16 TD)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 18,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "5. 589 (3,018 yards, 26 TD)."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 887,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "6. 559 (2,887 yards, 38 TD)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 407,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "1 54l ill (2,407 yards, 25 TD)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 204,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. 526 (2,204 yards, 46 TD)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 61,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "9. 505 (2,061 yards, 9 TD)...."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Carolina",
+                "teamName": null,
+                "statValue": 1,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "132i den vs. South Carolina (34 rushes, 1 TD)."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 2,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "2. rl on at Baylor (28 rushes, 2 TD 3. 24 urn (21 rushes, 1 TD)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "North Texas",
+                "teamName": null,
+                "statValue": 2,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "4 236 s. North Texas (15 rushes, 2 TD."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 2,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "5. 219 at South Carolina (25 rushes, 2 TD)."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Texas Tech",
+                "statValue": 2,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "1 2 te vs. Texas Tech (32 rushes, 2 TD)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Ole Miss",
+                "statValue": 2,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. 214 . Ole Miss (29 rushes, 2 TD)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "LSU",
+                "statValue": 3,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": "1830",
+                "rawLine": "9. 22 ins at Texas Tech (27 rushes, 2 T 10. 206 at LSU (32 rushes, 3 TD 1. 1830 (325"
+            },
+            {
+                "playerName": "Darren McFadden",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "2. 1,647 Darren McFadden (284"
+            },
+            {
+                "playerName": "Alex Collins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "1577",
+                "rawLine": "3. 1577 Alex Collins (271 rushes, 4, 1387 Madre Hill (307 rushes, 5. 1360 Rawleigh Williams Ill (24"
+            },
+            {
+                "playerName": "Knile Davis",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "1322",
+                "rawLine": "6. 1322 Knile Davis (204 rushes, 1. 1320 Cedric Cobbs (227 rushes, 8. 1298 Dickey Morton (226 rus 9. 1192 Ben Cowins (220 rushes, 10. 1190 Jonathan Williams (211"
+            },
+            {
+                "playerName": "Darren McFadden",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "4590",
+                "rawLine": "1. 4590 Darren McFadden (785"
+            },
+            {
+                "playerName": "Alex Collins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "3703",
+                "rawLine": "2. 3703 Alex Collins (665 rushes, 36"
+            },
+            {
+                "playerName": "Ben Cowins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "3. 3,570 Ben Cowins (635 rushes, 30"
+            },
+            {
+                "playerName": "Dickey Morton",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 26,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": "3317",
+                "rawLine": "4, 3317 Dickey Morton (595 rushes, 5. 3,018 Cedric Cobbs (589 rushes, 26 TD)."
+            },
+            {
+                "playerName": "Felix Jones",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 20,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": "2956",
+                "rawLine": "6. 2956 Felix Jones (386 rushes, 20 TD)..."
+            },
+            {
+                "playerName": "James Rouse",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 38,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "1. 2,887 James Rouse (559 rushes, 38 TD)."
+            },
+            {
+                "playerName": "Fred Talley",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 11,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. 2,661 Fred Talley (498 rushes, 11 TD)."
+            },
+            {
+                "playerName": "Matt Jones",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 24,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": "2535",
+                "rawLine": "9. 2535 Matt Jones (382 rushes, 24 TD 10. 2,407 Madre Hill (541 rushes, 25 TD)... 785 rushes, 4,590 yards 2005-07 ickey Morton."
+            },
+            {
+                "playerName": "Jonathan Williams",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 321,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2012",
+                "rawLine": "6. 5.72 Jonathan Williams (406 rushes, 2,321 yards 2012-15 ickey Morton."
+            },
+            {
+                "playerName": "Ben Cowins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 570,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "7. 5.62 Ben Cowins (635 rushes, 3,570 yards).... 18: 12. akeem yd."
+            },
+            {
+                "playerName": "Rakeem Boyd",
+                "opponentName": "Oklahoma Mines",
+                "teamName": null,
+                "statValue": 176,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1974",
+                "rawLine": "8. 5.59 Rakeem Boyd (389 rushes, 2,176 yards). Jonatha 9. 5.57 Alex Collins (665 rushes, 3,703 yards).... Michael Smi 5.57 Jerry Eckwood (340 rushes, 1,895 yards) o.oo 1974-76, 18 Felix Jo 1 6 M y Eck 2.5 ill Bur 5 by Bu 5 avidson vs. Oklahoma Mines."
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Yards",
+            "statPeriod": "Game"
+        },
+        "records": [
+            {
+                "playerName": "Y",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "100-YARD RUSHING GAMES (340) OPPONENT : PLAYER DATE AIT YDS AVG 1D OPPONENT Jon Rich nat 5."
+            },
+            {
+                "playerName": "Knile",
+                "opponentName": "Morto Ch",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "0120",
+                "rawLine": "01202... a Knile Davis... J . J. LS Mike Kirkla d Talley... ckey Morto Chey MOON cen WATT ccc BO are BY cee D 3 neers O snntttnnnnnnnne Jonathan Williams... 13"
+            },
+            {
+                "playerName": "Michael S",
+                "opponentName": "##mi",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "1010",
+                "rawLine": "amar McHa Michael Smi 101009..."
+            },
+            {
+                "playerName": "Cedric Cobbs",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "Cedric Cobbs . 2."
+            },
+            {
+                "playerName": "scar Malone",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "scar Malone Of . A. in Russell Cody. . 2. os ate Geno Mazzan 8. os . ilt Knile Davis......... 2 Ken Holland .."
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "records": [
+            {
+                "playerName": null,
+                "opponentName": "TCU",
+                "teamName": null,
+                "statValue": 475,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "3,011 0. 2,961 TCU (475 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 421,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "at Rice (421 yards)."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Utah State",
+                "teamName": null,
+                "statValue": 370,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "at Ole Miss (370 yards Utah State (385 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 344,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Tulsa (344 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Oklahoma State",
+                "teamName": null,
+                "statValue": 410,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Colorado State (410 yards; Oklahoma State (349 yards)."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 296,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "at Houston (296 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": "Texas AM",
+                "teamName": null,
+                "statValue": 316,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "TCU (316 yards) Texas AM (266 yards)."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Texas Tech",
+                "statValue": 527,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Texas Tech (527 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": "Tulsa",
+                "teamName": null,
+                "statValue": 365,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Tulsa (365 yards) 3,196 yards in 11 games....."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 922,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "3119",
+                "rawLine": "2,922 yards in Il game 3,456 yards in 11 gam 3119 yards in 11 games 2,898 yards in Il game 2,121 yards in Tl games 3,523 yards in 1 game 2,348 yards in 11 game 3,065 yards in 14 games..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 420,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "2,420 yards in Tl game D Pittsburg (Kan."
+            },
+            {
+                "playerName": "Nicholls",
+                "opponentName": "Air Force",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "Air Force (62 r Nicholls (40"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 523,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2474",
+                "rawLine": "2474 . 246.7 Ss 3,523 yards in tl games..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 456,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "3,456 yards in 1 game 3,725 yards in 13 games..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 3119,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "3119",
+                "rawLine": "3119 yards in 11 games 3,011 yards in tl gan 3,196 yards in 12 ga 2,922 yards in II ga 2,898 yards in 1 games..."
+            },
+            {
+                "playerName": "H",
+                "opponentName": null,
+                "teamName": "Arkansas",
+                "statValue": 121,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "2007",
+                "rawLine": "2,121 yards in 1 games..... 2.714 yards in 11 games..... HING RECORDS Ee FELIX JONES teamed with Darren McFadden and Peyton Hillis in 2007 to create the most prolific rushing attack in Razorback history. The trio helped Arkansas rush for 3,725 yards on just 625 carries (5.96"
+            },
+            {
+                "playerName": "Nicholls",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 495,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "499 so SND RN Ss Nicholls (40 for 495 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": ") State",
+                "teamName": null,
+                "statValue": 594,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Pittsburg (Kan.) State (54 for 594 yards)."
+            },
+            {
+                "playerName": null,
+                "opponentName": "State",
+                "teamName": null,
+                "statValue": 503,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Northwestern (La.) State (47 for 503 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Eastern Michigan",
+                "teamName": null,
+                "statValue": 292,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Eastern Michigan (30 for 292 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Missouri State",
+                "teamName": null,
+                "statValue": 483,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Missouri State (51 for 483 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Auburn",
+                "statValue": 426,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "at Auburn (45 for 426 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Carolina",
+                "teamName": null,
+                "statValue": 541,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "South Carolina (58 for 541 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Alcorn State",
+                "teamName": null,
+                "statValue": 353,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Alcorn State (38 for 353 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": "Southeast Missouri State",
+                "teamName": null,
+                "statValue": 381,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Southeast Missouri State (41 for 381 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Mississippi State",
+                "statValue": 725,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "at Mississippi State (41 for 357), 625 for 3,725 yards..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 3199,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "3199",
+                "rawLine": "3199 yards...."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 523,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "3,523 yards..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 456,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "474 for 2,504 ya 557 for 2,834 ya 3,456 yards..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 961,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "2.961 yards..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 145,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "626 for 3,145 yards..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 565,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "512 for 2,565 yards..."
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Pass Attempts",
+            "statPeriod": "Game"
+        },
+        "records": [
+            {
+                "playerName": "Louisiana Monroe",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "28 Louisiana Monroe (43 attempts)... SEASON 1. 301 465 attempts. 2. 299 attempts. 3. 272 459 attem 4. 253 443 atte 5. 247 406 atten 247 439 atte 1. 246 374 attem 8. 205 314 attempts. 9. 204 37lattempts.. 10. 202 407 atten 202 370 attem COMPLETION PERCENTAGE SEASON 658"
+            },
+            {
+                "playerName": "R",
+                "opponentName": null,
+                "teamName": "Auburn",
+                "statValue": 3,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": "2342",
+                "rawLine": "2342 . 225.5 so SND BN Ss Behind quarterback RYAN MALLETT in 2010, Arkansas led the SEC and ranked in the top six nationally in total passing yards (4,338), passing yards per game (333.7) and touchdown passes (36), all of which are program records. Texas AM (30-51, 3 TD, Missouri State (30-41, at Ole Miss (33-45, 6 at Auburn (35-49, 5 TD, 2 INT)"
+            },
+            {
+                "playerName": null,
+                "opponentName": "Rutgers",
+                "teamName": null,
+                "statValue": 3,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Rutgers (20-39, 3 TD, 2 INT)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Toledo",
+                "teamName": null,
+                "statValue": 3,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Vanderbilt (28-48, 3 TD, Toledo (32-53, 0 1D, 1"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 5,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Georgia (21-39, 5 TD, 0 INT)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Mississippi State",
+                "statValue": 7,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Mississippi State (30-43, 7 TD, 0 INT:"
+            },
+            {
+                "playerName": "Troy",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 5,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Troy (23-30, 5 TD, 1 IN 301 of 465"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Yards",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "records": [
+            {
+                "playerName": null,
+                "opponentName": "New Mexico State",
+                "teamName": null,
+                "statValue": 11,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "TEAM RUSHING RUSHING ATTEMPTS GAME 1. 14 New Mexico State (11 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": "South Florida",
+                "teamName": null,
+                "statValue": 12,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "14 Florida (12 yards) 3. 15 at South Carolina (51 yards, 15 South Florida (48 yards)"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "LSU",
+                "statValue": 91,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "15 Auburn (91 yards)... 6. 16 at LSU (260 yards)...."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Baylor",
+                "teamName": null,
+                "statValue": 32,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "16 at Texas AM (32 yards) 8 17 Baylor (89 yar 7"
+            },
+            {
+                "playerName": null,
+                "opponentName": "Missouri School of Mines",
+                "teamName": null,
+                "statValue": 32,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "17 Missouri School of Mines (32 yards)... 943"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 2,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "10. 18 Texas (2 yards)... 014"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 15,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1981",
+                "rawLine": "18 at Rice (15 yards) 1981"
+            },
+            {
+                "playerName": null,
+                "opponentName": "North Texas",
+                "teamName": null,
+                "statValue": 14,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1965",
+                "rawLine": "18 North Texas (14 yards)... 1965"
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 50,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1294",
+                "rawLine": "1. 355 (765 yar 2.377 (1294 yi 3. 382 (907 yar 4, 388 (997 yard 5. 390 (1,050 yards)."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 1136,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1136",
+                "rawLine": "6. 392 (1136 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 1198,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1198",
+                "rawLine": "7. 393 (1198 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 10,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. 394 (1,010 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 970,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "9. 400 (970 yards 10. 403 (1,514 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 1879,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1879",
+                "rawLine": "403 (1879 yards)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Texas Tech",
+                "statValue": 441,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "403 (1,441 yards)... RUSHING YARDS 1-27 Texas (25 rus 2. -25 at Texas Tech (39 rushes)..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 156,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1131",
+                "rawLine": "9 . 1,050 390 rus . 1,064 420 rus . 1131 342 rus . 1136 392 rush 10. 1145 428 rus RUSHING YARDS PER GAME 1. 756 156 yards in 10 ga 90.7 907 yards in 10 ga 91.8 1,010 yards in tg 955 1,050 yards in 11 g 96.7 1,064 yards in tI g 97.0 970 yards in 10 games..."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Longhorn",
+                "teamName": null,
+                "statValue": 997,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1198",
+                "rawLine": "997 997 yards in 10 gan 998 1198 yards in 12 ga 102.8 1131 yards in 1 games... ses . 103.3 1136 yards in 1 aMeS ......nnssssnstnsnnnnsnnnnsennsse 1999 Ss G THE RAZORBACK DEFENSE moved into the record books following Arkansas 31-7 Texas Bowl win over Texas in 2014. The Razorbacks allowed just two rushing yards against the Longhorns, the 10th-best performance in school history. The 0.11 yards per rush allowed also cracked the top 10. YARDS PER RUSH : SEASON GAME 1. 213 355 for 756 yards..."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 27,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "1. 1.08 Texas, (25 for -27 yards)... 2. 237 382 for 907 yards .."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Oklahoma State",
+                "teamName": null,
+                "statValue": 19,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": ". 70.86 Oklahoma State (22 for -19 yards, 3. 243 400 for 970 yards."
+            },
+            {
+                "playerName": null,
+                "opponentName": null,
+                "teamName": "Texas Tech",
+                "statValue": 64,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": "1981",
+                "rawLine": ". 0.66 Tulsa (35 for -23 y 4 253 420 for 1,064 yards . 0.64 at Texas Tech (39 for -25 yards).. 1981: 5. 256 394 for 1,010 yards 1"
+            },
+            {
+                "playerName": null,
+                "opponentName": "State",
+                "teamName": null,
+                "statValue": 20,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "5. -0.48 Pittsburg (Kan.) State (42 for -20 yards) . 257 388 for 997 yards .."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Texas AM",
+                "teamName": null,
+                "statValue": 9,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "6. -041 SMU (22 for -9 yards)... . 2.66 461 for 1,226 yards 7. -0.33 Texas AM (46 for -15 yards)... . 2.67 468 for 1,250 yards."
+            },
+            {
+                "playerName": null,
+                "opponentName": "Wisconsin",
+                "teamName": null,
+                "statValue": 5,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. -0.18 Wisconsin (28 for -5 yards)....."
+            },
+            {
+                "playerName": null,
+                "opponentName": "State",
+                "teamName": null,
+                "statValue": 2,
+                "extraStats": "yards",
+                "ranking": null,
+                "season": null,
+                "rawLine": "9. -0.09 Northwestern (La.) State (23 for -2 yards)..."
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Pass Attempts",
+            "statPeriod": "Game"
+        },
+        "records": [
+            {
+                "playerName": "Houston",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "Houston (1-for-13"
+            },
+            {
+                "playerName": "##S E",
+                "opponentName": null,
+                "teamName": "Mississippi State",
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2016",
+                "rawLine": "at Rice (I-for-1).... BROOKS ELLIS was one of four Razorbacks to return an interception for a touchdown in 2016, good for the programs most INTs for TDs dating back to at least 1985. DEFENSE RECORDS MOST INTERCEPTIONS Mississippi State..."
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Pass Attempts",
+            "statPeriod": "Game"
+        },
+        "records": [
+            {
+                "playerName": "Tyler Wilson",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "PASS ATTEMPTS 1. 59 Tyler Wilson at Texas AM..."
+            },
+            {
+                "playerName": "Brandon Allen",
+                "opponentName": "Texas AM",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "2. 53 Brandon Allen vs. Toled 3. 52 Tyler Wilson vs. LSU...... 52 Clint Stoerner at Alabama 5. 51 Tyler Wilson vs. Texas AM. 5I Joe Ferguson vs. Texas AM..."
+            },
+            {
+                "playerName": "Nick Stark",
+                "opponentName": "San Jose State",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "1. 50 Nick Starkel vs. San Jose State....."
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": "Ohio State",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. 47 Ryan Mallett vs. Ohio State 9. 45 Brandon Allen vs. Georgia. 45 Brandon Allen at Ole Miss SEASON 1. 438 Tyler Wilson...."
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "2. 411 Ryan Mallett..."
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "3. 403 Ryan Mallett..."
+            },
+            {
+                "playerName": "Tyler Wilson",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "401 Tyler Wilson...."
+            },
+            {
+                "playerName": "Brandon Al",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "6. 370 Brandon Al 7. 357 Casey Dick."
+            },
+            {
+                "playerName": "Clint Stoe",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "1023",
+                "rawLine": "357 Clint Stoe int Stoe 1. 1023 Clint Stoe 2. 1,016 Brandon Al 3. 948 Tyler Wilson..."
+            },
+            {
+                "playerName": "Barry Lun",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "4 856 Barry Lun 5. 850 Casey Dick 6"
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "9 . 814 Ryan Mallett..."
+            },
+            {
+                "playerName": "Matt Jones",
+                "opponentName": "Toledo",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2015",
+                "rawLine": ". 155 Matt Jones . 644 Brad Taylo 6fl Joe Ferguson. - 10. 607 AUSCIN AMON snmnnnnnnninnnenninnnnnsnneis PASS COMPLETIONS GAME 1. 33 Brandon Allen at Ole Miss. see 2. 32 Brandon Allen vs. Toledo... 2015"
+            },
+            {
+                "playerName": "Tyler Wilson",
+                "opponentName": null,
+                "teamName": "LSU",
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2011",
+                "rawLine": "32 Tyler Wilson vs. Mississippi State. 2011 4 31 Tyler Wilson vs. LSU... 012"
+            },
+            {
+                "playerName": "Joe Ferguson",
+                "opponentName": null,
+                "teamName": "Mississippi State",
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "1971",
+                "rawLine": "31 Joe Ferguson vs. Texas AM... 1971 6. 30 Brandon Allen vs. Mississippi State... 015"
+            },
+            {
+                "playerName": "Tyler Wilson",
+                "opponentName": "Louisiana MONE",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2010",
+                "rawLine": "30 Tyler Wilson vs. Texas AM... 8. 29 Tyler Wilson at Texas AM. 9. 28 Brandon Allen vs. Georgia. se 28 Ryan Mallett vs. Louisiana MONE... 2010 SEASON nS 2011"
+            },
+            {
+                "playerName": "Ryan Ma.",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": ". 266 Ryan Ma . 1 2 3. 249 Tyler Wilso 4 245 Austin Allen.... 5. 244 Brandon Allen 015"
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "6 7 8 9 . 225 Ryan Mallett..."
+            },
+            {
+                "playerName": "Casey Dick",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": ". 205 Casey Dick . 198 KJ Jefferson..."
+            },
+            {
+                "playerName": "Brandon Allen",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": ". 190 Brandon Allen 10. 180 Barry Lunney Jr... 1. 593 Tyler Wilson...."
+            },
+            {
+                "playerName": "Brandon Allen",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "2. 583 Brandon Allen 3. 528 Clint Stoerner:"
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "4 491 Ryan Mallett..."
+            },
+            {
+                "playerName": "Barry Lunney Jr",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "5. 476 Barry Lunney Jr..."
+            },
+            {
+                "playerName": "Casey Dick",
+                "opponentName": "Austin Allen",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "6 1 8 9 . 473 Casey Dick . 4iT Ma . 359 Austin Allen...."
+            },
+            {
+                "playerName": "Bill Montgomery",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": ". 337 Bill Montgomery ."
+            },
+            {
+                "playerName": "Brad Taylor",
+                "opponentName": "Miss",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2022",
+                "rawLine": "10. 333 Brad Taylor.......... 2022 RAZORBACK FOOTBALL FRIES IRS OD INDIVIDUAL PASSING RECORDS BRANDON ALLEN broke Arkansas single-game record with six touchdown passes at Ole Miss (Nov."
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": "Tulsa",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2015",
+                "rawLine": "7, 2015) and his own record two weeks later with seven touchdown passes against Mississippi State (Nov. 21, 2015) to equal the SEC record. COMPLETION PERCENTAGE GAME (13-19 PASS ATT.) 875 Ryan Mallett (14-16) vs. Eastern Michigan 857 Billy Moore (12-14) vs. Tulsa..."
+            },
+            {
+                "playerName": "Brad Taylor",
+                "opponentName": "Tulsa",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "846 Brad Taylor (11-13) vs. Tulsa..."
+            },
+            {
+                "playerName": "J Casey Dick",
+                "opponentName": null,
+                "teamName": "Mississippi State",
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "J Casey Dick (14-17) vs. Mississippi State..."
+            },
+            {
+                "playerName": "Matt Jones",
+                "opponentName": null,
+                "teamName": "Ole Miss",
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "813 Matt Jones (13-16) vs. New Mexico State 812 Clint Stoerner (13-16) vs. South Carolina 800 Mitch Mustain (12-15) vs. Ole Miss....."
+            },
+            {
+                "playerName": "Kevin Scanlon",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "800 Kevin Scanlon (12-15) at Texas AM..."
+            },
+            {
+                "playerName": "Joe Ferguson",
+                "opponentName": "North Texas",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "800 Joe Ferguson (12-15) vs. North Texas."
+            },
+            {
+                "playerName": "Bill Montgomery",
+                "opponentName": "Oklahoma State",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "1970",
+                "rawLine": "800 Bill Montgomery (12-15) vs. Oklahoma State... esse 1970 0"
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": "Tennessee TECH",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": "2010",
+                "rawLine": "875 Ryan Mallett (21-24) vs. Tennessee TECH.......nnssesnnnn 2010"
+            },
+            {
+                "playerName": "Ryan Mallett",
+                "opponentName": null,
+                "teamName": "Mississippi State",
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "852 Ryan Mallett (23-27) vs. South Carolina 826 KJ Jefferson (19-23) vs. Mississippi State...."
+            },
+            {
+                "playerName": "Ronny South",
+                "opponentName": "Texas AM",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "818 Ronny South (18-22) vs. Texas AM ..."
+            },
+            {
+                "playerName": "Barry Lunney Jr",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "815 Barry Lunney Jr. (22-27) vs. Tennessee..."
+            },
+            {
+                "playerName": "Brandon Allen",
+                "opponentName": "Texas AM",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "800 Brandon Allen (20-25) vs. Texas AM 800 Kevin Scanlon (16-20) vs. Rice..."
+            },
+            {
+                "playerName": "Tyler Wilson",
+                "opponentName": "Missouri State",
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "8. 193 Tyler Wilson (23-29) at Mississippi Stat 9 773 Ryan Mallett (17-22) vs. Missouri State... 173 Robby Hampton (17-22) vs. Missouri State. SEASON (MIN. 100 PASS ATT.)"
+            },
+            {
+                "playerName": "Feleipe Franks",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "685 Feleipe Franks (163-238)..."
+            },
+            {
+                "playerName": "KJ Jefferson",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "613 KJ Jefferson (198-294)"
+            },
+            {
+                "playerName": "Kevin Scanlon",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "662 Kevin Scanlon (92-139)"
+            },
+            {
+                "playerName": "Brandon Allen",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "659 Brandon Allen (244-370)..."
+            },
+            {
+                "playerName": "J Ryan Mallett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "J Ryan Mallett (266-411) ."
+            },
+            {
+                "playerName": "Tyler Wilson",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "632 Tyler Wilson (277-438)"
+            },
+            {
+                "playerName": "Jack Robbins",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "625 Jack Robbins (95-162)"
+            },
+            {
+                "playerName": "Tyler Wilson",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "621 Tyler Wilson (249-401)."
+            },
+            {
+                "playerName": "Barry Lunney Jr",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": null,
+                "extraStats": null,
+                "ranking": null,
+                "season": null,
+                "rawLine": "616 Barry Lunney Jr. (180-292"
+            },
+            {
+                "playerName": "Brandon Allen",
+                "opponentName": null,
+                "teamName": "Alabama",
+                "statValue": 30,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": ". 4,590 Brandon Allen at Ole Miss Brandon Allen vs. Toledo Brandon Allen vs. Mississippi State Austin Allen vs. Alabama Brandon Allen (244-370, 30 TD, 8 INT)."
+            },
+            {
+                "playerName": "Austin Allen",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 35,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Austin Allen (245-401, 35 TD, 15 INT KJ Jefferson (198-294, 21 TD, 4 INT)"
+            },
+            {
+                "playerName": "Clint Stoerner",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 26,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Clint Stoerner (167-312, 26 TD, 8 INT, Casey Dick (205-357, 13 TD, 14 INT).."
+            },
+            {
+                "playerName": "Clint Stoerner",
+                "opponentName": null,
+                "teamName": "Vanderbilt",
+                "statValue": 12,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "Clint Stoerner (173-357, 12 TD, 13 IN1)... PASSING YARDS 1 510 yler Wilson vs. Texas AM... yler Wilson vs. Rutgers... yan Mallett vs. Vanderbilt..."
+            },
+            {
+                "playerName": "Wilson",
+                "opponentName": "Mallett",
+                "teamName": null,
+                "statValue": 32,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "yan Mallett vs. Georgia. yan Mallett vs. Troy....... yan Mallett vs. Louisiana MONT0..u....scsssnsseennsennee 20 yan Mallett (266-411, 32 TD, 12 INT)......ssmmmnnnnesne yler Wilson (277-438, 24 TD, 6 INT)....."
+            },
+            {
+                "playerName": "yan Mallett",
+                "opponentName": null,
+                "teamName": null,
+                "statValue": 30,
+                "extraStats": "TD",
+                "ranking": null,
+                "season": null,
+                "rawLine": "yan Mallett (225-403, 30 TD, 7 INT. yler Wilson (249-401, 21 1D, 13 INT) Tyler Wilson......"
+            }
+        ]
+    }
+]

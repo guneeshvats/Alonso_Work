@@ -1,0 +1,302 @@
+[
+    {
+        "file_name": "page-0005.png",
+        "page_no": 5,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Rushing Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 1,
+            "statPeriod": 1
+        }
+    },
+    {
+        "file_name": "page-0005.png",
+        "page_no": 5,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Rushing Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 1,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0005.png",
+        "page_no": 5,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Rushing Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 1,
+            "statPeriod": 1
+        }
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Passing Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 0,
+            "statPeriod": 1
+        }
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 1,
+            "statPeriod": 1
+        }
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 1,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Passing Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 0,
+            "statPeriod": 1
+        }
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 1,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Passing Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Passing Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 0,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Rushing Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 0,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Rushing Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 0,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statLabel": "Rushing Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": {
+            "entity": 0,
+            "statLabel": 1,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Rushing Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 1,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statLabel": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": {
+            "entity": 1,
+            "statLabel": 0,
+            "statPeriod": 0
+        }
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statLabel": "Rushing Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statLabel": "Rushing Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": {
+            "entity": 0,
+            "statLabel": 1,
+            "statPeriod": 0
+        }
+    }
+]

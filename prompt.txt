@@ -1,0 +1,231 @@
+Follow the entire prompt exactly. Forget any memory you have related to this prompt
+Convert the following natural language query into a structured JSON using the provided stat mapping.
+## Instructions:
+- **Ensure that all column names in the output strictly come from the keys in the provided stat mapping.**
+- **Match query terms to the closest key in stat mapping if an exact match is not found.**
+- **Do not introduce any column names that are not in the stat mapping.**
+                                                                - **Match the stat values and the operators exactly**
+- Use the best possible match when multiple similar keys exist.
+- Extract the qualifiers separately from conditions
+### **Condition Mapping Rules:**
+1. Convert comparative conditions into their proper mathematical operators:
+- "over X", "more than X" → `> X`
+- "at least X", "X or more", "X+" (e.g., "250+ passing yards") → `>= X`
+- "fewer than X", "under X" → `< X`
+- "at most X", "X or fewer" → `<= X`
+- "exactly X" → `= X`
+- "a sack" → `=1`
+2. **Default to `>=` over `=` unless `=` is explicitly required.**
+- Example: "4000 passing yards" should translate to `"Total passing yards" >= 4000` unless the query explicitly says "exactly 4000."
+3. **Ensure proper singular/plural handling.**
+- Example: "a sack" and "1 sack" should both map to `"Total Sacks" = 1`.
+4. **If a time period (Game, Season, Career) is mentioned, set `"stat_period"` accordingly.**
+- Default to `"GAME"` if no time period is specified.
+- The only valid outputs for `stat_period` are `"GAME"`, `"SEASON"`, and `"CAREER"`.
+5. **Take into account player position when mapping stats.**
+- Example: A defender would map to `"Defensive pass interception"` over `"Pass interceptions"`.
+## Query:
+"players  with 89+ career interception touchdowns and 155+ career passing yards against Big Sky"
+
+## Stat Mapping:
+{
+  "sFieldGoalMadeLongest": "The longest successful field goal attempt made by the player during the game, measured in yards.",
+  "sFieldGoalsAttempted": "The total number of field goal attempts made by the player during the game.",
+  "sFieldGoalsBlocked": "The total number of field goal attempts that were blocked by the player during the game.",
+  "sFieldGoalsMade": "The total number of successful field goals made by the player during the game.",
+  "sFumbleReturnTouchdowns": "The total number of touchdowns scored by the player as a result of returning a fumble recovery.",
+  "sFumbleReturnYards": "The total number of yards gained by the player when returning a fumble recovery.",
+  "sFumblesForced": "The total number of fumbles caused by the player during the game.",
+  "sFumblesLost": "The total number of fumbles lost by the player during the game.",
+  "sFumblesRecovered": "The total number of fumbles recovered by the player during the game.",
+  "sInterceptionsReturnLongest": "The longest distance, in yards, the player returned an interception during the game.",
+  "sInterceptionsReturnYards": "The total number of yards gained by the player when returning an interception.",
+  "sInterceptionsTouchdowns": "The total number of touchdowns scored by the player as a result of returning an interception.",
+  "sKickoffsGrossYards": "The total number of yards covered by all kickoffs made by the player during the game.",
+  "sKickoffsOutOfBound": "The total number of kickoffs that went out of bounds during the game.",
+  "sKickoffsTotal": "The total number of kickoffs made by the player during the game.",
+  "sKickoffsTouchbacks": "The total number of kickoffs that resulted in touchbacks during the game.",
+  "sKickReturnsLongest": "The longest distance, in yards, the player returned a kickoff during the game.",
+  "sKickReturnsTotal": "The total number of kickoffs returned by the player during the game.",
+  "sKickReturnsTouchdowns": "The total number of touchdowns scored by the player as a result of returning a kickoff.",
+  "sKickReturnsYards": "The total number of yards gained by the player when returning a kickoff.",
+  "sKicksBlockedBy": "The total number of kicks (field goals or extra points) blocked by the player during the game.",
+  "sPassBreakUps": "The total number of passes defended by the player during the game, resulting in an incomplete pass.",
+  "sPasses": "The total number of times the player has attempted to throw a forward pass during the game.",
+  "sPassesCompleted": "The total number of successful forward passes completed by the player during the game.",
+  "sPassesIntercepted": "The total number of forward passes thrown by the player that were intercepted by the opposing team during the game.",
+  "sPassesLongest": "The longest distance, in yards, of a completed forward pass thrown by the player during the game.",
+  "sPassesSacked": "The total number of times the player was sacked while attempting a forward pass during the game.",
+  "sPassesTouchdowns": "The total number of touchdowns scored by the player through completed forward passes during the game.",
+  "sPassesYards": "The total number of yards gained by the player through completed forward passes during the game.",
+  "sPassesYardsSacked": "The total number of yards lost by the player due to sacks while attempting forward passes during the game.",
+  "sPassInterceptions": "The total number of times the player intercepted a forward pass thrown by the opposing team during the game.",
+  "sPassQuarterbackHurries": "The total number of times the player pressured the opposing quarterback, causing them to hurry their throw, during the game.",
+  "sPatKicksAttempted": "The total number of point-after-touchdown (PAT) kicks attempted by the player during the game.",
+  "sPatKicksMade": "The total number of successful point-after-touchdown (PAT) kicks made by the player during the game.",
+  "sPatPassAttempts": "The total number of point-after-touchdown (PAT) pass attempts made by the player during the game.",
+  "sPatPasses": "The total number of successful point-after-touchdown (PAT) passes completed by the player during the game.",
+  "sPatRushAttempts": "The total number of point-after-touchdown (PAT) rush attempts made by the player during the game.",
+  "sPatRushes": "The total number of successful point-after-touchdown (PAT) rushes made by the player during the game.",
+  "sPuntReturns": "The total number of punts returned by the player during the game.",
+  "sPuntReturnsLongest": "The longest distance, in yards, the player returned a punt during the game.",
+  "sPuntReturnsTouchdown": "The total number of touchdowns scored by the player as a result of returning a punt during the game.",
+  "sPuntReturnsYards": "The total number of yards gained by the player when returning a punt during the game.",
+  "sPunts": "The total number of punts executed by the player during the game.",
+  "sPunts50plus": "The total number of punts kicked by the player that traveled over 50 yards during the game.",
+  "sPuntsBlocked": "The total number of punts that were blocked by the opposing team during the game.",
+  "sPuntsFairCatches": "The total number of punts that were caught by the receiving team without attempting to advance the ball (fair catch) during the game.",
+  "sPuntsInside20": "The total number of punts that were downed inside the opponent's 20-yard line during the game.",
+  "sPuntsLongest": "The longest distance, in yards, the player punted the ball during the game.",
+  "sPuntsTouchbacks": "The total number of punts that resulted in the ball being downed in the end zone, resulting in a touchback during the game.",
+  "sPuntsYards": "The total number of yards covered by all punts executed by the player during the game.",
+  "sReceptions": "The total number of passes caught by the player during the game.",
+  "sReceptionsLongest": "The longest distance, in yards, the player caught a pass during the game.",
+  "sReceptionsTouchdown": "The total number of touchdowns scored by the player through caught passes during the game.",
+  "sReceptionsYards": "The total number of yards gained by the player through caught passes during the game.",
+  "sRushingAttempts": "The total number of times the player carried the ball during the game.",
+  "sRushingLongest": "The longest distance, in yards, the player advanced the ball on a rushing attempt during the game.",
+  "sRushingTouchdowns": "The total number of touchdowns scored by the player through rushing attempts during the game.",
+  "sRushingYardsGain": "The total number of yards gained by the player through rushing attempts during the game.",
+  "sRushingYardsLoss": "The total number of yards lost by the player due to negative rushing plays during the game.",
+  "sRushingYardsNet": "The total number of yards gained by the player through rushing attempts, adjusted for any yards lost due to negative rushing plays during the game.",
+  "sSacksAssisted": "The total number of sacks in which the player participated, sharing the responsibility with one or more teammates during the game.",
+  "sSacksTotal": "The total number of times the player successfully tackled the opposing quarterback behind the line of scrimmage, resulting in a loss of yards during the game.",
+  "sSacksUnassisted": "The total number of sacks in which the player was solely responsible for tackling the opposing quarterback behind the line of scrimmage during the game.",
+  "sSacksYards": "The total number of yards lost by the opposing team due to sacks made by the player during the game.",
+  "sTacklesAssisted": "The total number of tackles in which the player participated, sharing the responsibility with one or more teammates during the game.",
+  "sTacklesForLossAssisted": "The total number of tackles for loss in which the player participated, sharing the responsibility with one or more teammates during the game.",
+  "sTacklesForLossSolo": "The total number of tackles for loss in which the player was solely responsible for stopping the opposing player behind the line of scrimmage during the game.",
+  "sTacklesForLossTotal": "The total number of tackles for loss made by the player during the game, including both solo and assisted tackles.",
+  "sTacklesSolo": "The total number of tackles in which the player was solely responsible for stopping the opposing player during the game.",
+  "sTacklesTotal": "The total number of tackles made by the player during the game, including both solo and assisted tackles.",
+  "sTacklesYards": "The total number of yards lost by the opposing team due to tackles made by the player during the game.",
+  "sTouchdowns": "The total number of touchdowns scored by the player during the game, including rushing, receiving, and defensive touchdowns."
+}
+
+## Position Mapping
+
+{
+  "Cornerbacks": "CB",
+  "Defensive Backs": "DB",
+  "Defensive Ends": "DE",
+  "Defensive Linemans": "DL",
+  "Defensive Tackles": "DT",
+  "Fullbacks": "FB",
+  "Kickers": "K",
+  "Linebackers": "LB",
+  "Long Snappers": "LS",
+  "Offensive Centers": "OC",
+  "Offensive Guards": "OG",
+  "Offensive Linemans": "OL",
+  "Offensive Tackles": "OT",
+  "Punters": "P",
+  "Quarterbacks": "QB",
+  "Running Backs": "RB",
+  "Safeties": "S",
+  "Tight Ends": "TE",
+  "Wide Receivers": "WR",
+  "Offensive Players": "OFF",
+  "Defensive Players": "DEF",
+  "Special Teams Players": "STP"
+}
+
+# Player Class Mapping
+
+playerClass = ["FRESHMAN", "JUNIOR", "SOPHOMORE", "SENIOR"]
+## Expected Output (Strict JSON Format):
+{
+"conditions": "YOUR_CONVERTED_QUERY_HERE",
+                                                                "qualifiers": {
+                                                                        "ONLY INCLUDE NON-EMPTY FIELDS HERE"
+                                                                },
+"stat_period": "STAT_PERIOD"
+}
+### Examples:
+#### Input Query:
+"rushing yards over 25 and receiving yards greater than 20"
+#### Output:
+{
+"conditions": "sRushingYardsNet" >= 26 AND sReceptionYards" > 20",
+                                                                "qualifiers": {},
+"stat_period": "game"
+}
+#### Input Query:
+"250+ passing yards while having 50+ rushing yards in a season"
+#### Output:
+{
+"conditions": "sPassesYards >= 250 AND sRushingYardsNet >= 50",
+                                                                "qualifiers": {},
+"stat_period": "season"
+}
+#### Input Query:
+"Players with at most 4 sacks in a game"
+#### Output:
+{
+"conditions": "sSacksTotal <= 4",
+                                                                "qualifiers": {},
+                "stat_period": "game"
+}
+    ###  Valid Qualifiers:**
+    These are optional and should only be included if explicitly mentioned in the query**:
+    {
+"playerName": "Extract player name(s) if mentioned.",
+"playerClass": "Extract player class (e.g., Freshman, Senior) if mentioned.",
+"teamName": "Extract team name if mentioned.",
+"teamConferenceName": "Extract team conference if mentioned.",
+"opponentTeamName": "Extract opponent team name if mentioned.",
+"position" : "Extract player position",
+"opponentConferenceName": "Extract opponent team conference if mentioned.",
+"season": "Extract season number if explicitly stated."
+"isHomeGame" : "Indicate if it is a home game or not (true / false)"
+    }
+    examples:
+    #### Input Query :
+    "Players in MIT with 191+ kickoffs gross yards in a game against Birmingham-So. without a punts fair caught"
+    #### Output :
+    {
+"conditions": "\"sKickoffsGrossYards\" >= 191 AND \"sPuntsFairCatches\" = 0",
+"qualifiers": {
+    "teamName": "MIT",
+    "opponentTeamName": "Birmingham-So."
+},
+"stat_period": "game"
+    }
+    #### Input Query :
+    "Special Teams Players with over 90 fumbles recovered"
+    #### Output Query :
+    {
+"conditions": "\"sFumblesRecovered\" >= 90",
+"qualifiers": {
+    "position": "STP"
+},
+"stat_period": "game"
+    }
+    #### Input Query :
+    "Players facing teams from G-MAC with more than 198 kickoffs out of bounds in a season"
+    #### Output Query :
+    {
+"conditions": "\"sKickoffsOutOfBound\" >= 198",
+"qualifiers": {
+    "opponentConferenceName": "G-MAC"
+},
+"stat_period": "season"
+    }
+    #### Input Query :
+    "Players in Great Northwest with 164+ assisted tackles for loss and 111+ punt returns and 167+ longest pass completion"
+    #### Output Query :
+    {
+"conditions": "\"sTacklesForLossAssisted\" >= 164 AND \"sPuntReturns\" >= 111 AND \"sPassesLongest\" >= 167",
+"qualifiers": {
+    "teamConferenceName": "Great Northwest"
+},
+"stat_period": "game"
+    }
+    ### **Final Checklist:**
+    1. The **column names** in the output strictly follow the stat mapping key (the value is only the description).
+    2. If no exact key match exists, find the **closest key**.
+    3. Avoid using any undefined terms.
+    4. If a query uses the **"X+" format**, always default to `>= X`. Prefer '>=' in general when there is ambiguity unless indicated otherwise
+    5. **Only return the expected JSON output. No other text.**
+    6. **Ensure empty qualifiers are NOT included** in the response.
+    7. If the stat period is not specified explicitly, always assume it is "game" by default

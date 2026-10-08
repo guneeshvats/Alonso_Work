@@ -1,0 +1,1082 @@
+[
+    {
+        "file_name": "page-0117.png",
+        "page_no": 117,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0117.png",
+        "page_no": 117,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0110.png",
+        "page_no": 110,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0110.png",
+        "page_no": 110,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0110.png",
+        "page_no": 110,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0105.png",
+        "page_no": 105,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0105.png",
+        "page_no": 105,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0105.png",
+        "page_no": 105,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0105.png",
+        "page_no": 105,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0105.png",
+        "page_no": 105,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0129.png",
+        "page_no": 129,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0129.png",
+        "page_no": 129,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0129.png",
+        "page_no": 129,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0116.png",
+        "page_no": 116,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0116.png",
+        "page_no": 116,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0116.png",
+        "page_no": 116,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0123.png",
+        "page_no": 123,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Long",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Long",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0123.png",
+        "page_no": 123,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0123.png",
+        "page_no": 123,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0123.png",
+        "page_no": 123,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0104.png",
+        "page_no": 104,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0104.png",
+        "page_no": 104,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0104.png",
+        "page_no": 104,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0111.png",
+        "page_no": 111,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0111.png",
+        "page_no": 111,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0111.png",
+        "page_no": 111,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0119.png",
+        "page_no": 119,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Offense",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Offense",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0119.png",
+        "page_no": 119,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Offense",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Offense",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0112.png",
+        "page_no": 112,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0112.png",
+        "page_no": 112,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0112.png",
+        "page_no": 112,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0125.png",
+        "page_no": 125,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0125.png",
+        "page_no": 125,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0128.png",
+        "page_no": 128,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0128.png",
+        "page_no": 128,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0128.png",
+        "page_no": 128,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0128.png",
+        "page_no": 128,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0128.png",
+        "page_no": 128,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0128.png",
+        "page_no": 128,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0128.png",
+        "page_no": 128,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0126.png",
+        "page_no": 126,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0126.png",
+        "page_no": 126,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "PATs",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.0
+    },
+    {
+        "file_name": "page-0126.png",
+        "page_no": 126,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "PATs",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0126.png",
+        "page_no": 126,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "PATs",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "First Downs",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0109.png",
+        "page_no": 109,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0109.png",
+        "page_no": 109,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0109.png",
+        "page_no": 109,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0109.png",
+        "page_no": 109,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0109.png",
+        "page_no": 109,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0118.png",
+        "page_no": 118,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Offense",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Offense",
+            "statistic": "Plays",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0115.png",
+        "page_no": 115,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0115.png",
+        "page_no": 115,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0115.png",
+        "page_no": 115,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0130.png",
+        "page_no": 130,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0130.png",
+        "page_no": 130,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0130.png",
+        "page_no": 130,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0130.png",
+        "page_no": 130,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Pass Completions",
+            "statistic": "Season",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0130.png",
+        "page_no": 130,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Offense",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0127.png",
+        "page_no": 127,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0114.png",
+        "page_no": 114,
+        "team_name": "Boston College",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    }
+]

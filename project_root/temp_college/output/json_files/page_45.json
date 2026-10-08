@@ -1,0 +1,54 @@
+{
+    "matched": [],
+    "unmatched": [
+        {
+            "TableId": "a53ffa6d-4b38-4c36-bef2-7d3adb5c7b7a",
+            "Text": " | 1 | 2 | 3 | 4 | Final | Record | Vanderbilt | 7 | 6 | 6 | 6 | 25 | 8-3 4-3 | Auburn | 0 | 7 | 0 | 6 | 13 | 8-2-1 5-1-1 | ",
+            "Left": 0.06905895471572876,
+            "Top": 0.46795979142189026,
+            "Width": 0.36547771096229553,
+            "Height": 0.038444384932518005,
+            "PageNo": 45
+        },
+        {
+            "TableId": "ba0f3f99-0e84-4750-9ae1-75a793d64f74",
+            "Text": " | 1 | 2 | 3 | 4 | Final | Record | Texas Tech | 0 | 0 | 3 | 3 | 6 | 6-4-2 3-4 | Vanderbilt | 0 | 3 | 0 | 3 | 6 | 7-3-2 2-3-1 | ",
+            "Left": 0.4989832043647766,
+            "Top": 0.46813422441482544,
+            "Width": 0.370833158493042,
+            "Height": 0.037726741284132004,
+            "PageNo": 45
+        },
+        {
+            "TableId": "60ba78ab-e334-4ecd-bde8-cd835647b6f3",
+            "Text": "2nd | 11:00 | Vanderbilt Adams 31-yard FG | 3rd | 3:11 | Texas Tech Hall 26-yard FG | 4th | 5:21 | Vanderbilt Adams 26-yard FG |  | 2:21 | Texas Tech Hall 35-yard FG | ",
+            "Left": 0.5003159046173096,
+            "Top": 0.5176587104797363,
+            "Width": 0.2355719357728958,
+            "Height": 0.04868510365486145,
+            "PageNo": 45
+        },
+        {
+            "TableId": "72870ec7-f344-4821-9d75-e6899c608224",
+            "Text": " |  |  | First Downs | 19 | 10 | Rush-Pass-Penalty | 17-2-0 | 7-3-0 | Rushing Attempts | 65 | 41 | Net Rushing Yards | 306 | 140 | Passes (Att-Comp-Int) | 10-3-1 | 17-5-1 | Net Passing Yards | 35 | 60 | Total Offensive Plays | 75 | 58 | Total Net Yards | 341 | 200 | Fumbles-Lost | 3-2 | 1-1 | Penalties | 1-14 | 1-5 | Interceptions | 1-0 | 1-41 | Punts-Yards | 6-215 | 8-321 | Punt Average | 35.8 | 40.1 | Punt Ruturns | 0-0 | 1-26 | Kickoff Returns | 3-88 | 3-63 | ",
+            "Left": 0.4985477924346924,
+            "Top": 0.5858747959136963,
+            "Width": 0.24771389365196228,
+            "Height": 0.18613861501216888,
+            "PageNo": 45
+        },
+        {
+            "TableId": "437804a5-e1fa-4b38-8be7-09795de36810",
+            "Text": " | Vanderbilt | Auburn | First Downs | 15 | 15 | Rush-Pass-Penalty | 11-4-0 | 9-6-0 | Rushing Attempts | 44 | 45 | Net Rushing Yards | 177 | 159 | Passing (Att-Comp-Int) | 8-5-1 | 13-7-0 | Net Passing Yards | 94 | 142 | Offensive Plays | 52 | 58 | Total Net Yards | 271 | 301 | Fumbles-Lost | 1-0 | 5-5 | Penalties | 5-54 | 6-59 | Interceptions | 0-0 | 1-14 | Punts-Yards | 4-127 | 3-87 | Punt Average | 31.8 | 29.0 | Punt Returns | 0-0 | 2-6 | Kickoff Returns | 2-36 | 6-121 | ",
+            "Left": 0.07082141935825348,
+            "Top": 0.6023924350738525,
+            "Width": 0.2382880598306656,
+            "Height": 0.19580094516277313,
+            "PageNo": 45
+        }
+    ],
+    "meta": {
+        "file_name": "page-0045.png",
+        "page_no": 45
+    }
+}

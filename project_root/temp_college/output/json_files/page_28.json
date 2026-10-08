@@ -1,0 +1,162 @@
+{
+    "matched": [],
+    "unmatched": [
+        {
+            "TableId": "fbadcbc4-c41f-4cc6-9404-748b3eef891e",
+            "Text": "10.1 | Mississippi State W | 61-0 | 10.8 | Georgetown (Ky.) W | 66-0 | 10.15 | Mississippi W | 69-0 | 10.22 | Missouri Mines W | 29-4 | 10.29 | at Central (Ky.) W | 97-0 | 11.5 | Tennessee W | 22-0 | 11.12 | Nashville W | 81-0 | 11.19 | at Centre W | 22-0 | 11.24 | Sewanee W | 27-0 | ",
+            "Left": 0.7234304547309875,
+            "Top": 0.13401751220226288,
+            "Width": 0.20519834756851196,
+            "Height": 0.11971673369407654,
+            "PageNo": 28
+        },
+        {
+            "TableId": "a32c228e-a0f8-43c9-ab12-4d96faa89dbd",
+            "Text": "10.6 | Mississippi W | 6-0 | 10.13 | at Texas L | 0-22 | 10.22 | Tennessee T | 0-0 |  | Centre L | 0-11 | 11.3 | at North Carolina L | 0-48 | -- | Central (Ky.) W | 27-0 | -- | Sewanee L | 10-11 | -- | Bethel W | 29-0 | 11.29 | Nashville W | 18-0 | ",
+            "Left": 0.5114194750785828,
+            "Top": 0.13502170145511627,
+            "Width": 0.2064293771982193,
+            "Height": 0.11741842329502106,
+            "PageNo": 28
+        },
+        {
+            "TableId": "47a54fba-cead-4bb0-98ff-55fb09a487c6",
+            "Text": "10.12 | at Missouri | L | 0-16 | 10.19 | at Central (Ky.) | W | 10-0 | 10.26 | North Carolina | L | 0-12 | 11.2 | Centre | T | 0-0 | 11.7 | Auburn | W | 9-6 | 11.12 | at Nashville AC | W | 20-4 | 11.16 | at Virginia | L | 4-6 | 11.23 | Georgia | W | 6-0 | 11.28 | at Sewanee | W | 18-6 | ",
+            "Left": 0.2966042459011078,
+            "Top": 0.13578306138515472,
+            "Width": 0.20703506469726562,
+            "Height": 0.11536157131195068,
+            "PageNo": 28
+        },
+        {
+            "TableId": "a3923f03-6969-4f05-83f7-8bab3b69704d",
+            "Text": "11.7 | at Sewanee W | 22-0 | 11.14 | Washington (Mo.) | 6-24 | 11.26 | Sewanee W | 26-4 | 12.4 | at Washington (Mo.) W | 4-0 | ",
+            "Left": 0.08533835411071777,
+            "Top": 0.265717089176178,
+            "Width": 0.20286735892295837,
+            "Height": 0.05132077634334564,
+            "PageNo": 28
+        },
+        {
+            "TableId": "16ef2503-a4ef-4255-8b92-143335c95e76",
+            "Text": "9.30 | Maryville W | 97-0 | 10.7 | Alabama W | 34-0 | 10.14 | at Michigan L | 0-18 | 10.21 | Tennessee W | 45-0 | 10.28 | Texas W | 33-0 | 11.4 | Auburn W | 54-0 | 11.18 | Clemson W | 41-0 | 11.30 | Sewanee W | 68-4 | ",
+            "Left": 0.7216276526451111,
+            "Top": 0.31794220209121704,
+            "Width": 0.20645616948604584,
+            "Height": 0.10547539591789246,
+            "PageNo": 28
+        },
+        {
+            "TableId": "e395efce-d872-4dc1-b7ae-616aa0879a2b",
+            "Text": "10.5 | Kentucky W | 22-0 | 10.12 | Central (Ky.) W | 25-0 | 10.19 | Georgia W | 47-0 | 10.26 | at Auburn W | 41-0 | 11.2 | at Washington (Mo.) L | 11-12 | 11.9 | Tennessee W | 22-0 | 11.16 | Sewanee T | 0-0 | 11.28 | at Nashville W | 10-0 | ",
+            "Left": 0.5117917060852051,
+            "Top": 0.3193056285381317,
+            "Width": 0.20612500607967377,
+            "Height": 0.10353913903236389,
+            "PageNo": 28
+        },
+        {
+            "TableId": "5d22aef6-2b38-4f28-8d1a-d79cc0fdedc5",
+            "Text": "10.10 | Kentucky W | 6-0 | 10.17 | at Centre L | 0-46 | 10.24 | Central (Ky.) T | 0-0 |  | at Missouri L | 6-26 |  | at Southwestern W | 36-0 |  | Nashville T | 0-0 | 11.27 | at Sewanee W | 10-4 | ",
+            "Left": 0.29727455973625183,
+            "Top": 0.319458544254303,
+            "Width": 0.20641617476940155,
+            "Height": 0.09241778403520584,
+            "PageNo": 28
+        },
+        {
+            "TableId": "b8e75ea0-e4e5-45c5-823a-114808124114",
+            "Text": "10.15 | at Sewanee | L | 4-22 | 10.21 | Tennessee | W | 22-4 | 10.28 | Nashville | W | 40-0 | 11.5 | Washington (Mo.) | L | 4-14 | 11.12 | Sewanee | L | 14-28 | 11.17 | at Tennessee | W | 10-0 | 11.19 | at Georgia Tech | W | 20-10 | 11.24 | North Carolina |  | 0-24 | ",
+            "Left": 0.08520244061946869,
+            "Top": 0.38752856850624084,
+            "Width": 0.20179501175880432,
+            "Height": 0.1059562936425209,
+            "PageNo": 28
+        },
+        {
+            "TableId": "8bb0f108-4106-4cda-9c0c-1a0ae99f64ca",
+            "Text": "-- | at Kentucky State W | 24-0 |  | Central (Ky.) W | 14-0 | 10.19 | VMI W | 12-0 | 10.30 | Kentucky W | 50-0 |  | at North Carolina W | 31-0 | 11.26 | Sewanee W | 10-0 | 12.7 | Virginia T | 0-0 | ",
+            "Left": 0.2976265251636505,
+            "Top": 0.47971123456954956,
+            "Width": 0.20455288887023926,
+            "Height": 0.09581586718559265,
+            "PageNo": 28
+        },
+        {
+            "TableId": "61ebdb0c-9279-4a5c-a7f8-7485f308f874",
+            "Text": "9.27 | at Cumberland W | 45-0 | 10.11 | Mississippi W | 29-0 | 10.18 | at Central (Ky.) W | 24-17 | 10.25 | Tennessee W | 12-5 | 11.1 | Washington (Mo.) W | 33-12 | 11.8 | Transylvania W | 16-5 | 11.15 | at Tulane W | 23-5 | 11.17 | LSU W | 27-5 | 11.27 | Sewanee L | 5-11 | ",
+            "Left": 0.5143488645553589,
+            "Top": 0.49044090509414673,
+            "Width": 0.20364172756671906,
+            "Height": 0.11806020140647888,
+            "PageNo": 28
+        },
+        {
+            "TableId": "865b7507-b99f-412e-a918-e6d661147059",
+            "Text": "10.6 | Kentucky W | 28-0 | 10.13 | Mississippi W | 29-0 | 10.20 | Alabama W | 78-0 | 10.27 | Texas W | 45-0 | 10.3 | at Michigan L | 4-10 | 11.10 | Rose Polytechnic W | 33-0 | 11.17 | at Georgia Tech W | 37-6 | 11.24 | Carlisle W | 4-0 | 11.29 | Sewanee W | 20-0 | ",
+            "Left": 0.7229475975036621,
+            "Top": 0.49053123593330383,
+            "Width": 0.2064761519432068,
+            "Height": 0.11999833583831787,
+            "PageNo": 28
+        },
+        {
+            "TableId": "142e61e6-e603-4ffb-b9b5-45dccddc3d2a",
+            "Text": " | Memphis | W 68-0 |  | at Sewanee | W 10-8 | 11.6 | at Auburn | L 10-30 | 11.12 | Georgia | W 35-0 | 11.19 | at Louisville | W 36-12 | 11.23 | Sewanee | W 10-0 | 12.1 | Central (Ky.) | W 12-0 | ",
+            "Left": 0.08429335802793503,
+            "Top": 0.5608382821083069,
+            "Width": 0.2030552327632904,
+            "Height": 0.09195240586996078,
+            "PageNo": 28
+        },
+        {
+            "TableId": "981ae4d9-9240-4e5b-8658-5a160f69d521",
+            "Text": "10.22 | Cincinnati | 0-10 | 10.29 | at Georgia L | 0-4 | 11.5 | Nashville W | 5-0 | 11.12 | at Virginia L | 0-18 | 11.19 | Central (Ky.) L | 0-10 | 11.25 | Sewanee L | 4-19 | ",
+            "Left": 0.2970406115055084,
+            "Top": 0.6411910057067871,
+            "Width": 0.20518483221530914,
+            "Height": 0.07842354476451874,
+            "PageNo": 28
+        },
+        {
+            "TableId": "e8741f17-19cb-4e3f-9e96-42449133009b",
+            "Text": "10.3 | Cumberland L | 0-6 | 10.10 | Alabama W | 30-0 | 10.17 | Tennessee W | 40-0 | 10.24 | Mississippi W | 33-0 | 10.31 | at Georgia W | 33-0 | 11.7 | at Texas T | 5-5 | 11.14 | Washington (Mo.) W | 41-0 | 11.21 | Sewanee W | 10-5 | ",
+            "Left": 0.5140960812568665,
+            "Top": 0.6756184697151184,
+            "Width": 0.20458799600601196,
+            "Height": 0.10357356071472168,
+            "PageNo": 28
+        },
+        {
+            "TableId": "d6afef31-596f-4e72-ba3d-8683505eb520",
+            "Text": "10.5 | Kentucky | W | 40-0 | 10.12 | at Navy | T | 6-6 | 10.19 | Rose Polytechnic | W | 65-10 | 11.2 | Michigan | L | 0-8 | 11.9 | Mississippi | W | 60-0 | 11.16 | Georgia Tech | W | 54-0 | 11.23 | Sewanee | W | 17-12 | ",
+            "Left": 0.7236471772193909,
+            "Top": 0.6757135987281799,
+            "Width": 0.20522518455982208,
+            "Height": 0.09100315719842911,
+            "PageNo": 28
+        },
+        {
+            "TableId": "e074644a-4284-4064-8c7c-f3cace55bde9",
+            "Text": "10.6 | at Memphis W | 64-0 | 10.20 | Centre W | 6-0 | 10.27 | at Louisville L | 8-10 | 11.4 | at Auburn W | 20-4 | 11.10 | Mississippi W | 40-0 | 11.21 | Central (Ky.) W | 34-6 | 11.24 | at Cumberland W | 62-0 | 11.29 | Sewanee W | 12-0 | ",
+            "Left": 0.08596253395080566,
+            "Top": 0.7242587804794312,
+            "Width": 0.20205219089984894,
+            "Height": 0.09680221974849701,
+            "PageNo": 28
+        },
+        {
+            "TableId": "eeee3e05-69fb-4505-9ad9-131b101fd892",
+            "Text": "10.6 | at Cumberland W | 32-0 | 10.13 | Miami (Ohio) W | 12-0 | 10.20 | Cincinnati L | 0-6 | 10.30 | Indiana L | 0-20 | 11.4 | at Mississippi W | 11-0 | 11.11 | Bethel W | 22-0 | 11.18 | Texas W | 6-0 | 11.25 | Central (Ky.) W | 21-16 |  | at Nashville W | 5-0 | ",
+            "Left": 0.2977021038532257,
+            "Top": 0.7881835699081421,
+            "Width": 0.20270472764968872,
+            "Height": 0.11325330287218094,
+            "PageNo": 28
+        }
+    ],
+    "meta": {
+        "file_name": "page-0028.png",
+        "page_no": 28
+    }
+}

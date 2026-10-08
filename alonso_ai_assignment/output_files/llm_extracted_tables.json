@@ -1,0 +1,66 @@
+[
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Yards",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Pass Attempts",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Yards",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Rushing Attempts",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Pass Attempts",
+            "statPeriod": "Game"
+        },
+        "records": []
+    },
+    {
+        "metadata": {
+            "entity": "Player",
+            "statistic": "Pass Attempts",
+            "statPeriod": "Game"
+        },
+        "records": []
+    }
+]

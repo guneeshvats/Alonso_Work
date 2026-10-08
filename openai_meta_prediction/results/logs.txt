@@ -1,0 +1,67 @@
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0011.png
+ Image not found: images/page-0018.png
+ Image not found: images/page-0018.png
+ Image not found: images/page-0018.png
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+ Image not found: images/page-0018.png
+ Image not found: images/page-0018.png
+ Image not found: images/page-0018.png
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+ Image not found: images/page-0018.png
+ Image not found: images/page-0018.png
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+ Image not found: images/page-0018.png
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0018.png (page 18) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+ Image not found: images/page-0016.png
+ Image not found: images/page-0016.png
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+ Image not found: images/page-0016.png
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+⚠️ Skipping table in page-0016.png (page 16) - No ground truth available.
+ Image not found: images/page-0016.png
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+⚠️ Skipping table in page-0017.png (page 17) - No ground truth available.
+ Image not found: images/page-0009.png
+ Image not found: images/page-0009.png
+ Image not found: images/page-0009.png
+ Image not found: images/page-0009.png
+ Image not found: images/page-0009.png
+ Image not found: images/page-0009.png

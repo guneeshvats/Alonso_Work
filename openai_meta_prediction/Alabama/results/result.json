@@ -1,0 +1,1334 @@
+[
+    {
+        "file_name": "page-0186.png",
+        "page_no": 186,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0186.png",
+        "page_no": 186,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0186.png",
+        "page_no": 186,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0186.png",
+        "page_no": 186,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0186.png",
+        "page_no": 186,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0186.png",
+        "page_no": 186,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles for Loss",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles for Loss",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles for Loss",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles for Loss",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Kickoff Returns",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Blocked",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes Broken Up",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Plays",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Fumble Recoveries",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Fumble",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes Broken Up",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passes Broken Up",
+            "statistic": "Season",
+            "statPeriod": null
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Fumble Recoveries",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Blocked Kicks",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes Broken Up",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Special Teams",
+            "statistic": "Blocked",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Kicks Blocked",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Special Teams",
+            "statistic": "Blocked Kicks",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Kicks Blocked",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Special Teams",
+            "statistic": "Punts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Kicks Blocked",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Special Teams",
+            "statistic": "Blocked Kicks",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Quarterback Hurries",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Hurries",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Quarterback Hurries",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Quarterback Hurries",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0187.png",
+        "page_no": 187,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0191.png",
+        "page_no": 191,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Long",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0182.png",
+        "page_no": 182,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Offense",
+            "statistic": "First Downs",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Offense",
+            "statistic": "First Downs",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Scoring",
+            "statistic": "Points",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Points",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Alabama",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Long",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Long",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    }
+]

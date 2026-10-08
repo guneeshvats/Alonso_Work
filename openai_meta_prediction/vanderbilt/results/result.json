@@ -1,0 +1,776 @@
+[
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Games",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Games",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0011.png",
+        "page_no": 11,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Fumble",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Forced Fumbles",
+            "statistic": "Career",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Tackles",
+            "statistic": "Career",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Fumble",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0018.png",
+        "page_no": 18,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0005.png",
+        "page_no": 5,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0005.png",
+        "page_no": 5,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0005.png",
+        "page_no": 5,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0016.png",
+        "page_no": 16,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempted",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0016.png",
+        "page_no": 16,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempted",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0016.png",
+        "page_no": 16,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0016.png",
+        "page_no": 16,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0009.png",
+        "page_no": 9,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0009.png",
+        "page_no": 9,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0009.png",
+        "page_no": 9,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0009.png",
+        "page_no": 9,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0009.png",
+        "page_no": 9,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0009.png",
+        "page_no": 9,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0004.png",
+        "page_no": 4,
+        "team_name": "Vanderbilt",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    }
+]

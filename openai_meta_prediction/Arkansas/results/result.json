@@ -1,0 +1,1028 @@
+[
+    {
+        "file_name": "page-0175.png",
+        "page_no": 175,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0175.png",
+        "page_no": 175,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0175.png",
+        "page_no": 175,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0175.png",
+        "page_no": 175,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0175.png",
+        "page_no": 175,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0175.png",
+        "page_no": 175,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0175.png",
+        "page_no": 175,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0161.png",
+        "page_no": 161,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0161.png",
+        "page_no": 161,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0161.png",
+        "page_no": 161,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0161.png",
+        "page_no": 161,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0161.png",
+        "page_no": 161,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Long",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0161.png",
+        "page_no": 161,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Plays",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0154.png",
+        "page_no": 154,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Game",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interception Return Yardage",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0166.png",
+        "page_no": 166,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Games",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0150.png",
+        "page_no": 150,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0174.png",
+        "page_no": 174,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0174.png",
+        "page_no": 174,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0174.png",
+        "page_no": 174,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0174.png",
+        "page_no": 174,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0174.png",
+        "page_no": 174,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Games",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0157.png",
+        "page_no": 157,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0155.png",
+        "page_no": 155,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0155.png",
+        "page_no": 155,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0155.png",
+        "page_no": 155,
+        "team_name": "Arkansas",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    }
+]

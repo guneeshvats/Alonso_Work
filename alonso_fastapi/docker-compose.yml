@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  web:
+    volumes:
+      - progress_data:/tmp1/progress 
+    build:
+      context: .                  
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - AWS_ACCESS_KEY_ID=AKIATNVEV2QLMNLQQA5A
+      - AWS_SECRET_ACCESS_KEY=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
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  worker:
+    volumes:
+      - progress_data:/tmp1/progress  
+    environment:
+      - AWS_ACCESS_KEY_ID=AKIATNVEV2QLMNLQQA5A
+      - AWS_SECRET_ACCESS_KEY=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
+    build:
+      context: .                  
+      dockerfile: docker/Dockerfile
+    command: celery -A app.celery_worker worker --loglevel=info
+    depends_on:
+      - redis
+  
+  flower:
+    image: mher/flower
+    ports:
+      - "5555:5555"
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+  
+volumes:
+  progress_data:

@@ -1,0 +1,758 @@
+[
+    {
+        "file_name": "page-0193.png",
+        "page_no": 193,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0193.png",
+        "page_no": 193,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0193.png",
+        "page_no": 193,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0193.png",
+        "page_no": 193,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Punt",
+            "statistic": "Punts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0229.png",
+        "page_no": 229,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Completions",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0196.png",
+        "page_no": 196,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Completions",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0210.png",
+        "page_no": 210,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0210.png",
+        "page_no": 210,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0204.png",
+        "page_no": 204,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Field Goals",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Points",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0204.png",
+        "page_no": 204,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Field Goals",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Points",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0204.png",
+        "page_no": 204,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempted",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "FGA",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0204.png",
+        "page_no": 204,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0198.png",
+        "page_no": 198,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0209.png",
+        "page_no": 209,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0209.png",
+        "page_no": 209,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempted",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0197.png",
+        "page_no": 197,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0211.png",
+        "page_no": 211,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes Broken Up",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0205.png",
+        "page_no": 205,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "PAT Kicks",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "PATs",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0205.png",
+        "page_no": 205,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "PAT Kicks",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "PATs",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0208.png",
+        "page_no": 208,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0199.png",
+        "page_no": 199,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0199.png",
+        "page_no": 199,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0200.png",
+        "page_no": 200,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0194.png",
+        "page_no": 194,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0195.png",
+        "page_no": 195,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0195.png",
+        "page_no": 195,
+        "team_name": "Baylor",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    }
+]

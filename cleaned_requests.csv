@@ -1,0 +1,215 @@
+request
+"{
+    ""BasicQuery"": ""players with 72+ career longest fgm and 109+ career fga"",
+    ""SportCode"": ""MFB"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Career"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""career"",
+        ""conditions"": ""s_field_goal_made_longest >= 72 AND s_field_goals_attempted >= 109""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 112+ blocked fg and 199+ fgm and 145+ fumble return td"",
+    ""SportCode"": ""MFB"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Game"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""game"",
+        ""conditions"": ""s_field_goals_blocked >= 112 AND s_field_goals_made >= 199 AND s_fumble_return_touchdowns >= 145""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 123+ field goals attempted"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Game"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""game"",
+        ""conditions"": ""s_field_goals_attempted >= 123""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 144+ field goals made and 190+ fumble return touchdowns and 196+ fumble return yards"",
+    ""SportCode"": ""MFB"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Game"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""game"",
+        ""conditions"": ""s_field_goals_made >= 144 AND s_fumble_return_touchdowns >= 190 AND s_fumble_return_yards >= 196""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 149+ longest fgm or 66+ fga"",
+    ""SportCode"": ""MFB"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Game"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""game"",
+        ""conditions"": ""s_field_goal_made_longest >= 149 OR s_field_goals_attempted >= 66""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 94+ blocked fg or 81+ fgm"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Game"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""game"",
+        ""conditions"": ""s_field_goals_blocked >= 94 OR s_field_goals_made >= 81""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 159+ career fga and 88+ career blocked fg"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Career"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""career"",
+        ""conditions"": ""s_field_goals_attempted >= 159 AND s_field_goals_blocked >= 88""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 121+ career blocked fg and 82+ career fgm"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Career"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""career"",
+        ""conditions"": ""s_field_goals_blocked >= 121 AND s_field_goals_made >= 82""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 131+ career fumble return yards and 176+ career fumbles forced"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Career"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""career"",
+        ""conditions"": ""s_fumble_return_yards >= 131 AND s_fumbles_forced >= 176""
+    }
+}"
+"{
+    ""BasicQuery"": ""players with 77+ longest fgm"",
+    ""TeamCode"": ""31"",
+    ""AQLOnly"": false,
+    ""Entity"": ""Player"",
+    ""TimePeriod"": ""Game"",
+    ""GamePeriod"": null,
+    ""PageNumber"": 1,
+    ""PageSize"": 10,
+    ""Filters"": {},
+    ""SortBy"": ""name"",
+    ""SortOrder"": ""DESC"",
+    ""Llm"": ""openai"",
+    ""LlmModel"": ""gpt-4o"",
+    ""UseRAG"": true,
+    ""aql_output"": {
+        ""query_type"": ""basic"",
+        ""stat_period"": ""game"",
+        ""conditions"": ""s_field_goal_made_longest >= 77""
+    }
+}"

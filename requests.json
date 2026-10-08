@@ -1,0 +1,2486 @@
+[
+    {
+        "entity": "player",
+        "query": "players with 171+ longest field goal made in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goal_made_longest >= 171",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 120+ longest fgm in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goal_made_longest >= 120",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 61+ field goals attempted in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_attempted >= 61",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 67+ fga in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_attempted >= 67",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 98+ field goals blocked in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_blocked >= 98",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 172+ blocked fg in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_blocked >= 172",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 91+ field goals made in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_made >= 91",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 151+ fgm in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_made >= 151",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 87+ fumble return touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumble_return_touchdowns >= 87",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 173+ fumble return td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumble_return_touchdowns >= 173",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 112+ fumble return yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumble_return_yards >= 112",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 132+ fumbles forced in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumbles_forced >= 132",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 115+ forced fumble(s) in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumbles_forced >= 115",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 133+ fumbles lost in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumbles_lost >= 133",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 83+ lost fumble in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumbles_lost >= 83",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 189+ fumbles recovered in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumbles_recovered >= 189",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 114+ fumble recoveries in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fumbles_recovered >= 114",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 128+ longest interception return in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_interceptions_return_longest >= 128",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 94+ longest int return in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_interceptions_return_longest >= 94",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 73+ interception return yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_interceptions_return_yards >= 73",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 101+ ir yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_interceptions_return_yards >= 101",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 74+ interception touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_interceptions_touchdowns >= 74",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 55+ ir td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_interceptions_touchdowns >= 55",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 132+ kickoffs gross yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_gross_yards >= 132",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 194+ kickoff yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_gross_yards >= 194",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 74+ kickoffs out of bounds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_out_of_bound >= 74",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 146+ kickoff oob in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_out_of_bound >= 146",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 91+ total kickoffs in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_total >= 91",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 60+ kcikoffs in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_total >= 60",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 133+ kickoffs touchbacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_touchbacks >= 133",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 188+ kickoff tb in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_touchbacks >= 188",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 170+ longest kick return in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_longest >= 170",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 104+ longest kr in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_longest >= 104",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 91+ total kick returns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_total >= 91",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 140+ kick returns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_total >= 140",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 85+ kick return touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_touchdowns >= 85",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 183+ kr td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_touchdowns >= 183",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 119+ kick return yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_yards >= 119",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 171+ kr yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_yards >= 171",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 151+ kr yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kick_returns_yards >= 151",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 168+ kicks blocked by in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kicks_blocked_by >= 168",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 70+ blocked kicks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kicks_blocked_by >= 70",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 65+ pass breakups in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pass_break_ups >= 65",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 68+ pbu in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pass_break_ups >= 68",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 184+ passing attempts in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes >= 184",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 123+ pass att in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes >= 123",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 70+ passing completions in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_completed >= 70",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 170+ pass comp in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_completed >= 170",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 69+ intercepted passes in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_intercepted >= 69",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 60+ defense interception in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_intercepted >= 60",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 91+ interceptions caught in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_intercepted >= 91",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 152+ longest pass completion in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_longest >= 152",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 110+ longest pass in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_longest >= 110",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 120+ passing sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_sacked >= 120",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 133+ pass sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_sacked >= 133",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 116+ passing touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_touchdowns >= 116",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 90+ pass td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_touchdowns >= 90",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 129+ passing td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_touchdowns >= 129",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 91+ passing yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards >= 91",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 146+ pass yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards >= 146",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 117+ pass yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards >= 117",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 174+ passing yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards >= 174",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 90+ passing yards lost to sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards_sacked >= 90",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 138+ pass sack yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards_sacked >= 138",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 165+ passing sck yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards_sacked >= 165",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 72+ pass sack yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards_sacked >= 72",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 180+ passing sack yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards_sacked >= 180",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 170+ pass interceptions in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pass_interceptions >= 170",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 79+ interceptions thrown in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pass_interceptions >= 79",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 151+ pass had intercepted in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pass_interceptions >= 151",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 172+ quarterback hurries in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pass_quarterback_hurries >= 172",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 77+ qbh in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pass_quarterback_hurries >= 77",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 85+ pat kicks attempted in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_kicks_attempted >= 85",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 168+ pat kick att in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_kicks_attempted >= 168",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 61+ pat kicks made in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_kicks_made >= 61",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 50+ pat pass attempts in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_pass_attempts >= 50",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 164+ pat pass att in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_pass_attempts >= 164",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 194+ pat passes completed in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_passes >= 194",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 69+ pat pass made in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_passes >= 69",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 54+ pat rush attempts in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_rush_attempts >= 54",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 156+ pat rush att in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_rush_attempts >= 156",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 98+ pat rushes in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_rushes >= 98",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 162+ pat rush made in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_pat_rushes >= 162",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 113+ punt returns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns >= 113",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 72+ longest punt return in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_longest >= 72",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 161+ longest pr in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_longest >= 161",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 110+ punt return touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_touchdown >= 110",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 136+ pr td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_touchdown >= 136",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 74+ punt return yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_yards >= 74",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 125+ pr yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_yards >= 125",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 102+ pr yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_yards >= 102",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 164+ punts in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts >= 164",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 84+ punts over 50 yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_50plus >= 84",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 86+ punt >50 in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_50plus >= 86",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 61+ punt>50yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_50plus >= 61",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 141+ punts blocked in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_blocked >= 141",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 171+ blocked punts in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_blocked >= 171",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 188+ punts fair caught in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_fair_catches >= 188",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 172+ punts fc in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_fair_catches >= 172",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 198+ punts inside 20 yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_inside20 >= 198",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 183+ punts inside 20 in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_inside20 >= 183",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 104+ longest punt in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_longest >= 104",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 111+ punt long in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_longest >= 111",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 61+ punts touchbacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_touchbacks >= 61",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 172+ punts tb in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_touchbacks >= 172",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 113+ punting yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_yards >= 113",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 147+ punting yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_yards >= 147",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 100+ punt yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_yards >= 100",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 139+ punt yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_yards >= 139",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 115+ receptions in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions >= 115",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 183+ catches in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions >= 183",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 134+ receiving catches in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions >= 134",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 177+ longest reception in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_longest >= 177",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 115+ longest catch in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_longest >= 115",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 69+ receiving long in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_longest >= 69",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 154+ reception touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_touchdown >= 154",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 51+ touchdown receptions in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_touchdown >= 51",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 151+ reception yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_yards >= 151",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 130+ receiving yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_yards >= 130",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 172+ receiving yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_yards >= 172",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 131+ rec yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_yards >= 131",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 148+ rushing attempts in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_attempts >= 148",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 74+ rush att in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_attempts >= 74",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 80+ rushing att in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_attempts >= 80",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 105+ longest rush in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_longest >= 105",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 120+ longest carry in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_longest >= 120",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 101+ rushing touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_touchdowns >= 101",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 175+ rush td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_touchdowns >= 175",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 142+ rushing td in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_touchdowns >= 142",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 171+ rushing yards gained in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_gain >= 171",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 177+ rushing gain in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_gain >= 177",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 138+ rush gain in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_gain >= 138",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 88+ rushing yards lost in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_loss >= 88",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 174+ rushing loss in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_loss >= 174",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 119+ rush loss in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_loss >= 119",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 93+ net rushing yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_net >= 93",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 78+ rushing yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_net >= 78",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 175+ rush yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_net >= 175",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 196+ rush yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_net >= 196",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 129+ rushing yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_yards_net >= 129",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 115+ assisted sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_assisted >= 115",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 128+ assist sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_assisted >= 128",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 156+ total sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_total >= 156",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 167+ sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_total >= 167",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 84+ defense sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_total >= 84",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 95+ unassisted sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_unassisted >= 95",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 73+ solo sacks in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_unassisted >= 73",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 200+ sack yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_yards >= 200",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 52+ defense sack yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_yards >= 52",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 171+ sack yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_yards >= 171",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 173+ defense sack yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_sacks_yards >= 173",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 71+ assisted tackles in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_assisted >= 71",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 108+ assist tackles in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_assisted >= 108",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 138+ assisted tackles for loss in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_assisted >= 138",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 125+ assisted tfl in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_assisted >= 125",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 124+ assist tfl in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_assisted >= 124",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 165+ solo tackles for loss in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_solo >= 165",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 138+ unassisted tfl in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_solo >= 138",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 176+ solo tfl in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_solo >= 176",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 155+ total tackles for loss in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_total >= 155",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 153+ tfl in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_total >= 153",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 129+ tackles for loss in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_for_loss_total >= 129",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 192+ solo tackles in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_solo >= 192",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 77+ total tackles in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_total >= 77",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 199+ tackles in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_total >= 199",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 85+ tackles yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_yards >= 85",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 108+ tfl yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_yards >= 108",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 148+ tackle for loss yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_yards >= 148",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 156+ tfl yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_yards >= 156",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 85+ tackle for loss yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_tackles_yards >= 85",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 122+ touchdowns scored in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_touchdowns >= 122",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 150+ scoring touchdowns in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_touchdowns >= 150",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 57+ passing yards per attempt in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards_per_attempt >= 57",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 126+ pass yards per att in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_yards_per_attempt >= 126",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 51+ pass completion percentage in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_percentage >= 51",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 60+ pass comp percent in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_passes_percentage >= 60",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 122+ average rushing yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_net_yards_average >= 122",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 160+ avg yards per carry in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_net_yards_average >= 160",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 61+ avg yds per carry in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_net_yards_average >= 61",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 54+ avg yds per rush in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_net_yards_average >= 54",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 96+ avg yards per rush in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_rushing_net_yards_average >= 96",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 67+ average yards per reception in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_average >= 67",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 114+ avg receiving yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_average >= 114",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 142+ avg rec yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_average >= 142",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 88+ avg reception yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_receptions_average >= 88",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 150+ takeaways in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_takeaways >= 150",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 97+ field goal percentage in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_percentage >= 97",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 195+ fgm percent in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_field_goals_percentage >= 195",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 87+ kickoffs returned in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_returned >= 87",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 185+ kickoff ret in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_returned >= 185",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 54+ average punt return yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_average >= 54",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 171+ punt return avg in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_average >= 171",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 146+ punt ret avg in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punt_returns_average >= 146",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 111+ net kickoff yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_net_yards >= 111",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 137+ kickoff yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_net_yards >= 137",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 122+ kickoff yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_kickoffs_net_yards >= 122",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 107+ average punt yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_average >= 107",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 185+ avg punt yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_average >= 185",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 123+ avg punt yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_punts_average >= 123",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 100+ total offensive yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_yards_offensive_total >= 100",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 81+ total offense yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_yards_offensive_total >= 81",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 160+ total off yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_yards_offensive_total >= 160",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 194+ all-purpose yards in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_yards_all_purpose_total >= 194",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 120+ all purp yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_yards_all_purpose_total >= 120",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 74+ all purpose yds in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_yards_all_purpose_total >= 74",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 184+ turnovers committed in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_turnovers_committed >= 184",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 157+ turnovers in a season",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_turnovers_committed >= 157",
+            "streak_len": null
+        }
+    }
+]

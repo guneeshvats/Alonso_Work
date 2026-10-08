@@ -1,0 +1,119 @@
+{
+    "metadata": {
+        "entity": "Player",
+        "statistic": "Rushing Yards",
+        "statPeriod": "Game"
+    },
+    "records": [
+        {
+            "playerName": "ASS",
+            "opponentName": "NPE",
+            "statValue": "PO"
+        },
+        {
+            "playerName": "TEAM",
+            "opponentName": "DEFENSE",
+            "statValue": "RECORDS"
+        },
+        {
+            "playerName": "RUSHING",
+            "opponentName": "_.",
+            "statValue": "nr"
+        },
+        {
+            "playerName": "TT",
+            "opponentName": "la",
+            "statValue": "ee"
+        },
+        {
+            "playerName": "18a",
+            "opponentName": "peels",
+            "statValue": "ca"
+        },
+        {
+            "playerName": "ee",
+            "opponentName": "en",
+            "statValue": "=a"
+        },
+        {
+            "playerName": "4.",
+            "opponentName": "Dae",
+            "statValue": "="
+        },
+        {
+            "playerName": "5.",
+            "opponentName": "i",
+            "statValue": "(se"
+        },
+        {
+            "playerName": "F393",
+            "opponentName": "a",
+            "statValue": "irradia"
+        },
+        {
+            "playerName": "(1010",
+            "opponentName": "eee",
+            "statValue": "1"
+        },
+        {
+            "playerName": "9,",
+            "opponentName": "esse,",
+            "statValue": "2"
+        },
+        {
+            "playerName": "CS",
+            "opponentName": "=",
+            "statValue": "="
+        },
+        {
+            "playerName": "RUSHING",
+            "opponentName": "a",
+            "statValue": "eae"
+        },
+        {
+            "playerName": "Ln",
+            "opponentName": "pr",
+            "statValue": "ery"
+        },
+        {
+            "playerName": "10.",
+            "opponentName": "ee",
+            "statValue": "4"
+        },
+        {
+            "playerName": "aie",
+            "opponentName": "2",
+            "statValue": "ee"
+        },
+        {
+            "playerName": "LIES",
+            "opponentName": "fe",
+            "statValue": "Aa"
+        },
+        {
+            "playerName": ";",
+            "opponentName": "Bowl",
+            "statValue": "win"
+        },
+        {
+            "playerName": "BBL",
+            "opponentName": "the",
+            "statValue": "10th-best"
+        },
+        {
+            "playerName": "9,",
+            "opponentName": "top",
+            "statValue": "10."
+        },
+        {
+            "playerName": "RUSHING",
+            "opponentName": ";",
+            "statValue": "SEASON"
+        },
+        {
+            "playerName": ":",
+            "opponentName": "FOOTBALL",
+            "statValue": ":"
+        }
+    ]
+}

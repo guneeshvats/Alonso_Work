@@ -1,0 +1,3 @@
+entity Accuracy: 100.00%
+statLabel Accuracy: 86.67%
+statPeriod Accuracy: 100.00%

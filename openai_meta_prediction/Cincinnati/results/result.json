@@ -1,0 +1,1262 @@
+[
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Fumble",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Kicks Blocked",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Special Teams",
+            "statistic": "Blocked",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.0
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Kicks Blocked",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Special Teams",
+            "statistic": "Blocks",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Sacks(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Quarterback Sacks",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Kicks Blocked",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Special Teams",
+            "statistic": "Blocked Kicks",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Forced Fumbles",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Fumble",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Quarterback Hurries",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Hurries",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0087.png",
+        "page_no": 87,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Quarterback Hurries",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Hurries",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0084.png",
+        "page_no": 84,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0084.png",
+        "page_no": 84,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Games with a Field Goal",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0084.png",
+        "page_no": 84,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempted",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0084.png",
+        "page_no": 84,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0084.png",
+        "page_no": 84,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempted",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Field Goals",
+            "statistic": "Attempted",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0086.png",
+        "page_no": 86,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Tackles(Total)",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0088.png",
+        "page_no": 88,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes Broken Up",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Plays",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0088.png",
+        "page_no": 88,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0088.png",
+        "page_no": 88,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes Broken Up",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Defense",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.25
+    },
+    {
+        "file_name": "page-0088.png",
+        "page_no": 88,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Defense",
+            "statistic": "Passes Broken Up",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Interceptions",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0080.png",
+        "page_no": 80,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0083.png",
+        "page_no": 83,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0083.png",
+        "page_no": 83,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0083.png",
+        "page_no": 83,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0089.png",
+        "page_no": 89,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0089.png",
+        "page_no": 89,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0089.png",
+        "page_no": 89,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0089.png",
+        "page_no": 89,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0089.png",
+        "page_no": 89,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Offense",
+            "statistic": "Total Points",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Penalties",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Scoring",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Penalties",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Field Goals",
+            "statistic": "Made",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Kickoff Returns",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Special Teams",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Penalty",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Rushing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Punt",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Offense",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Penalties",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Punt",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Punt",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0091.png",
+        "page_no": 91,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Team",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Team",
+            "statCategory": "Punt",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.5
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Attempts",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completed",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0081.png",
+        "page_no": 81,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Completions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 0.75
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Passing",
+            "statistic": "Interceptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Game"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Career"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Receptions",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Yards",
+            "statPeriod": "Season"
+        },
+        "accuracy": 1.0
+    },
+    {
+        "file_name": "page-0082.png",
+        "page_no": 82,
+        "team_name": "Cincinnati",
+        "ground_truth": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Career"
+        },
+        "predicted_metadata": {
+            "entity": "Player",
+            "statCategory": "Receiving",
+            "statistic": "Touchdowns",
+            "statPeriod": "Season"
+        },
+        "accuracy": 0.75
+    }
+]
