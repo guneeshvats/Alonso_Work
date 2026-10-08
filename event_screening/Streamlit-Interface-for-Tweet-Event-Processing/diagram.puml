@@ -1,0 +1,27 @@
+@startuml
+participant User
+participant "GPT-4o (DB Query Generator)" as DBQueryGen
+participant PostgreSQL
+participant "GPT-4o (SQL Verifier)" as SQLVerifier
+participant "GPT-4o (Tweet Rewriter)" as TweetRewriter
+participant Python
+
+User -> Python: Start processing an event
+Python -> DBQueryGen: Generate SQL to retrieve relevant past games
+DBQueryGen -> Python: Returns SQL Query
+Python -> PostgreSQL: Execute SQL Query
+PostgreSQL -> Python: Returns relevant past games
+
+Python -> SQLVerifier: Generate SQL to verify if event matches tweet template
+SQLVerifier -> Python: Returns SQL Verification Query
+Python -> PostgreSQL: Execute SQL Verification Query
+PostgreSQL -> Python: Returns True/False
+
+alt If False (Event does not match template)
+    Python -> User: "No valid match found."
+else If True (Event matches template)
+    Python -> TweetRewriter: Generate rewritten tweet with actual event data
+    TweetRewriter -> Python: Returns rewritten tweet
+    Python -> User: Displays the final corrected tweet
+end
+@enduml
