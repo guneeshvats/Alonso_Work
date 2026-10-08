@@ -1,0 +1,228 @@
+{
+  "query_samples": [
+    {
+      "entity": "team",
+      "query": "Receiving Touchdowns",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_receptions_touchdowns IS NOT NULL",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "teams having 96+ punt touchbacks in a single game without a forced fumbles",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_punts_touchbacks >= 96 AND s_fumbles_forced = 0",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "teams with 194+ red zone end of half in a game",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_red_zone_half_end >= 194",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "What is the highest rushing attempts made by a team against Norfolk St. in a season?",
+      "aql": {
+        "query_type": "max",
+        "entity": "team",
+        "qualifiers": {
+          "opponentTeamName": "Norfolk St."
+        },
+        "stat_period": "season",
+        "conditions": "s_rushing_attempts",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "which teams have scored at least 60 red zone attempts in a game ?",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_red_zone_attempts >= 60",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Teams who won with atleast passing yards 158",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_passes_yards >= 158 AND game_result=1",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "teams with 80+ rushing yards lost and 105+ pat kicks made and 144+ rushing yards gained",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_rushing_yards_loss >= 80 AND s_pat_kicks_made >= 105 AND s_rushing_yards_gain >= 144",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Losing teams with a maximum of red zone turnovers on downs 123",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_red_zone_downs >= 123 AND game_result=0",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "teams facing teams from Big Sky with more than 177 fumble return touchdowns in a season",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {
+          "opponentConferenceName": "Big Sky"
+        },
+        "stat_period": "season",
+        "conditions": "s_fumble_return_touchdowns > 177",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Team with the lowest penalty yards in a game",
+      "aql": {
+        "query_type": "min",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_penalty_yards",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Last time when a team had more than 113 interception return yards",
+      "aql": {
+        "query_type": "ltw",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_interceptions_return_yards > 113",
+        "streak_len": null
+      }
+    },
+
+    {
+      "entity": "team",
+      "query": "Teams with at least 11 consecutive games with 50+ blocked kicks and 133+ pass attempts",
+      "aql": {
+        "query_type": "streak",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_kicks_blocked >= 50 AND s_passes >= 133",
+        "streak_len": 11
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Teams with a streak of at least 43 games recording 65+ longest kick return",
+      "aql": {
+        "query_type": "streak",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_kick_returns_longest >= 65",
+        "streak_len": 43
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Teams with at least 9 consecutive wins while recording 154+ fourth down attempts",
+      "aql": {
+        "query_type": "streak",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_4th_down_attempts >= 154 AND game_result=1",
+        "streak_len": 9
+      }
+    },
+    {
+      "entity": "team",
+      "query": "longest field goal made",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_field_goal_made_longest IS NOT NULL",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Highest value for longest field goal made",
+      "aql": {
+        "query_type": "max",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_field_goal_made_longest",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "atleast 20 rushing yards in a home game",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_rushing_yards_net >= 10 AND home=1",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "team",
+      "query": "Opponent teams with 50+ rushing yards against Alabama",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {
+          "opponentTeamName" : "Alabama",
+          "teamName" : "ALL"
+        },
+        "stat_period": "game",
+        "conditions": "s_rushing_yards_net >= 50",
+        "streak_len": null
+      }
+    }
+  ]
+}

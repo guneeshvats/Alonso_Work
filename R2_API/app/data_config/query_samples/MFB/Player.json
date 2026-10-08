@@ -1,0 +1,255 @@
+{
+  "query_samples": [
+    {
+      "entity": "player",
+      "query": "interception touchdowns",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_interceptions_touchdowns IS NOT NULL",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "What is the lowest number of passing touchdowns by WOODARD, JACKSON?",
+      "aql": {
+        "query_type": "min",
+        "entity": "player",
+        "qualifiers": {
+          "playerName": "WOODARD, JACKSON"
+        },
+        "stat_period": "game",
+        "conditions": "s_passes_touchdowns",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Highest number of career recieving yards",
+      "aql": {
+        "query_type": "max",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "season",
+        "conditions": "s_receptions_yards",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "rushing yards over 25 and receiving yards greater than 20",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_rushing_yards_net > 25 AND s_receptions_yards > 20",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Last time when a player had more than 175 field goals attempted",
+      "aql": {
+        "query_type": "ltw",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_field_goals_attempted > 175",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Show me the last time when a player had less than 57 pat kicks made against Fort Valley St.",
+      "aql": {
+        "query_type": "ltw",
+        "entity": "player",
+        "qualifiers": {
+          "opponentTeamName": "Fort Valley St."
+        },
+        "stat_period": "season",
+        "conditions": "s_pat_kicks_made < 57",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "players having at least 25 consecutive games with 64+ punts touchbacks against WPI",
+      "aql": {
+        "query_type": "streak",
+        "entity": "player",
+        "qualifiers": {
+          "opponentTeamName": "WPI"
+        },
+        "stat_period": "game",
+        "conditions": "s_punts_touchbacks > 64",
+        "streak_len": 25
+      }
+    },
+    {
+      "entity": "player",
+      "query": "players who had at least 3 consecutive games with 193+ longest pass completion against Fitchburg St.",
+      "aql": {
+        "query_type": "streak",
+        "entity": "player",
+        "qualifiers": {
+          "opponentTeamName": "Fitchburg St."
+        },
+        "stat_period": "game",
+        "conditions": "s_passes_longest > 193",
+        "streak_len": 3
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Players in MIT with 191+ kickoffs gross yards in a game against Birmingham-So. without a punts fair caught",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {
+          "teamName": "MIT",
+          "opponentTeamName": "Birmingham-So."
+        },
+        "stat_period": "game",
+        "conditions": "s_kickoffs_gross_yards >= 191 AND s_punts_fair_catches = 0",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Special Teams Players with over 90 fumbles recovered",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {
+          "position": "STP"
+        },
+        "stat_period": "game",
+        "conditions": "s_fumbles_recovered >= 90",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Players facing teams from G-MAC with more than 198 kickoffs out of bounds in a season",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {
+          "opponentConferenceName": "G-MAC"
+        },
+        "stat_period": "season",
+        "conditions": "s_kickoffs_out_of_bound >= 198",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Players in Great Northwest with 164+ assisted tackles for loss and 111+ punt returns and 167+ longest pass completion",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {
+          "teamConferenceName": "Great Northwest"
+        },
+        "stat_period": "game",
+        "conditions": "s_tackles_for_loss_assisted >= 164 AND s_punt_returns >= 111 AND s_passes_longest >= 167",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "players against Sacred Heart in home games with more than 138 sack yards",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {
+          "opponentTeamName": "Sacred Heart"
+        },
+        "stat_period": "game",
+        "conditions": "s_sacks_yards > 138 AND home=1",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "250+ passing yards while having 50+ rushing yards in a season",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "season",
+        "conditions": "s_passes_yards >= 250 AND s_rushing_yards_net >= 50",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Players with at most 4 sacks in a game",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_sacks_total <= 4",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "longest field goal made",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_field_goal_made_longest IS NOT NULL",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "Highest value for longest field goal made",
+      "aql": {
+        "query_type": "max",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_field_goal_made_longest",
+        "streak_len": null
+      }
+    },
+    {
+      "entity": "player",
+      "query": "10+ pass attempts in a winning game",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {},
+        "stat_period": "game",
+        "conditions": "s_passes >= 10 AND game_result=1",
+        "streak_len": null
+      }
+    },
+     {
+      "entity": "player",
+      "query": "Opponent Players with 50+ rushing yards against Alabama",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {
+          "opponentTeamName" : "Alabama",
+          "teamName" : "ALL"
+        },
+        "stat_period": "game",
+        "conditions": "s_rushing_yards_net >= 50",
+        "streak_len": null
+      }
+    }
+
+  ]
+}

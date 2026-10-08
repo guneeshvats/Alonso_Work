@@ -1,0 +1,44 @@
+results
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Virtual environment directories
+r2_poc_venv/
+venv/
+env/
+.venv/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Test and coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Django migrations folder
+*/migrations/
+
+# Sentry specific settings (if you're using it)
+.sentry/
+
+# Local settings file
+local_settings.py
+
+.env

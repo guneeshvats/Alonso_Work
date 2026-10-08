@@ -1,0 +1,66 @@
+[
+   {
+        "nlp_query": "teams with {value1}+ {stat1} in a game",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 1
+    },
+   {
+        "nlp_query": "teams with over {value1} {stat1} in a season",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "season",
+        "id": 2
+    },
+   {
+        "nlp_query": "which teams have scored at least {value1} {stat1} in a game ?",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 3
+    },
+    {
+        "nlp_query": "teams having {value1}+ {stat1} in a single game without a {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} = 0",
+        "stat_period": "game",
+        "id": 4
+    },
+    {
+        "nlp_query": "teams with {value1}+ {stat1} and {value2}+ {stat2} and {value3}+ {stat3}",
+        "query_type": "basic",
+        "num_stats": 3,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2} AND {stat3_label} >= {value3}",
+        "stat_period": "game",
+        "id": 5
+    },
+  {
+        "nlp_query": "Teams who won with atleast {value1} {stat1} ",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1} AND gameresult=1",
+        "stat_period": "game",
+        "id": 6
+    },
+  {
+        "nlp_query": "Losing teams with a maximum of {value1} {stat1} ",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} <= {value1} AND gameresult=0",
+        "stat_period": "game",
+        "id": 7
+    },
+    {
+        "nlp_query": "{stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} IS NOT NULL",
+        "stat_period": "game",
+        "id": 8
+    }
+]

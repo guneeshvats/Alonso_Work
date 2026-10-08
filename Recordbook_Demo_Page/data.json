@@ -1,0 +1,2468 @@
+[
+    {
+        "TableId": "1253464e-7a7f-4a0f-9b6c-cf40c3301d24",
+        "Text": " |  |  |  | 1. | 66 | Jay Cutler | VS. Kentucky 2005 | 2. | 62 | John Gromos | VS. Alabama 1989 | 3. | 61 | Jared Funk | VS. Wake Forest 2010 | 4. | 57 | Whit Taylor | at Georgia 1982 | 5. | 56 | Kurt Page | vs. Georgia 1983 | 6. | 53 | Whit Taylor | at Tennessee 1981 | 7. | 52 | Kyle Shurmur | vs. Missouri 2017 | 8. | 50 | Johnny McCrary | VS. Georgia 2015 |  | 50 | Greg Zolman | vs. Georgia 2001 | 10. | 49 | Kyle Shurmur | VS. South Carolina 2017 |  | 49 | Jay Cutler | at South Carolina 2005 |  | 49 | Kurt Page | at Kentucky 1984 |  | 49 | Kurt Page | vs. Maryland 1983 | ",
+        "Left": 0.6373106241226196,
+        "Top": 0.1106928214430809,
+        "Width": 0.276538223028183,
+        "Height": 0.16180305182933807,
+        "Header": "INDIVIDUAL PASSING RECORDS,Pass Attempts,Game:PageNo|7",
+        "TableHeader": "Rank,Attempts,PlayerName,Opponent,GameDate",
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "MongoDB_Data": {
+            "_id": {
+                "$oid": "66da3b1fd36a2b57828986d2"
+            },
+            "sourceId": "66d9dbc06fe81c6d17807ccd",
+            "sportCode": "MFB",
+            "sportType": "Football",
+            "teamCode": "736",
+            "teamName": "Vanderbilt",
+            "headers": [
+                "INDIVIDUAL PASSING RECORDS",
+                "Pass Attempts",
+                "Game"
+            ],
+            "pageNo": 6,
+            "uniqueId": "0c20cd01-a5f4-485a-85e2-02c72a10e706",
+            "recNo": 13,
+            "correctTableHeaderMapping": {
+                "playerName": "playername",
+                "opponentName": "opponent",
+                "gameDate": "gamedate",
+                "statValue": "attempts",
+                "statistic_found": true
+            },
+            "correctMappedValues": {
+                "analyticType": "Records",
+                "entity": "Player",
+                "statCategory": "Passing",
+                "statistic": "Attempts",
+                "statPeriod": "Game",
+                "recordType": "Max"
+            },
+            "historyRecords": [
+                {
+                    "rank": 1,
+                    "attempts": 66,
+                    "playername": "Jay Cutler",
+                    "opponent": "Kentucky",
+                    "gamedate": "11/12/2005"
+                },
+                {
+                    "rank": 2,
+                    "attempts": 62,
+                    "playername": "John Gromos",
+                    "opponent": "Alabama",
+                    "gamedate": "09/30/1989"
+                },
+                {
+                    "rank": 3,
+                    "attempts": 61,
+                    "playername": "Jared Funk",
+                    "opponent": "Wake Forest",
+                    "gamedate": "11/27/2010"
+                },
+                {
+                    "rank": 4,
+                    "attempts": 57,
+                    "playername": "Whit Taylor",
+                    "opponent": "Georgia",
+                    "gamedate": "10/16/1982"
+                },
+                {
+                    "rank": 5,
+                    "attempts": 56,
+                    "playername": "Kurt Page",
+                    "opponent": "Georgia",
+                    "gamedate": "10/15/1983"
+                },
+                {
+                    "rank": 6,
+                    "attempts": 53,
+                    "playername": "Whit Taylor",
+                    "opponent": "Tennessee",
+                    "gamedate": "11/28/1981"
+                },
+                {
+                    "rank": 7,
+                    "attempts": 52,
+                    "playername": "Kyle Shurmur",
+                    "opponent": "Missouri",
+                    "gamedate": "11/18/2017"
+                },
+                {
+                    "rank": 8,
+                    "attempts": 50,
+                    "playername": "Johnny McCrary",
+                    "opponent": "Georgia",
+                    "gamedate": "09/12/2015"
+                },
+                {
+                    "rank": 8,
+                    "attempts": 50,
+                    "playername": "Greg Zolman",
+                    "opponent": "Georgia",
+                    "gamedate": "10/13/2001"
+                },
+                {
+                    "rank": 10,
+                    "attempts": 49,
+                    "playername": "Kyle Shurmur",
+                    "opponent": "South Carolina",
+                    "gamedate": "10/28/2017"
+                },
+                {
+                    "rank": 10,
+                    "attempts": 49,
+                    "playername": "Jay Cutler",
+                    "opponent": "South Carolina",
+                    "gamedate": "10/22/2005"
+                },
+                {
+                    "rank": 10,
+                    "attempts": 49,
+                    "playername": "Kurt Page",
+                    "opponent": "Kentucky",
+                    "gamedate": "11/10/1984"
+                },
+                {
+                    "rank": 10,
+                    "attempts": 49,
+                    "playername": "Kurt Page",
+                    "opponent": "Maryland",
+                    "gamedate": "09/10/1983"
+                }
+            ],
+            "parseStepStatus": "complete",
+            "matchStepStatus": "complete",
+            "insertStepStatus": "complete",
+            "mappedValues": {
+                "statCategory": "Passing",
+                "statistic": "Attempts",
+                "statPeriod": "Game",
+                "recordType": "Max",
+                "recordQualifier": null,
+                "statLabel": "Passing Attempts",
+                "entity": "Player",
+                "recordCase": "PARSED_IN_MASTER",
+                "analyticType": "Records",
+                "recordValues": [
+                    {
+                        "statValue": 66,
+                        "playerName": "Jay Cutler",
+                        "opponentName": "Kentucky",
+                        "gameDate": {
+                            "$date": "2005-11-12T00:00:00Z"
+                        },
+                        "season": "2005"
+                    },
+                    {
+                        "statValue": 62,
+                        "playerName": "John Gromos",
+                        "opponentName": "Alabama",
+                        "gameDate": {
+                            "$date": "1989-09-30T00:00:00Z"
+                        },
+                        "season": "1989"
+                    },
+                    {
+                        "statValue": 61,
+                        "playerName": "Jared Funk",
+                        "opponentName": "Wake Forest",
+                        "gameDate": {
+                            "$date": "2010-11-27T00:00:00Z"
+                        },
+                        "season": "2010"
+                    },
+                    {
+                        "statValue": 57,
+                        "playerName": "Whit Taylor",
+                        "opponentName": "Georgia",
+                        "gameDate": {
+                            "$date": "1982-10-16T00:00:00Z"
+                        },
+                        "season": "1982"
+                    },
+                    {
+                        "statValue": 56,
+                        "playerName": "Kurt Page",
+                        "opponentName": "Georgia",
+                        "gameDate": {
+                            "$date": "1983-10-15T00:00:00Z"
+                        },
+                        "season": "1983"
+                    },
+                    {
+                        "statValue": 53,
+                        "playerName": "Whit Taylor",
+                        "opponentName": "Tennessee",
+                        "gameDate": {
+                            "$date": "1981-11-28T00:00:00Z"
+                        },
+                        "season": "1981"
+                    },
+                    {
+                        "statValue": 52,
+                        "playerName": "SHURMUR,KYLE",
+                        "opponentName": "Missouri",
+                        "gameDate": {
+                            "$date": "2017-11-18T00:00:00Z"
+                        },
+                        "season": "2017"
+                    },
+                    {
+                        "statValue": 50,
+                        "playerName": "MCCRARY,JOHNNY",
+                        "opponentName": "Georgia",
+                        "gameDate": {
+                            "$date": "2015-09-12T00:00:00Z"
+                        },
+                        "season": "2015"
+                    },
+                    {
+                        "statValue": 50,
+                        "playerName": "Greg Zolman",
+                        "opponentName": "Georgia",
+                        "gameDate": {
+                            "$date": "2001-10-13T00:00:00Z"
+                        },
+                        "season": "2001"
+                    },
+                    {
+                        "statValue": 49,
+                        "playerName": "SHURMUR,KYLE",
+                        "opponentName": "South Carolina",
+                        "gameDate": {
+                            "$date": "2017-10-28T00:00:00Z"
+                        },
+                        "season": "2017"
+                    },
+                    {
+                        "statValue": 49,
+                        "playerName": "Jay Cutler",
+                        "opponentName": "South Carolina",
+                        "gameDate": {
+                            "$date": "2005-10-22T00:00:00Z"
+                        },
+                        "season": "2005"
+                    },
+                    {
+                        "statValue": 49,
+                        "playerName": "Kurt Page",
+                        "opponentName": "Kentucky",
+                        "gameDate": {
+                            "$date": "1984-11-10T00:00:00Z"
+                        },
+                        "season": "1984"
+                    },
+                    {
+                        "statValue": 49,
+                        "playerName": "Kurt Page",
+                        "opponentName": "Maryland",
+                        "gameDate": {
+                            "$date": "1983-09-10T00:00:00Z"
+                        },
+                        "season": "1983"
+                    }
+                ]
+            },
+            "dev_test_checkStatus": [
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Jay Cutler"
+                    },
+                    "recordBookData": {
+                        "statValue": 66,
+                        "gameDate": {
+                            "$date": "2005-11-12T00:00:00Z"
+                        },
+                        "season": "2005",
+                        "opponentName": "Kentucky",
+                        "playerName": "Jay Cutler"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "John Gromos"
+                    },
+                    "recordBookData": {
+                        "statValue": 62,
+                        "gameDate": {
+                            "$date": "1989-09-30T00:00:00Z"
+                        },
+                        "season": "1989",
+                        "opponentName": "Alabama",
+                        "playerName": "John Gromos"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Jared Funk"
+                    },
+                    "recordBookData": {
+                        "statValue": 61,
+                        "gameDate": {
+                            "$date": "2010-11-27T00:00:00Z"
+                        },
+                        "season": "2010",
+                        "opponentName": "Wake Forest",
+                        "playerName": "Jared Funk"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 57,
+                        "gameDate": {
+                            "$date": "1982-10-16T00:00:00Z"
+                        },
+                        "season": "1982",
+                        "opponentName": "Georgia",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 56,
+                        "gameDate": {
+                            "$date": "1983-10-15T00:00:00Z"
+                        },
+                        "season": "1983",
+                        "opponentName": "Georgia",
+                        "playerName": "Kurt Page"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 53,
+                        "gameDate": {
+                            "$date": "1981-11-28T00:00:00Z"
+                        },
+                        "season": "1981",
+                        "opponentName": "Tennessee",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 52,
+                        "gameDate": {
+                            "$date": "2017-11-18T00:00:00Z"
+                        },
+                        "season": 2017,
+                        "opponentName": "Missouri",
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 52,
+                        "gameDate": {
+                            "$date": "2017-11-18T00:00:00Z"
+                        },
+                        "season": "2017",
+                        "opponentName": "Missouri",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 50,
+                        "gameDate": {
+                            "$date": "2015-09-12T00:00:00Z"
+                        },
+                        "season": 2015,
+                        "opponentName": "Georgia",
+                        "playerName": "MCCRARY,JOHNNY"
+                    },
+                    "recordBookData": {
+                        "statValue": 50,
+                        "gameDate": {
+                            "$date": "2015-09-12T00:00:00Z"
+                        },
+                        "season": "2015",
+                        "opponentName": "Georgia",
+                        "playerName": "MCCRARY,JOHNNY"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 50,
+                        "gameDate": {
+                            "$date": "2001-10-13T00:00:00Z"
+                        },
+                        "season": "2001",
+                        "opponentName": "Georgia",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 49,
+                        "gameDate": {
+                            "$date": "2017-10-28T00:00:00Z"
+                        },
+                        "season": 2017,
+                        "opponentName": "South Carolina",
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 49,
+                        "gameDate": {
+                            "$date": "2017-10-28T00:00:00Z"
+                        },
+                        "season": "2017",
+                        "opponentName": "South Carolina",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Jay Cutler"
+                    },
+                    "recordBookData": {
+                        "statValue": 49,
+                        "gameDate": {
+                            "$date": "2005-10-22T00:00:00Z"
+                        },
+                        "season": "2005",
+                        "opponentName": "South Carolina",
+                        "playerName": "Jay Cutler"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 49,
+                        "gameDate": {
+                            "$date": "1984-11-10T00:00:00Z"
+                        },
+                        "season": "1984",
+                        "opponentName": "Kentucky",
+                        "playerName": "Kurt Page"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 49,
+                        "gameDate": {
+                            "$date": "1983-09-10T00:00:00Z"
+                        },
+                        "season": "1983",
+                        "opponentName": "Maryland",
+                        "playerName": "Kurt Page"
+                    }
+                }
+            ],
+            "statuses": [
+                "TO_BE_INSERTED",
+                "CORRECT_RECORD"
+            ],
+            "validation_flag": "TO_BE_VALIDATED",
+            "validation_status": "UNVERIFIED"
+        }
+    },
+    {
+        "TableId": "f7f49c98-5360-4636-bd0e-e2b585645c62",
+        "Text": "1. | 464 | Whit Taylor | at Tennessee 1981 | 2. | 452 | Whit Taylor | VS. Air Force 1982 | 3. | 446 | Chris Nickson | at Kentucky 2006 | 4. | 441 | Greg Zolman | VS. Kentucky 2001 | 5. | 416 | Kyle Shurmur | vs. Tennessee 2016 | 6. | 395 | Jay Cutler | vs. Kentucky 2005 | 7. | 391 | Whit Taylor | vs. Tennessee 1982 | 8. | 378 | Riley Neal | at Purdue 2019 | 9. | 368 | Johnny McCrary | vs. Austin Peay 2015 | 10. | 367 | Kyle Shurmur | vs. Tennessee 2018 | ",
+        "Left": 0.07171935588121414,
+        "Top": 0.11197933554649353,
+        "Width": 0.2722274661064148,
+        "Height": 0.1236114576458931,
+        "Header": "INDIVIDUAL RECORDS,PASSING,Passing Yards,Game:PageNo|7",
+        "TableHeader": "Rank,Yards,PlayerName,Opponent,GameDate",
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "MongoDB_Data": {
+            "_id": {
+                "$oid": "66da3b1fd36a2b57828986cf"
+            },
+            "sourceId": "66d9dbc06fe81c6d17807cca",
+            "sportCode": "MFB",
+            "sportType": "Football",
+            "teamCode": "736",
+            "teamName": "Vanderbilt",
+            "headers": [
+                "INDIVIDUAL RECORDS",
+                "PASSING",
+                "Passing Yards",
+                "Game"
+            ],
+            "pageNo": 6,
+            "uniqueId": "a215edfd-7add-45ea-ba9a-70c6331d2fe0",
+            "recNo": 10,
+            "correctTableHeaderMapping": {
+                "playerName": "playername",
+                "opponentName": "opponent",
+                "gameDate": "gamedate",
+                "statValue": "yards",
+                "statistic_found": true
+            },
+            "correctMappedValues": {
+                "analyticType": "Records",
+                "entity": "Player",
+                "statCategory": "Passing",
+                "statistic": "Yards",
+                "statPeriod": "Game",
+                "recordType": "Max"
+            },
+            "historyRecords": [
+                {
+                    "rank": 1,
+                    "yards": 464,
+                    "playername": "Whit Taylor",
+                    "opponent": "Tennessee",
+                    "gamedate": "11/28/1981"
+                },
+                {
+                    "rank": 2,
+                    "yards": 452,
+                    "playername": "Whit Taylor",
+                    "opponent": "Air Force",
+                    "gamedate": "12/31/1982"
+                },
+                {
+                    "rank": 3,
+                    "yards": 446,
+                    "playername": "Chris Nickson",
+                    "opponent": "Kentucky",
+                    "gamedate": "11/11/2006"
+                },
+                {
+                    "rank": 4,
+                    "yards": 441,
+                    "playername": "Greg Zolman",
+                    "opponent": "Kentucky",
+                    "gamedate": "11/10/2001"
+                },
+                {
+                    "rank": 5,
+                    "yards": 416,
+                    "playername": "Kyle Shurmur",
+                    "opponent": "Tennessee",
+                    "gamedate": "11/26/2016"
+                },
+                {
+                    "rank": 6,
+                    "yards": 395,
+                    "playername": "Jay Cutler",
+                    "opponent": "Kentucky",
+                    "gamedate": "11/12/2005"
+                },
+                {
+                    "rank": 7,
+                    "yards": 391,
+                    "playername": "Whit Taylor",
+                    "opponent": "Tennessee",
+                    "gamedate": "11/27/1982"
+                },
+                {
+                    "rank": 8,
+                    "yards": 378,
+                    "playername": "Riley Neal",
+                    "opponent": "Purdue",
+                    "gamedate": "09/07/2019"
+                },
+                {
+                    "rank": 9,
+                    "yards": 368,
+                    "playername": "Johnny McCrary",
+                    "opponent": "Austin Peay",
+                    "gamedate": "09/19/2015"
+                },
+                {
+                    "rank": 10,
+                    "yards": 367,
+                    "playername": "Kyle Shurmur",
+                    "opponent": "Tennessee",
+                    "gamedate": "11/24/2018"
+                }
+            ],
+            "parseStepStatus": "complete",
+            "matchStepStatus": "complete",
+            "insertStepStatus": "complete",
+            "mappedValues": {
+                "statCategory": "Passing",
+                "statistic": "Yards",
+                "statPeriod": "Game",
+                "recordType": "Max",
+                "recordQualifier": null,
+                "statLabel": "Passing Yards",
+                "entity": "Player",
+                "recordCase": "PARSED_IN_MASTER",
+                "analyticType": "Records",
+                "recordValues": [
+                    {
+                        "statValue": 464,
+                        "playerName": "Whit Taylor",
+                        "opponentName": "Tennessee",
+                        "gameDate": {
+                            "$date": "1981-11-28T00:00:00Z"
+                        },
+                        "season": "1981"
+                    },
+                    {
+                        "statValue": 452,
+                        "playerName": "Whit Taylor",
+                        "opponentName": "Air Force",
+                        "gameDate": {
+                            "$date": "1982-12-31T00:00:00Z"
+                        },
+                        "season": "1982"
+                    },
+                    {
+                        "statValue": 446,
+                        "playerName": "Chris Nickson",
+                        "opponentName": "Kentucky",
+                        "gameDate": {
+                            "$date": "2006-11-11T00:00:00Z"
+                        },
+                        "season": "2006"
+                    },
+                    {
+                        "statValue": 441,
+                        "playerName": "Greg Zolman",
+                        "opponentName": "Kentucky",
+                        "gameDate": {
+                            "$date": "2001-11-10T00:00:00Z"
+                        },
+                        "season": "2001"
+                    },
+                    {
+                        "statValue": 416,
+                        "playerName": "SHURMUR,KYLE",
+                        "opponentName": "Tennessee",
+                        "gameDate": {
+                            "$date": "2016-11-26T00:00:00Z"
+                        },
+                        "season": "2016"
+                    },
+                    {
+                        "statValue": 395,
+                        "playerName": "Jay Cutler",
+                        "opponentName": "Kentucky",
+                        "gameDate": {
+                            "$date": "2005-11-12T00:00:00Z"
+                        },
+                        "season": "2005"
+                    },
+                    {
+                        "statValue": 391,
+                        "playerName": "Whit Taylor",
+                        "opponentName": "Tennessee",
+                        "gameDate": {
+                            "$date": "1982-11-27T00:00:00Z"
+                        },
+                        "season": "1982"
+                    },
+                    {
+                        "statValue": 378,
+                        "playerName": "NEAL,RILEY",
+                        "opponentName": "Purdue",
+                        "gameDate": {
+                            "$date": "2019-09-07T00:00:00Z"
+                        },
+                        "season": "2019"
+                    },
+                    {
+                        "statValue": 368,
+                        "playerName": "MCCRARY,JOHNNY",
+                        "opponentName": "Austin Peay",
+                        "gameDate": {
+                            "$date": "2015-09-19T00:00:00Z"
+                        },
+                        "season": "2015"
+                    },
+                    {
+                        "statValue": 367,
+                        "playerName": "SHURMUR,KYLE",
+                        "opponentName": "Tennessee",
+                        "gameDate": {
+                            "$date": "2018-11-24T00:00:00Z"
+                        },
+                        "season": "2018"
+                    }
+                ]
+            },
+            "dev_test_checkStatus": [
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 464,
+                        "gameDate": {
+                            "$date": "1981-11-28T00:00:00Z"
+                        },
+                        "season": "1981",
+                        "opponentName": "Tennessee",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 452,
+                        "gameDate": {
+                            "$date": "1982-12-31T00:00:00Z"
+                        },
+                        "season": "1982",
+                        "opponentName": "Air Force",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Chris Nickson"
+                    },
+                    "recordBookData": {
+                        "statValue": 446,
+                        "gameDate": {
+                            "$date": "2006-11-11T00:00:00Z"
+                        },
+                        "season": "2006",
+                        "opponentName": "Kentucky",
+                        "playerName": "Chris Nickson"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 441,
+                        "gameDate": {
+                            "$date": "2001-11-10T00:00:00Z"
+                        },
+                        "season": "2001",
+                        "opponentName": "Kentucky",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 416,
+                        "gameDate": {
+                            "$date": "2016-11-26T00:00:00Z"
+                        },
+                        "season": 2016,
+                        "opponentName": "Tennessee",
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 416,
+                        "gameDate": {
+                            "$date": "2016-11-26T00:00:00Z"
+                        },
+                        "season": "2016",
+                        "opponentName": "Tennessee",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Jay Cutler"
+                    },
+                    "recordBookData": {
+                        "statValue": 395,
+                        "gameDate": {
+                            "$date": "2005-11-12T00:00:00Z"
+                        },
+                        "season": "2005",
+                        "opponentName": "Kentucky",
+                        "playerName": "Jay Cutler"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "gameDate": null,
+                        "season": null,
+                        "opponentName": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 391,
+                        "gameDate": {
+                            "$date": "1982-11-27T00:00:00Z"
+                        },
+                        "season": "1982",
+                        "opponentName": "Tennessee",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 378,
+                        "gameDate": {
+                            "$date": "2019-09-07T00:00:00Z"
+                        },
+                        "season": 2019,
+                        "opponentName": "Purdue",
+                        "playerName": "NEAL,RILEY"
+                    },
+                    "recordBookData": {
+                        "statValue": 378,
+                        "gameDate": {
+                            "$date": "2019-09-07T00:00:00Z"
+                        },
+                        "season": "2019",
+                        "opponentName": "Purdue",
+                        "playerName": "NEAL,RILEY"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 368,
+                        "gameDate": {
+                            "$date": "2015-09-19T00:00:00Z"
+                        },
+                        "season": 2015,
+                        "opponentName": "Austin Peay",
+                        "playerName": "MCCRARY,JOHNNY"
+                    },
+                    "recordBookData": {
+                        "statValue": 368,
+                        "gameDate": {
+                            "$date": "2015-09-19T00:00:00Z"
+                        },
+                        "season": "2015",
+                        "opponentName": "Austin Peay",
+                        "playerName": "MCCRARY,JOHNNY"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 367,
+                        "gameDate": {
+                            "$date": "2018-11-24T00:00:00Z"
+                        },
+                        "season": 2018,
+                        "opponentName": "Tennessee",
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 367,
+                        "gameDate": {
+                            "$date": "2018-11-24T00:00:00Z"
+                        },
+                        "season": "2018",
+                        "opponentName": "Tennessee",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                }
+            ],
+            "statuses": [
+                "TO_BE_INSERTED",
+                "CORRECT_RECORD"
+            ],
+            "validation_flag": "TO_BE_VALIDATED",
+            "validation_status": "UNVERIFIED"
+        }
+    },
+    {
+        "TableId": "617372b1-932a-4d9a-af7c-a747c051e326",
+        "Text": "1. 3,178 | Kurt Page | 1983 | 2. 3,130 | Kyle Shurmur | 2018 | 3. 3,073 | Jay Cutler | 2005 | 4. 2,823 | Kyle Shurmur | 2017 | 5. 2,548 | Eric Jones | 1988 | 6. 2,539 | Jordan Rodgers | 2012 | 7. 2,512 | Greg Zolman | 2001 | 8. 2,481 | Whit Taylor | 1982 | 9. 2,441 | Greg Zolman | 2000 | 10. 2,409 | Kyle Shurmur | 2016 | ",
+        "Left": 0.07177505642175674,
+        "Top": 0.2585718035697937,
+        "Width": 0.2715361416339874,
+        "Height": 0.12242603302001953,
+        "Header": "INDIVIDUAL RECORDS,PASSING,Passing Yards,Season:PageNo|7",
+        "TableHeader": "Rank,Yards,PlayerName,Season",
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "MongoDB_Data": {
+            "_id": {
+                "$oid": "66da3b1fd36a2b57828986d0"
+            },
+            "sourceId": "66d9dbc06fe81c6d17807ccb",
+            "sportCode": "MFB",
+            "sportType": "Football",
+            "teamCode": "736",
+            "teamName": "Vanderbilt",
+            "headers": [
+                "INDIVIDUAL RECORDS",
+                "PASSING",
+                "Passing Yards",
+                "Season"
+            ],
+            "pageNo": 6,
+            "uniqueId": "6a8dedaa-dad1-47a6-b4a9-731ad8e88ee0",
+            "recNo": 11,
+            "correctTableHeaderMapping": {
+                "playerName": "playername",
+                "season": "season",
+                "statValue": "yards",
+                "statistic_found": true
+            },
+            "correctMappedValues": {
+                "analyticType": "Records",
+                "entity": "Player",
+                "statCategory": "Passing",
+                "statistic": "Yards",
+                "statPeriod": "Season",
+                "recordType": "Max"
+            },
+            "historyRecords": [
+                {
+                    "rank": 1,
+                    "yards": 3178,
+                    "playername": "Kurt Page",
+                    "season": "1983"
+                },
+                {
+                    "rank": 2,
+                    "yards": 3130,
+                    "playername": "Kyle Shurmur",
+                    "season": "2018"
+                },
+                {
+                    "rank": 3,
+                    "yards": 3073,
+                    "playername": "Jay Cutler",
+                    "season": "2005"
+                },
+                {
+                    "rank": 4,
+                    "yards": 2823,
+                    "playername": "Kyle Shurmur",
+                    "season": "2017"
+                },
+                {
+                    "rank": 5,
+                    "yards": 2548,
+                    "playername": "Eric Jones",
+                    "season": "1988"
+                },
+                {
+                    "rank": 6,
+                    "yards": 2539,
+                    "playername": "Jordan Rodgers",
+                    "season": "2012"
+                },
+                {
+                    "rank": 7,
+                    "yards": 2512,
+                    "playername": "Greg Zolman",
+                    "season": "2001"
+                },
+                {
+                    "rank": 8,
+                    "yards": 2481,
+                    "playername": "Whit Taylor",
+                    "season": "1982"
+                },
+                {
+                    "rank": 9,
+                    "yards": 2441,
+                    "playername": "Greg Zolman",
+                    "season": "2000"
+                },
+                {
+                    "rank": 10,
+                    "yards": 2409,
+                    "playername": "Kyle Shurmur",
+                    "season": "2016"
+                }
+            ],
+            "parseStepStatus": "complete",
+            "matchStepStatus": "complete",
+            "insertStepStatus": "complete",
+            "mappedValues": {
+                "statCategory": "Passing",
+                "statistic": "Yards",
+                "statPeriod": "Season",
+                "recordType": "Max",
+                "recordQualifier": null,
+                "statLabel": "Passing Yards",
+                "entity": "Player",
+                "recordCase": "PARSED_IN_MASTER",
+                "analyticType": "Records",
+                "recordValues": [
+                    {
+                        "statValue": 3178,
+                        "playerName": "Kurt Page",
+                        "season": "1983",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 3130,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2018",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 3073,
+                        "playerName": "Jay Cutler",
+                        "season": "2005",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 2823,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2017",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 2548,
+                        "playerName": "Eric Jones",
+                        "season": "1988",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 2539,
+                        "playerName": "Jordan Rodgers",
+                        "season": "2012",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 2512,
+                        "playerName": "Greg Zolman",
+                        "season": "2001",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 2481,
+                        "playerName": "Whit Taylor",
+                        "season": "1982",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 2441,
+                        "playerName": "Greg Zolman",
+                        "season": "2000",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 2409,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2016",
+                        "opponentName": null,
+                        "gameDate": null
+                    }
+                ]
+            },
+            "dev_test_checkStatus": [
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 3178,
+                        "season": "1983",
+                        "playerName": "Kurt Page"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 3130,
+                        "season": 2018,
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 3130,
+                        "season": "2018",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Jay Cutler"
+                    },
+                    "recordBookData": {
+                        "statValue": 3073,
+                        "season": "2005",
+                        "playerName": "Jay Cutler"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 2823,
+                        "season": 2017,
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 2823,
+                        "season": "2017",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Eric Jones"
+                    },
+                    "recordBookData": {
+                        "statValue": 2548,
+                        "season": "1988",
+                        "playerName": "Eric Jones"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Jordan Rodgers"
+                    },
+                    "recordBookData": {
+                        "statValue": 2539,
+                        "season": "2012",
+                        "playerName": "Jordan Rodgers"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 2512,
+                        "season": "2001",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 2481,
+                        "season": "1982",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 2441,
+                        "season": "2000",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 2409,
+                        "season": 2016,
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 2409,
+                        "season": "2016",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                }
+            ],
+            "statuses": [
+                "TO_BE_INSERTED",
+                "CORRECT_RECORD"
+            ],
+            "validation_flag": "TO_BE_VALIDATED",
+            "validation_status": "UNVERIFIED"
+        }
+    },
+    {
+        "TableId": "34fcf059-5aa1-4f03-a839-fc1d8247a58c",
+        "Text": "1. | 493 | Kurt Page | 1983 | 2. | 462 | Jay Cutler | 2005 | 3. | 406 | Kyle Shurmur | 2018 |  | 406 | Whit Taylor | 1982 | 5. | 380 | Kyle Shurmur | 2017 | 6. | 375 | Kyle Shurmur | 2016 | 7. | 360 | Eric Jones | 1988 | 8. | 357 | Greg Zolman | 2001 |  | 357 | Whit Taylor | 1981 | 10. | 354 | Greg Zolman | 2000 | 11. | 350 | Kurt Page | 1984 | ",
+        "Left": 0.6388788819313049,
+        "Top": 0.2966839671134949,
+        "Width": 0.2749871015548706,
+        "Height": 0.13211865723133087,
+        "Header": "INDIVIDUAL PASSING RECORDS,Pass Attempts,Season:PageNo|7",
+        "TableHeader": "Rank,Attempts,PlayerName,Season",
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "MongoDB_Data": {
+            "_id": {
+                "$oid": "66da3b1fd36a2b57828986d3"
+            },
+            "sourceId": "66d9dbc06fe81c6d17807cce",
+            "sportCode": "MFB",
+            "sportType": "Football",
+            "teamCode": "736",
+            "teamName": "Vanderbilt",
+            "headers": [
+                "INDIVIDUAL PASSING RECORDS",
+                "Pass Attempts",
+                "Season"
+            ],
+            "pageNo": 6,
+            "uniqueId": "a4501898-1dae-471b-9d1c-01af31c8d724",
+            "recNo": 14,
+            "correctTableHeaderMapping": {
+                "playerName": "playername",
+                "season": "season",
+                "statValue": "attempts",
+                "statistic_found": true
+            },
+            "correctMappedValues": {
+                "analyticType": "Records",
+                "entity": "Player",
+                "statCategory": "Passing",
+                "statistic": "Attempts",
+                "statPeriod": "Season",
+                "recordType": "Max"
+            },
+            "historyRecords": [
+                {
+                    "rank": 1,
+                    "attempts": 493,
+                    "playername": "Kurt Page",
+                    "season": "1983"
+                },
+                {
+                    "rank": 2,
+                    "attempts": 462,
+                    "playername": "Jay Cutler",
+                    "season": "2005"
+                },
+                {
+                    "rank": 3,
+                    "attempts": 406,
+                    "playername": "Kyle Shurmur",
+                    "season": "2018"
+                },
+                {
+                    "rank": 3,
+                    "attempts": 406,
+                    "playername": "Whit Taylor",
+                    "season": "1982"
+                },
+                {
+                    "rank": 5,
+                    "attempts": 380,
+                    "playername": "Kyle Shurmur",
+                    "season": "2017"
+                },
+                {
+                    "rank": 6,
+                    "attempts": 375,
+                    "playername": "Kyle Shurmur",
+                    "season": "2016"
+                },
+                {
+                    "rank": 7,
+                    "attempts": 360,
+                    "playername": "Eric Jones",
+                    "season": "1988"
+                },
+                {
+                    "rank": 8,
+                    "attempts": 357,
+                    "playername": "Greg Zolman",
+                    "season": "2001"
+                },
+                {
+                    "rank": 8,
+                    "attempts": 357,
+                    "playername": "Whit Taylor",
+                    "season": "1981"
+                },
+                {
+                    "rank": 10,
+                    "attempts": 354,
+                    "playername": "Greg Zolman",
+                    "season": "2000"
+                },
+                {
+                    "rank": 11,
+                    "attempts": 350,
+                    "playername": "Kurt Page",
+                    "season": "1984"
+                }
+            ],
+            "parseStepStatus": "complete",
+            "matchStepStatus": "complete",
+            "insertStepStatus": "complete",
+            "mappedValues": {
+                "statCategory": "Passing",
+                "statistic": "Attempts",
+                "statPeriod": "Season",
+                "recordType": "Max",
+                "recordQualifier": null,
+                "statLabel": "Passing Attempts",
+                "entity": "Player",
+                "recordCase": "PARSED_IN_MASTER",
+                "analyticType": "Records",
+                "recordValues": [
+                    {
+                        "statValue": 493,
+                        "playerName": "Kurt Page",
+                        "season": "1983",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 462,
+                        "playerName": "Jay Cutler",
+                        "season": "2005",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 406,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2018",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 406,
+                        "playerName": "Whit Taylor",
+                        "season": "1982",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 380,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2017",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 375,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2016",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 360,
+                        "playerName": "Eric Jones",
+                        "season": "1988",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 357,
+                        "playerName": "Greg Zolman",
+                        "season": "2001",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 357,
+                        "playerName": "Whit Taylor",
+                        "season": "1981",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 354,
+                        "playerName": "Greg Zolman",
+                        "season": "2000",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 350,
+                        "playerName": "Kurt Page",
+                        "season": "1984",
+                        "opponentName": null,
+                        "gameDate": null
+                    }
+                ]
+            },
+            "dev_test_checkStatus": [
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 493,
+                        "season": "1983",
+                        "playerName": "Kurt Page"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Jay Cutler"
+                    },
+                    "recordBookData": {
+                        "statValue": 462,
+                        "season": "2005",
+                        "playerName": "Jay Cutler"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 406,
+                        "season": 2018,
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 406,
+                        "season": "2018",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 406,
+                        "season": "1982",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 380,
+                        "season": 2017,
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 380,
+                        "season": "2017",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 375,
+                        "season": 2016,
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 375,
+                        "season": "2016",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Eric Jones"
+                    },
+                    "recordBookData": {
+                        "statValue": 360,
+                        "season": "1988",
+                        "playerName": "Eric Jones"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 357,
+                        "season": "2001",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 357,
+                        "season": "1981",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 354,
+                        "season": "2000",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 350,
+                        "season": "1984",
+                        "playerName": "Kurt Page"
+                    }
+                }
+            ],
+            "statuses": [
+                "TO_BE_INSERTED",
+                "CORRECT_RECORD"
+            ],
+            "validation_flag": "TO_BE_VALIDATED",
+            "validation_status": "UNVERIFIED"
+        }
+    },
+    {
+        "TableId": "6a13177a-126a-4786-a698-4db26bff0650",
+        "Text": "1. 8,865 | Kyle Shurmur | 2015-18 | 2. 8,697 | Jay Cutler | 2002-05 | 3. 7,981 | Greg Zolman | 1998-2001 | 4. 6,307 | Whit Taylor | 1979-82 | 5. 6,233 | Kurt Page | 1981-84 | 6. 5,029 | Eric Jones | 1986-88 | 7. 4,063 | Jordan Rodgers | 2011-12 | 8. 3,704 | Damian Allen | 1994-97 | 9. 3,514 | John Gromos | 1985, 1987-89 | 10. 3,406 | Chris Nickson | 2005-08 | 11. 3,397 | Bill Wade | 1949-51 | ",
+        "Left": 0.07143805921077728,
+        "Top": 0.40517741441726685,
+        "Width": 0.27248844504356384,
+        "Height": 0.13283731043338776,
+        "Header": "INDIVIDUAL RECORDS,PASSING,Passing Yards,Career:PageNo|7",
+        "TableHeader": "Rank,Yards,PlayerName,Career",
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "MongoDB_Data": {
+            "_id": {
+                "$oid": "66da3b1fd36a2b57828986d1"
+            },
+            "sourceId": "66d9dbc06fe81c6d17807ccc",
+            "sportCode": "MFB",
+            "sportType": "Football",
+            "teamCode": "736",
+            "teamName": "Vanderbilt",
+            "headers": [
+                "INDIVIDUAL RECORDS",
+                "PASSING",
+                "Passing Yards",
+                "Career"
+            ],
+            "pageNo": 6,
+            "uniqueId": "1d073d42-b9e8-4f59-860a-9e23274da6a1",
+            "recNo": 12,
+            "correctTableHeaderMapping": {
+                "playerName": "playername",
+                "season": "career",
+                "statValue": "yards",
+                "statistic_found": true
+            },
+            "correctMappedValues": {
+                "analyticType": "Records",
+                "entity": "Player",
+                "statCategory": "Passing",
+                "statistic": "Yards",
+                "statPeriod": "Career",
+                "recordType": "Max"
+            },
+            "historyRecords": [
+                {
+                    "rank": 1,
+                    "yards": 8865,
+                    "playername": "Kyle Shurmur",
+                    "career": "2015-2018"
+                },
+                {
+                    "rank": 2,
+                    "yards": 8697,
+                    "playername": "Jay Cutler",
+                    "career": "2002-2005"
+                },
+                {
+                    "rank": 3,
+                    "yards": 7981,
+                    "playername": "Greg Zolman",
+                    "career": "1998-2001"
+                },
+                {
+                    "rank": 4,
+                    "yards": 6307,
+                    "playername": "Whit Taylor",
+                    "career": "1979-1982"
+                },
+                {
+                    "rank": 5,
+                    "yards": 6233,
+                    "playername": "Kurt Page",
+                    "career": "1981-1984"
+                },
+                {
+                    "rank": 6,
+                    "yards": 5029,
+                    "playername": "Eric Jones",
+                    "career": "1986-1988"
+                },
+                {
+                    "rank": 7,
+                    "yards": 4063,
+                    "playername": "Jordan Rodgers",
+                    "career": "2011-2012"
+                },
+                {
+                    "rank": 8,
+                    "yards": 3704,
+                    "playername": "Damian Allen",
+                    "career": "1994-1997"
+                },
+                {
+                    "rank": 9,
+                    "yards": 3514,
+                    "playername": "John Gromos",
+                    "career": "1985-1989"
+                },
+                {
+                    "rank": 10,
+                    "yards": 3406,
+                    "playername": "Chris Nickson",
+                    "career": "2005-2008"
+                },
+                {
+                    "rank": 11,
+                    "yards": 3397,
+                    "playername": "Bill Wade",
+                    "career": "1949-1951"
+                }
+            ],
+            "parseStepStatus": "complete",
+            "matchStepStatus": "complete",
+            "insertStepStatus": "complete",
+            "mappedValues": {
+                "statCategory": "Passing",
+                "statistic": "Yards",
+                "statPeriod": "Career",
+                "recordType": "Max",
+                "recordQualifier": null,
+                "statLabel": "Passing Yards",
+                "entity": "Player",
+                "recordCase": "PARSED_IN_MASTER",
+                "analyticType": "Records",
+                "recordValues": [
+                    {
+                        "statValue": 8865,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2015-2018",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 8697,
+                        "playerName": "Jay Cutler",
+                        "season": "2002-2005",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 7981,
+                        "playerName": "Greg Zolman",
+                        "season": "1998-2001",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 6307,
+                        "playerName": "Whit Taylor",
+                        "season": "1979-1982",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 6233,
+                        "playerName": "Kurt Page",
+                        "season": "1981-1984",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 5029,
+                        "playerName": "Eric Jones",
+                        "season": "1986-1988",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 4063,
+                        "playerName": "Jordan Rodgers",
+                        "season": "2011-2012",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 3704,
+                        "playerName": "Damian Allen",
+                        "season": "1994-1997",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 3514,
+                        "playerName": "John Gromos",
+                        "season": "1985-1989",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 3406,
+                        "playerName": "Chris Nickson",
+                        "season": "2005-2008",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 3397,
+                        "playerName": "Bill Wade",
+                        "season": "1949-1951",
+                        "opponentName": null,
+                        "gameDate": null
+                    }
+                ]
+            },
+            "dev_test_checkStatus": [
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 8865,
+                        "season": "2015-2018",
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 8865,
+                        "season": "2015-2018",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Jay Cutler"
+                    },
+                    "recordBookData": {
+                        "statValue": 8697,
+                        "season": "2002-2005",
+                        "playerName": "Jay Cutler"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 7981,
+                        "season": "1998-2001",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 6307,
+                        "season": "1979-1982",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 6233,
+                        "season": "1981-1984",
+                        "playerName": "Kurt Page"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Eric Jones"
+                    },
+                    "recordBookData": {
+                        "statValue": 5029,
+                        "season": "1986-1988",
+                        "playerName": "Eric Jones"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Jordan Rodgers"
+                    },
+                    "recordBookData": {
+                        "statValue": 4063,
+                        "season": "2011-2012",
+                        "playerName": "Jordan Rodgers"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Damian Allen"
+                    },
+                    "recordBookData": {
+                        "statValue": 3704,
+                        "season": "1994-1997",
+                        "playerName": "Damian Allen"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "John Gromos"
+                    },
+                    "recordBookData": {
+                        "statValue": 3514,
+                        "season": "1985-1989",
+                        "playerName": "John Gromos"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Chris Nickson"
+                    },
+                    "recordBookData": {
+                        "statValue": 3406,
+                        "season": "2005-2008",
+                        "playerName": "Chris Nickson"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Bill Wade"
+                    },
+                    "recordBookData": {
+                        "statValue": 3397,
+                        "season": "1949-1951",
+                        "playerName": "Bill Wade"
+                    }
+                }
+            ],
+            "statuses": [
+                "TO_BE_INSERTED",
+                "CORRECT_RECORD"
+            ],
+            "validation_flag": "TO_BE_VALIDATED",
+            "validation_status": "UNVERIFIED"
+        }
+    },
+    {
+        "TableId": "cab4921c-3cdb-46e4-8f8d-3ce082ab5650",
+        "Text": "1. 1,264 | Kyle Shurmur | 2015-18 | 2. 1,242 | Jay Cutler | 2002-05 | 3. 1,156 | Greg Zolman | 1998-2001 | 4. 1,016 | Whit Taylor | 1979-82 | 5. 936 | Kurt Page | 1981-84 | 6. 699 | Damian Allen | 1994-97 | 7. 661 | Eric Jones | 1986-88 | 8. 631 | Larry Smith | 2008-11 | 9. 580 | John Gromos | 1985, 1987-89 | 10. 541 | Chris Nickson | 2005-08 | ",
+        "Left": 0.6376312971115112,
+        "Top": 0.4546707570552826,
+        "Width": 0.2756248116493225,
+        "Height": 0.11909722536802292,
+        "Header": "INDIVIDUAL PASSING RECORDS,Pass Attempts,Career:PageNo|7",
+        "TableHeader": "Rank,Attempts,PlayerName,Career",
+        "file_name": "page-0007.png",
+        "page_no": 7,
+        "MongoDB_Data": {
+            "_id": {
+                "$oid": "66da3b1fd36a2b57828986d4"
+            },
+            "sourceId": "66d9dbc06fe81c6d17807ccf",
+            "sportCode": "MFB",
+            "sportType": "Football",
+            "teamCode": "736",
+            "teamName": "Vanderbilt",
+            "headers": [
+                "INDIVIDUAL PASSING RECORDS",
+                "Pass Attempts",
+                "Career"
+            ],
+            "pageNo": 6,
+            "uniqueId": "6460fe29-3592-479e-9c9c-dab251d63f65",
+            "recNo": 15,
+            "correctTableHeaderMapping": {
+                "playerName": "playername",
+                "season": "career",
+                "statValue": "attempts",
+                "statistic_found": true
+            },
+            "correctMappedValues": {
+                "analyticType": "Records",
+                "entity": "Player",
+                "statCategory": "Passing",
+                "statistic": "Attempts",
+                "statPeriod": "Career",
+                "recordType": "Max"
+            },
+            "historyRecords": [
+                {
+                    "rank": 1,
+                    "attempts": 1264,
+                    "playername": "Kyle Shurmur",
+                    "career": "2015-2018"
+                },
+                {
+                    "rank": 2,
+                    "attempts": 1242,
+                    "playername": "Jay Cutler",
+                    "career": "2002-2005"
+                },
+                {
+                    "rank": 3,
+                    "attempts": 1156,
+                    "playername": "Greg Zolman",
+                    "career": "1998-2001"
+                },
+                {
+                    "rank": 4,
+                    "attempts": 1016,
+                    "playername": "Whit Taylor",
+                    "career": "1979-1982"
+                },
+                {
+                    "rank": 5,
+                    "attempts": 936,
+                    "playername": "Kurt Page",
+                    "career": "1981-1984"
+                },
+                {
+                    "rank": 6,
+                    "attempts": 699,
+                    "playername": "Damian Allen",
+                    "career": "1994-1997"
+                },
+                {
+                    "rank": 7,
+                    "attempts": 661,
+                    "playername": "Eric Jones",
+                    "career": "1986-1988"
+                },
+                {
+                    "rank": 8,
+                    "attempts": 631,
+                    "playername": "Larry Smith",
+                    "career": "2008-2011"
+                },
+                {
+                    "rank": 9,
+                    "attempts": 580,
+                    "playername": "John Gromos",
+                    "career": "1985-1989"
+                },
+                {
+                    "rank": 10,
+                    "attempts": 541,
+                    "playername": "Chris Nickson",
+                    "career": "2005-2008"
+                }
+            ],
+            "parseStepStatus": "complete",
+            "matchStepStatus": "complete",
+            "insertStepStatus": "complete",
+            "mappedValues": {
+                "statCategory": "Passing",
+                "statistic": "Attempts",
+                "statPeriod": "Career",
+                "recordType": "Max",
+                "recordQualifier": null,
+                "statLabel": "Passing Attempts",
+                "entity": "Player",
+                "recordCase": "PARSED_IN_MASTER",
+                "analyticType": "Records",
+                "recordValues": [
+                    {
+                        "statValue": 1264,
+                        "playerName": "SHURMUR,KYLE",
+                        "season": "2015-2018",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 1242,
+                        "playerName": "Jay Cutler",
+                        "season": "2002-2005",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 1156,
+                        "playerName": "Greg Zolman",
+                        "season": "1998-2001",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 1016,
+                        "playerName": "Whit Taylor",
+                        "season": "1979-1982",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 936,
+                        "playerName": "Kurt Page",
+                        "season": "1981-1984",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 699,
+                        "playerName": "Damian Allen",
+                        "season": "1994-1997",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 661,
+                        "playerName": "Eric Jones",
+                        "season": "1986-1988",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 631,
+                        "playerName": "Larry Smith",
+                        "season": "2008-2011",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 580,
+                        "playerName": "John Gromos",
+                        "season": "1985-1989",
+                        "opponentName": null,
+                        "gameDate": null
+                    },
+                    {
+                        "statValue": 541,
+                        "playerName": "Chris Nickson",
+                        "season": "2005-2008",
+                        "opponentName": null,
+                        "gameDate": null
+                    }
+                ]
+            },
+            "dev_test_checkStatus": [
+                {
+                    "matchStatus": [
+                        "CORRECT_RECORD"
+                    ],
+                    "athlyteData": {
+                        "statValue": 1264,
+                        "season": "2015-2018",
+                        "playerName": "SHURMUR,KYLE"
+                    },
+                    "recordBookData": {
+                        "statValue": 1264,
+                        "season": "2015-2018",
+                        "playerName": "SHURMUR,KYLE"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Jay Cutler"
+                    },
+                    "recordBookData": {
+                        "statValue": 1242,
+                        "season": "2002-2005",
+                        "playerName": "Jay Cutler"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Greg Zolman"
+                    },
+                    "recordBookData": {
+                        "statValue": 1156,
+                        "season": "1998-2001",
+                        "playerName": "Greg Zolman"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Whit Taylor"
+                    },
+                    "recordBookData": {
+                        "statValue": 1016,
+                        "season": "1979-1982",
+                        "playerName": "Whit Taylor"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Kurt Page"
+                    },
+                    "recordBookData": {
+                        "statValue": 936,
+                        "season": "1981-1984",
+                        "playerName": "Kurt Page"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Damian Allen"
+                    },
+                    "recordBookData": {
+                        "statValue": 699,
+                        "season": "1994-1997",
+                        "playerName": "Damian Allen"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Eric Jones"
+                    },
+                    "recordBookData": {
+                        "statValue": 661,
+                        "season": "1986-1988",
+                        "playerName": "Eric Jones"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Larry Smith"
+                    },
+                    "recordBookData": {
+                        "statValue": 631,
+                        "season": "2008-2011",
+                        "playerName": "Larry Smith"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "John Gromos"
+                    },
+                    "recordBookData": {
+                        "statValue": 580,
+                        "season": "1985-1989",
+                        "playerName": "John Gromos"
+                    }
+                },
+                {
+                    "matchStatus": [
+                        "TO_BE_INSERTED"
+                    ],
+                    "athlyteData": {
+                        "statValue": null,
+                        "season": null,
+                        "playerName": "Chris Nickson"
+                    },
+                    "recordBookData": {
+                        "statValue": 541,
+                        "season": "2005-2008",
+                        "playerName": "Chris Nickson"
+                    }
+                }
+            ],
+            "statuses": [
+                "TO_BE_INSERTED",
+                "CORRECT_RECORD"
+            ],
+            "validation_flag": "TO_BE_VALIDATED",
+            "validation_status": "UNVERIFIED"
+        }
+    }
+]

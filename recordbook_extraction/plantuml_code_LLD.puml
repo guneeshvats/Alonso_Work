@@ -1,0 +1,72 @@
+@startuml
+title College Record Processing Pipeline (Single & Batch Processing)
+
+actor User
+participant "FastAPI (submit_job.py)" as API
+participant "Celery Worker (celery_worker.py)" as Celery
+participant "AWS S3" as S3
+participant "Textract API" as Textract
+participant "MongoDB (StageRecords)" as Mongo
+participant "Progress Tracker (progress.json)" as Tracker
+participant "Master JSON (master_json_file.json)" as MasterJSON
+participant "Final Merged JSON (merged_json_file.json)" as MergedJSON
+
+User -> API : Submit single college job (POST /submit-job/)
+API -> Celery : Trigger Celery Task (process_college)
+Celery -> Tracker : Update progress ("Job Started")
+
+User -> API : Submit batch processing (POST /process-folder/)
+API -> S3 : List colleges in S3 folder
+S3 --> API : Return list of colleges
+API -> Celery : Trigger Celery Task (process_college) for each college
+Celery -> Tracker : Update progress ("Batch Job Started")
+
+loop Process each college
+    Celery -> S3 : Download record-book.pdf, unsan.txt, config.json
+    S3 --> Celery : Files downloaded
+    Celery -> Tracker : Update progress ("Files Downloaded")
+
+    Celery -> Textract : Convert PDF to images
+    Textract --> Celery : Images saved locally
+    Celery -> Tracker : Update progress ("PDF to Image Conversion Done")
+
+    loop Process each image
+        Celery -> Textract : Extract tables from image
+        Textract --> Celery : JSON response with extracted tables
+
+        Celery -> Celery : Match extracted tables with unsan.txt (BLEU Score)
+        Celery -> Tracker : Update progress ("Matching Tables")
+    end
+
+    Celery -> Celery : Combine JSON files (combine_json_files)
+    Celery -> Tracker : Update progress ("JSON Files Combined")
+
+    Celery -> MasterJSON : Load master_json_file.json
+    MasterJSON --> Celery : Master JSON loaded
+
+    Celery -> Mongo : Query MongoDB for matching headers
+    Mongo --> Celery : Return matched records (if found)
+    Celery -> Tracker : Update progress ("MongoDB Lookup Done")
+
+    Celery -> Celery : Merge matched MongoDB data (merge_with_mongo)
+    Celery -> Tracker : Update progress ("Merging Records with MongoDB")
+
+    Celery -> MergedJSON : Save merged_json_file.json
+    Celery -> Tracker : Update progress ("Final JSON Ready")
+
+    Celery -> S3 : Upload FINAL_MERGED_JSON.json
+    S3 --> Celery : Upload complete
+    Celery -> Tracker : Update progress ("Final JSON Uploaded")
+end
+
+User -> API : Get job status (GET /job-status/{job_id})
+API -> Celery : Fetch Celery task status
+Celery --> API : Return job status
+API --> User : Response (Completed / In Progress / Failed)
+
+User -> API : Get batch processing progress (GET /progress/)
+API -> Tracker : Fetch progress status
+Tracker --> API : Return current processing stage
+API --> User : Response (Processing Stage: e.g., "Extracting Tables")
+
+@enduml

@@ -1,0 +1,18 @@
+{
+    "id": "ID",
+    "season": "SEASON",
+    "player_class": "CLASS",
+    "team_name": "TEAM",
+    "game_result": "RES",
+    "opponent_team_name": "OPP",
+    "game_date": "DATE",
+    "player_name": "PLAYER",
+    "position": "POS",
+    "streak_len": "STREAK LENGTH",
+    "start_game_date": "START DATE",
+    "end_game_date": "END DATE",
+    "start_opponent": "START OPP",
+    "end_opponent": "END OPP", 
+    "playingposition" : "POS", 
+    "personname" : "PLAYER"
+}

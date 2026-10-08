@@ -1,0 +1,238 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Custom Popup */
+#custom-popup {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 450px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    overflow-y: auto;
+    max-height: 80vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Alternate row colors for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Buttons Styling */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Close Button */
+#custom-popup button:first-child {
+    background-color: red;
+    color: white;
+    float: right;
+}
+
+/* Edit & Submit Buttons */
+.edit-btn {
+    background-color: #28a745 !important;  /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #218838 !important;  /* Darker Green */
+}
+
+/* Close Button - Blue */
+button[onclick*="remove"] {
+    background-color: #007bff;  /* Blue */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[onclick*="remove"]:hover {
+    background-color: #0056b3;  /* Darker Blue */
+}
+
+.submit-btn {
+    background-color: #ffc107;
+    color: black;
+    display: none;
+}
+
+
+/* Split the Page into Two Halves */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 50%;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+}
+
+.right-panel {
+    width: 50%;
+    padding: 20px;
+    margin-top: 30px;  /* Shift down */
+}
+
+/* ✅ Align Metadata Properly */
+#metadata-container {
+    text-align: left;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* ✅ Center Table Data */
+#table-data {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ✅ Button Styles */
+#button-container {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* ✅ Disabled Buttons (Greyed Out) */
+.disabled {
+    background-color: #ccc !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Ensure dropdowns appear in a row */
+#dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f8f9fa;
+    border-bottom: 2px solid #ccc;
+}
+
+#dropdown-container label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Make dropdowns uniform */
+#dropdown-container select {
+    width: 30%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    appearance: auto; /* Forces native dropdown UI */
+}
+
+
+/* Adjust table spacing */
+#table-data {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Ensure metadata is properly aligned below the table */
+#metadata-container {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Adjust buttons */
+#button-container {
+    margin-top: 15px;
+}

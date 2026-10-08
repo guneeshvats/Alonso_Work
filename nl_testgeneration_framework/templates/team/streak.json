@@ -1,0 +1,69 @@
+[
+    {
+        "nlp_query": "Teams with at least {streak_len} consecutive games with {value1}+ {stat1}",
+        "query_type": "streak",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 1
+    },
+    {
+        "nlp_query": "Teams with at least {streak_len} consecutive games with {value1}+ {stat1} against {opponentTeamName}",
+        "query_type": "streak",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 2
+    },
+    {
+        "nlp_query": "Teams with at least {streak_len} consecutive games with {value1}+ {stat1} and {value2}+ {stat2}",
+        "query_type": "streak",
+        "num_stats": 2,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2}",
+        "stat_period": "game",
+        "id": 3
+    },
+    {
+        "nlp_query": "Teams with a streak of at least {streak_len} games recording {value1}+ {stat1}",
+        "query_type": "streak",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 4
+    },
+    {
+        "nlp_query": "Teams with at least {streak_len} consecutive games recording {value1}+ {stat1} without a single {stat2}.",
+        "query_type": "streak",
+        "num_stats": 2,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} = 0",
+        "stat_period": "game",
+        "id": 5
+    },
+    {
+        "nlp_query": "Teams with at least {streak_len} consecutive wins while recording {value1}+ {stat1}",
+        "query_type": "streak",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} >= {value1} AND gameresult = 1",
+        "stat_period": "game",
+        "id": 6
+    },
+    {
+        "nlp_query": "Teams with at least {streak_len} consecutive wins against {opponentTeamName} while recording {value1}+ {stat1}",
+        "query_type": "streak",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND gameresult = 1",
+        "stat_period": "game",
+        "id": 7
+    }
+]

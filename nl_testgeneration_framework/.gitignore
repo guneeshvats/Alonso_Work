@@ -1,0 +1,5 @@
+.env
+query_outputs/
+test_outputs/
+wandb/
+reports/

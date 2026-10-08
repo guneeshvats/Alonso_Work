@@ -1,0 +1,41 @@
+@startuml
+title High-Level Design (HLD) - College Record Processing Pipeline
+
+actor User
+participant "FastAPI (Backend Service)" as API
+participant "Celery Task Queue" as Celery
+participant "MongoDB (StageRecords)" as MongoDB
+participant "AWS S3" as S3
+participant "AWS Textract" as Textract
+participant "Processing Pipeline" as Pipeline
+
+User -> API: Submit Job (Single College / Folder)
+API -> S3: Fetch Input Files (PDF, unsan.txt, config.json)
+API -> Celery: Dispatch Job to Process College
+Celery -> Pipeline: Start Processing Pipeline
+Pipeline -> Textract: Extract Tables from PDF Images
+Pipeline -> S3: Store Extracted Data (Tables, Images)
+Pipeline -> MongoDB: Match Extracted Data with StageRecords
+Pipeline -> S3: Store Merged JSON Results (Master + MongoDB)
+Pipeline -> API: Update Progress Status
+API -> MongoDB: Query Processing Status
+API -> User: Return Job Status
+
+note right of API
+FastAPI Routes:
+1. /submit-job (Process Single College)
+2. /process-folder (Process All Colleges)
+3. /progress (Monitor Progress)
+4. /job-status (Check Task Status)
+end note
+
+note right of Pipeline
+Processing Stages:
+1. PDF to Images (Textract)
+2. Table Extraction (Textract)
+3. BLEU Score Matching (Unsan vs Extracted)
+4. Merge with MongoDB (Master JSON)
+5. Upload Final Output to S3
+end note
+
+@enduml

@@ -1,0 +1,7 @@
+.env
+*.pyc
+r2api/
+.idea/
+.venv
+__pycache__/
+*.pyc

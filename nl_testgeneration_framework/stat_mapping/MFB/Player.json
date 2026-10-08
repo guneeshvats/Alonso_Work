@@ -1,0 +1,968 @@
+[
+  {
+    "stat": "s_field_goal_made_longest",
+    "name": "Longest Field Goal Made",
+    "description": "The longest successful field goal attempt made by the player during the game, measured in yards.",
+    "short_label": "fgLong",
+    "category": "Special Teams",
+    "sub_category": "Field Goal",
+    "aliases": [
+      "longest fgm"
+    ]
+  },
+  {
+    "stat": "s_field_goals_attempted",
+    "name": "Field Goals Attempted",
+    "description": "The total number of field goal attempts made by the player during the game.",
+    "short_label": "fgAtt",
+    "category": "Special Teams",
+    "sub_category": "Field Goal",
+    "aliases": [
+      "fga"
+    ]
+  },
+  {
+    "stat": "s_field_goals_blocked",
+    "name": "Field Goals Blocked",
+    "description": "The total number of field goal attempts that were blocked by the player during the game.",
+    "short_label": "fgBlocked",
+    "category": "Special Teams",
+    "sub_category": "Field Goal",
+    "aliases": [
+      "blocked fg"
+    ]
+  },
+  {
+    "stat": "s_field_goals_made",
+    "name": "Field Goals Made",
+    "description": "The total number of successful field goals made by the player during the game.",
+    "short_label": "fgMade",
+    "category": "Special Teams",
+    "sub_category": "Field Goal",
+    "aliases": [
+      "fgm"
+    ]
+  },
+  {
+    "stat": "s_fumble_return_touchdowns",
+    "name": "Fumble Return Touchdowns",
+    "description": "The total number of touchdowns scored by the player as a result of returning a fumble recovery.",
+    "short_label": "dFrtd",
+    "category": "Defense",
+    "sub_category": "Fumble Return",
+    "aliases": [
+      "fumble return td"
+    ]
+  },
+  {
+    "stat": "s_fumble_return_yards",
+    "name": "Fumble Return Yards",
+    "description": "The total number of yards gained by the player when returning a fumble recovery.",
+    "short_label": "dFryds",
+    "category": "Defense",
+    "sub_category": "Fumble Return",
+    "aliases": []
+  },
+  {
+    "stat": "s_fumbles_forced",
+    "name": "Fumbles Forced",
+    "description": "The total number of fumbles caused by the player during the game.",
+    "short_label": "dFf",
+    "category": "Defense",
+    "sub_category": "Fumbles",
+    "aliases": [
+      "forced fumble(s)"
+    ]
+  },
+  {
+    "stat": "s_fumbles_lost",
+    "name": "Fumbles Lost",
+    "description": "The total number of fumbles lost by the player during the game.",
+    "short_label": "fumbLost",
+    "category": "Defense",
+    "sub_category": "Fumbles",
+    "aliases": [
+      "lost fumble"
+    ]
+  },
+  {
+    "stat": "s_fumbles_recovered",
+    "name": "Fumbles Recovered",
+    "description": "The total number of fumbles recovered by the player during the game.",
+    "short_label": "dFr",
+    "category": "Defense",
+    "sub_category": "Fumbles",
+    "aliases": [
+      "fumble recoveries"
+    ]
+  },
+  {
+    "stat": "s_interceptions_return_longest",
+    "name": "Longest Interception Return",
+    "description": "The longest distance, in yards, the player returned an interception during the game.",
+    "short_label": "irLong",
+    "category": "Defense",
+    "sub_category": "Interception Return",
+    "aliases": [
+      "longest int return"
+    ]
+  },
+  {
+    "stat": "s_interceptions_return_yards",
+    "name": "Interception Return Yards",
+    "description": "The total number of yards gained by the player when returning an interception.",
+    "short_label": "irYards",
+    "category": "Defense",
+    "sub_category": "Interception Return",
+    "aliases": [
+      "ir yards"
+    ]
+  },
+  {
+    "stat": "s_interceptions_touchdowns",
+    "name": "Interception Touchdowns",
+    "description": "The total number of touchdowns scored by the player as a result of returning an interception.",
+    "short_label": "irTd",
+    "category": "Defense",
+    "sub_category": "Interception Return",
+    "aliases": [
+      "ir td"
+    ]
+  },
+  {
+    "stat": "s_kickoffs_gross_yards",
+    "name": "Kickoffs Gross Yards",
+    "description": "The total number of yards covered by all kickoffs made by the player during the game.",
+    "short_label": "koYards",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kickoff yards"
+    ]
+  },
+  {
+    "stat": "s_kickoffs_out_of_bound",
+    "name": "Kickoffs Out of Bounds",
+    "description": "The total number of kickoffs that went out of bounds during the game.",
+    "short_label": "koOb",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kickoff oob"
+    ]
+  },
+  {
+    "stat": "s_kickoffs_total",
+    "name": "Total Kickoffs",
+    "description": "The total number of kickoffs made by the player during the game.",
+    "short_label": "koNum",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kcikoffs"
+    ]
+  },
+  {
+    "stat": "s_kickoffs_touchbacks",
+    "name": "Kickoffs Touchbacks",
+    "description": "The total number of kickoffs that resulted in touchbacks during the game.",
+    "short_label": "koTb",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kickoff tb"
+    ]
+  },
+  {
+    "stat": "s_kick_returns_longest",
+    "name": "Longest Kick Return",
+    "description": "The longest distance, in yards, the player returned a kickoff during the game.",
+    "short_label": "krLong",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "longest kr"
+    ]
+  },
+  {
+    "stat": "s_kick_returns_total",
+    "name": "Total Kick Returns",
+    "description": "The total number of kickoffs returned by the player during the game.",
+    "short_label": "krNo",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kick returns"
+    ]
+  },
+  {
+    "stat": "s_kick_returns_touchdowns",
+    "name": "Kick Return Touchdowns",
+    "description": "The total number of touchdowns scored by the player as a result of returning a kickoff.",
+    "short_label": "krTd",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kr td"
+    ]
+  },
+  {
+    "stat": "s_kick_returns_yards",
+    "name": "Kick Return Yards",
+    "description": "The total number of yards gained by the player when returning a kickoff.",
+    "short_label": "krYards",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kr yards",
+      "kr yds"
+    ]
+  },
+  {
+    "stat": "s_kicks_blocked_by",
+    "name": "Kicks Blocked By",
+    "description": "The total number of kicks (field goals or extra points) blocked by the player during the game.",
+    "short_label" : "dblkd",
+    "category": "Defense",
+    "sub_category": "Blocks",
+    "aliases": [
+      "blocked kicks"
+    ]
+  },
+  {
+    "stat": "s_pass_break_ups",
+    "name": "Pass Breakups",
+    "description": "The total number of passes defended by the player during the game, resulting in an incomplete pass.",
+    "short_label": "dBrup",
+    "category": "Defense",
+    "sub_category": "PBU",
+    "aliases": [
+      "pbu"
+    ]
+  },
+  {
+    "stat": "s_passes",
+    "name": "Passing Attempts",
+    "description": "The total number of times the player has attempted to throw a forward pass during the game.",
+    "short_label": "passAtt",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass att"
+    ]
+  },
+  {
+    "stat": "s_passes_completed",
+    "name": "Passing Completions",
+    "description": "The total number of successful forward passes completed by the player during the game.",
+    "short_label": "passComp",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass comp"
+    ]
+  },
+  {
+    "stat": "s_passes_intercepted",
+    "name": "Intercepted Passes",
+    "description": "The total number of forward passes thrown by the player that were intercepted by the opposing team during the game.",
+    "short_label": "passInt",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "defense interception",
+      "interceptions caught"
+    ]
+  },
+  {
+    "stat": "s_passes_longest",
+    "name": "Longest Pass Completion",
+    "description": "The longest distance, in yards, of a completed forward pass thrown by the player during the game.",
+    "short_label": "passLong",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "longest pass"
+    ]
+  },
+  {
+    "stat": "s_passes_sacked",
+    "name": "Passing Sacks",
+    "description": "The total number of times the player was sacked while attempting a forward pass during the game.",
+    "short_label": "passSacks",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass sacks"
+    ]
+  },
+  {
+    "stat": "s_passes_touchdowns",
+    "name": "Passing Touchdowns",
+    "description": "The total number of touchdowns scored by the player through completed forward passes during the game.",
+    "short_label": "passTd",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass td",
+      "passing td"
+    ]
+  },
+  {
+    "stat": "s_passes_yards",
+    "name": "Passing Yards",
+    "description": "The total number of yards gained by the player through completed forward passes during the game.",
+    "short_label": "passYards",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass yards",
+      "pass yds",
+      "passing yds"
+    ]
+  },
+  {
+    "stat": "s_passes_yards_sacked",
+    "name": "Passing Yards Lost to Sacks",
+    "description": "The total number of yards lost by the player due to sacks while attempting forward passes during the game. Default to this if the query is \"Passing yards sacked\" or \"Passes yards sacked\"",
+    "short_label": "passSackYards",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass sack yards",
+      "passing sck yards",
+      "pass sack yds",
+      "passing sack yds"
+    ]
+  },
+  {
+    "stat": "s_pass_interceptions",
+    "name": "Pass Interceptions",
+    "description": "The total number of times the player intercepted a forward pass thrown by the opposing team during the game.",
+    "short_label": "irNo",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "interceptions thrown",
+      "pass had intercepted"
+    ]
+  },
+  {
+    "stat": "s_pass_quarterback_hurries",
+    "name": "Quarterback Hurries",
+    "description": "The total number of times the player pressured the opposing quarterback, causing them to hurry their throw, during the game.",
+    "short_label": "dQbh",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "qbh"
+    ]
+  },
+  {
+    "stat": "s_pat_kicks_attempted",
+    "name": "PAT Kicks Attempted",
+    "description": "The total number of point-after-touchdown (PAT) kicks attempted by the player during the game.",
+    "short_label": "kickatt",
+    "category": "Special Teams",
+    "sub_category": "PATs",
+    "aliases": [
+      "pat kick att"
+    ]
+  },
+  {
+    "stat": "s_pat_kicks_made",
+    "name": "PAT Kicks Made",
+    "description": "The total number of successful point-after-touchdown (PAT) kicks made by the player during the game.",
+    "short_label": "kickmade",
+    "category": "Special Teams",
+    "sub_category": "PATs",
+    "aliases": []
+  },
+  {
+    "stat": "s_pat_pass_attempts",
+    "name": "PAT Pass Attempts",
+    "description": "The total number of point-after-touchdown (PAT) pass attempts made by the player during the game.",
+    "short_label": "passatt",
+    "category": "Offense",
+    "sub_category": "PATs",
+    "aliases": [
+      "pat pass att"
+    ]
+  },
+  {
+    "stat": "s_pat_passes",
+    "name": "PAT Passes Completed",
+    "description": "The total number of successful point-after-touchdown (PAT) passes completed by the player during the game.",
+    "short_label": "passmade",
+    "category": "Offense",
+    "sub_category": "PATs",
+    "aliases": [
+      "pat pass made"
+    ]
+  },
+  {
+    "stat": "s_pat_rush_attempts",
+    "name": "PAT Rush Attempts",
+    "description": "The total number of point-after-touchdown (PAT) rush attempts made by the player during the game.",
+    "short_label": "rushatt",
+    "category": "Offense",
+    "sub_category": "PATs",
+    "aliases": [
+      "pat rush att"
+    ]
+  },
+  {
+    "stat": "s_pat_rushes",
+    "name": "PAT Rushes",
+    "description": "The total number of successful point-after-touchdown (PAT) rushes made by the player during the game.",
+    "short_label": "rushmade",
+    "category": "Offense",
+    "sub_category": "PATs",
+    "aliases": [
+      "pat rush made"
+    ]
+  },
+  {
+    "stat": "s_punt_returns",
+    "name": "Punt Returns",
+    "description": "The total number of punts returned by the player during the game.",
+    "short_label": "prNo",
+    "category": "Special Teams",
+    "sub_category": "Punt return",
+    "aliases": []
+  },
+  {
+    "stat": "s_punt_returns_longest",
+    "name": "Longest Punt Return",
+    "description": "The longest distance, in yards, the player returned a punt during the game.",
+    "short_label": "prLong",
+    "category": "Special Teams",
+    "sub_category": "Punt return",
+    "aliases": [
+      "longest pr"
+    ]
+  },
+  {
+    "stat": "s_punt_returns_touchdown",
+    "name": "Punt Return Touchdowns",
+    "description": "The total number of touchdowns scored by the player as a result of returning a punt during the game.",
+    "short_label": "prTd",
+    "category": "Special Teams",
+    "sub_category": "Punt return",
+    "aliases": [
+      "pr td"
+    ]
+  },
+  {
+    "stat": "s_punt_returns_yards",
+    "name": "Punt Return Yards",
+    "description": "The total number of yards gained by the player when returning a punt during the game.",
+    "short_label": "prYards",
+    "category": "Special Teams",
+    "sub_category": "Punt return",
+    "aliases": [
+      "pr yards",
+      "pr yds"
+    ]
+  },
+  {
+    "stat": "s_punts",
+    "name": "Punts",
+    "description": "The total number of punts executed by the player during the game.",
+    "short_label": "puntNum",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": []
+  },
+  {
+    "stat": "s_punts_50plus",
+    "name": "Punts Over 50 Yards",
+    "description": "The total number of punts kicked by the player that traveled over 50 yards during the game.",
+    "short_label": "puntPlus50",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "punt >50",
+      "punt>50yds"
+    ]
+  },
+  {
+    "stat": "s_punts_blocked",
+    "name": "Punts Blocked",
+    "description": "The total number of punts that were blocked by the opposing team during the game.",
+    "short_label": "puntBlocked",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "blocked punts"
+    ]
+  },
+  {
+    "stat": "s_punts_fair_catches",
+    "name": "Punts Fair Caught",
+    "description": "The total number of punts that were caught by the receiving team without attempting to advance the ball (fair catch) during the game.",
+    "short_label": "puntFc",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "punts fc"
+    ]
+  },
+  {
+    "stat": "s_punts_inside20",
+    "name": "Punts Inside 20 Yards",
+    "description": "The total number of punts that were downed inside the opponent's 20-yard line during the game.",
+    "short_label": "puntInside20",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "punts inside 20"
+    ]
+  },
+  {
+    "stat": "s_punts_longest",
+    "name": "Longest Punt",
+    "description": "The longest distance, in yards, the player punted the ball during the game.",
+    "short_label": "puntLong",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "punt long"
+    ]
+  },
+  {
+    "stat": "s_punts_touchbacks",
+    "name": "Punts Touchbacks",
+    "description": "The total number of punts that resulted in the ball being downed in the end zone, resulting in a touchback during the game.",
+    "short_label": "puntTb",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "punts tb"
+    ]
+  },
+  {
+    "stat": "s_punts_yards",
+    "name": "Punting Yards",
+    "description": "The total number of yards covered by all punts executed by the player during the game.",
+    "short_label": "puntYards",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "punting yds",
+      "punt yards",
+      "punt yds"
+    ]
+  },
+  {
+    "stat": "s_receptions",
+    "name": "Receptions",
+    "description": "The total number of passes caught by the player during the game.",
+    "short_label": "rcvNum",
+    "category": "Offense",
+    "sub_category": "Receiving",
+    "aliases": [
+      "catches",
+      "receiving catches"
+    ]
+  },
+  {
+    "stat": "s_receptions_longest",
+    "name": "Longest Reception",
+    "description": "The longest distance, in yards, the player caught a pass during the game.",
+    "short_label": "rcvLong",
+    "category": "Offense",
+    "sub_category": "Receiving",
+    "aliases": [
+      "longest catch",
+      "receiving long"
+    ]
+  },
+  {
+    "stat": "s_receptions_touchdown",
+    "name": "Reception Touchdowns",
+    "description": "Also called receiving touchdowns. The total number of touchdowns scored by the player through caught passes during the game.  Also called \"Receiving Touchdowns\"",
+    "short_label": "rcvTd",
+    "category": "Offense",
+    "sub_category": "Receiving",
+    "aliases": [
+      "touchdown receptions"
+    ]
+  },
+  {
+    "stat": "s_receptions_yards",
+    "name": "Reception Yards",
+    "description": "Yards gained by a receiver on a play in which they successfully catch a pass, including the distance the ball was thrown and any additional yardage gained after the catch. Also called \"Receiving Yards\"",
+    "short_label": "rcvYards",
+    "category": "Offense",
+    "sub_category": "Receiving",
+    "aliases": [
+      "receiving yards",
+      "receiving yds",
+      "rec yds"
+    ]
+  },
+  {
+    "stat": "s_rushing_attempts",
+    "name": "Rushing Attempts",
+    "description": "The total number of times the player carried the ball during the game.",
+    "short_label": "rushAtt",
+    "category": "Offense",
+    "sub_category": "Rushing",
+    "aliases": [
+      "rush att",
+      "rushing att"
+    ]
+  },
+  {
+    "stat": "s_rushing_longest",
+    "name": "Longest Rush",
+    "description": "The longest distance, in yards, the player advanced the ball on a rushing attempt during the game.",
+    "short_label": "rushLong",
+    "category": "Offense",
+    "sub_category": "Rushing",
+    "aliases": [
+      "longest carry"
+    ]
+  },
+  {
+    "stat": "s_rushing_touchdowns",
+    "name": "Rushing Touchdowns",
+    "description": "The total number of touchdowns scored by the player through rushing attempts during the game.",
+    "short_label": "rushTd",
+    "category": "Offense",
+    "sub_category": "Rushing",
+    "aliases": [
+      "rush td",
+      "rushing td"
+    ]
+  },
+  {
+    "stat": "s_rushing_yards_gain",
+    "name": "Rushing Yards Gained",
+    "description": "The total number of yards gained by the player through rushing attempts during the game.",
+    "short_label": "rushGain",
+    "category": "Offense",
+    "sub_category": "Rushing",
+    "aliases": [
+      "rushing gain",
+      "rush gain"
+    ]
+  },
+  {
+    "stat": "s_rushing_yards_loss",
+    "name": "Rushing Yards Lost",
+    "description": "The total number of yards lost by the player due to negative rushing plays during the game.",
+    "short_label": "rushLoss",
+    "category": "Offense",
+    "sub_category": "Rushing",
+    "aliases": [
+      "rushing loss",
+      "rush loss"
+    ]
+  },
+  {
+    "stat": "s_rushing_yards_net",
+    "name": "Net Rushing Yards",
+    "description": "Should be returned by default if the search is \"Rushing Yards\". The total number of yards gained by the player through rushing attempts, adjusted for any yards lost due to negative rushing plays during the game.",
+    "short_label": "rushYards",
+    "category": "Offense",
+    "sub_category": "Rushing",
+    "aliases": [
+      "rushing yards",
+      "rush yards",
+      "rush yds",
+      "rushing yds"
+    ]
+  },
+  {
+    "stat": "s_sacks_assisted",
+    "name": "Assisted Sacks",
+    "description": "The total number of sacks in which the player participated, sharing the responsibility with one or more teammates during the game.",
+    "short_label": "dSackA",
+    "category": "Defense",
+    "sub_category": "Sacks",
+    "aliases": [
+      "assist sacks"
+    ]
+  },
+  {
+    "stat": "s_sacks_total",
+    "name": "Total Sacks",
+    "description": "The total number of times the player successfully tackled the opposing quarterback behind the line of scrimmage, resulting in a loss of yards during the game.",
+    "short_label": "dSacks",
+    "category": "Defense",
+    "sub_category": "Sacks",
+    "aliases": [
+      "sacks",
+      "defense sacks"
+    ]
+  },
+  {
+    "stat": "s_sacks_unassisted",
+    "name": "Unassisted Sacks",
+    "description": "The total number of sacks in which the player was solely responsible for tackling the opposing quarterback behind the line of scrimmage during the game.",
+    "short_label": "dSackUa",
+    "category": "Defense",
+    "sub_category": "Sacks",
+    "aliases": [
+      "solo sacks"
+    ]
+  },
+  {
+    "stat": "s_sacks_yards",
+    "name": "Sack Yards",
+    "description": "The total number of yards lost by the opposing team due to sacks made by the player during the game.",
+    "short_label": "dSackYards",
+    "category": "Defense",
+    "sub_category": "Sacks",
+    "aliases": [
+      "defense sack yards",
+      "sack yds",
+      "defense sack yds"
+    ]
+  },
+  {
+    "stat": "s_tackles_assisted",
+    "name": "Assisted Tackles",
+    "description": "The total number of tackles in which the player participated, sharing the responsibility with one or more teammates during the game.",
+    "short_label": "dTackA",
+    "category": "Defense",
+    "sub_category": "Tackles",
+    "aliases": [
+      "assist tackles"
+    ]
+  },
+  {
+    "stat": "s_tackles_for_loss_assisted",
+    "name": "Assisted Tackles for Loss",
+    "description": "The total number of tackles for loss in which the player participated, sharing the responsibility with one or more teammates during the game.",
+    "short_label": "dTfla",
+    "category": "Defense",
+    "sub_category": "Tackles for Loss",
+    "aliases": [
+      "assisted tfl",
+      "assist tfl"
+    ]
+  },
+  {
+    "stat": "s_tackles_for_loss_solo",
+    "name": "Solo Tackles for Loss",
+    "description": "The total number of tackles for loss in which the player was solely responsible for stopping the opposing player behind the line of scrimmage during the game.",
+    "short_label": "dTflua",
+    "category": "Defense",
+    "sub_category": "Tackles for Loss",
+    "aliases": [
+      "unassisted tfl",
+      "solo tfl"
+    ]
+  },
+  {
+    "stat": "s_tackles_for_loss_total",
+    "name": "Total Tackles for Loss",
+    "description": "The total number of tackles for loss made by the player during the game, including both solo and assisted tackles.",
+    "short_label": "dTackflTot",
+    "category": "Defense",
+    "sub_category": "Tackles for Loss",
+    "aliases": [
+      "tfl",
+      "tackles for loss"
+    ]
+  },
+  {
+    "stat": "s_tackles_solo",
+    "name": "Solo Tackles",
+    "description": "The total number of tackles in which the player was solely responsible for stopping the opposing player during the game.",
+    "short_label": "dTackUa",
+    "category": "Defense",
+    "sub_category": "Tackles",
+    "aliases": []
+  },
+  {
+    "stat": "s_tackles_total",
+    "name": "Total Tackles",
+    "description": "The total number of tackles made by the player during the game, including both solo and assisted tackles.",
+    "short_label": "dTackTot",
+    "category": "Defense",
+    "sub_category": "Tackles",
+    "aliases": [
+      "tackles"
+    ]
+  },
+  {
+    "stat": "s_tackles_yards",
+    "name": "Tackles Yards",
+    "description": "The total number of yards lost by the opposing team due to tackles made by the player during the game.",
+    "short_label": "dTflyds",
+    "category": "Defense",
+    "sub_category": "Tackles for Loss",
+    "aliases": [
+      "tfl yards",
+      "tackle for loss yards",
+      "tfl yds",
+      "tackle for loss yds"
+    ]
+  },
+  {
+    "stat": "s_touchdowns",
+    "name": "Touchdowns Scored",
+    "description": "The total number of touchdowns scored by the player during the game, including rushing, receiving, and defensive touchdowns.",
+    "short_label": "TDs",
+    "category": "Offense",
+    "sub_category": "Scoring",
+    "aliases": [
+      "scoring touchdowns"
+    ]
+  },
+  {
+    "stat": "s_passes_yards_per_attempt",
+    "name": "Passing Yards Per Attempt",
+    "description": "The average number of yards gained per passing attempt by the player.",
+    "short_label": "Yds/Att",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass yards per att"
+    ]
+  },
+  {
+    "stat": "s_passes_percentage",
+    "name": "Pass Completion Percentage",
+    "description": "The percentage of pass attempts completed by the player.",
+    "short_label": "Comp%",
+    "category": "Offense",
+    "sub_category": "Passes",
+    "aliases": [
+      "pass comp percent"
+    ]
+  },
+  {
+    "stat": "s_rushing_net_yards_average",
+    "name": "Average Rushing Yards",
+    "description": "The average number of net yards gained per rushing attempt by the player.",
+    "short_label": "Rush Avg",
+    "category": "Offense",
+    "sub_category": "Rushing",
+    "aliases": [
+      "avg yards per carry",
+      "avg yds per carry",
+      "avg yds per rush",
+      "avg yards per rush"
+    ]
+  },
+  {
+    "stat": "s_receptions_average",
+    "name": "Average Yards per Reception",
+    "description": "The average number of yards gained per reception by the player.",
+    "short_label": "Yds/Rec",
+    "category": "Offense",
+    "sub_category": "Receiving",
+    "aliases": [
+      "avg receiving yds",
+      "avg rec yds",
+      "avg reception yds"
+    ]
+  },
+  {
+    "stat": "s_takeaways",
+    "name": "Takeaways",
+    "description": "The number of times the player recovered a fumble or intercepted a pass.",
+    "short_label": "TOs Gained",
+    "category": "Defense",
+    "sub_category": "Turnovers",
+    "aliases": []
+  },
+  {
+    "stat": "s_field_goals_percentage",
+    "name": "Field Goal Percentage",
+    "description": "The percentage of field goal attempts successfully made by the player.",
+    "short_label": "FG%",
+    "category": "Special Teams",
+    "sub_category": "Field Goal",
+    "aliases": [
+      "fgm percent"
+    ]
+  },
+  {
+    "stat": "s_kickoffs_returned",
+    "name": "Kickoffs Returned",
+    "description": "The number of kickoffs returned by the player.",
+    "short_label": "KR",
+    "category": "Special Teams",
+    "sub_category": "Kickoff Returns",
+    "aliases": [
+      "kickoff ret"
+    ]
+  },
+  {
+    "stat": "s_punt_returns_average",
+    "name": "Average Punt Return Yards",
+    "description": "The average number of yards gained per punt return by the player.",
+    "short_label": "PR Avg",
+    "category": "Special Teams",
+    "sub_category": "Punt return",
+    "aliases": [
+      "punt return avg",
+      "punt ret avg"
+    ]
+  },
+  {
+    "stat": "s_kickoffs_net_yards",
+    "name": "Net Kickoff Yards",
+    "description": "The total net yards gained on kickoffs by the special teams unit.",
+    "short_label": "KO Net Yds",
+    "category": "Special Teams",
+    "sub_category": "Kickoff",
+    "aliases": [
+      "kickoff yds",
+      "kickoff yards"
+    ]
+  },
+  {
+    "stat": "s_punts_average",
+    "name": "Average Punt Yards",
+    "description": "The average number of yards per punt made by the player.",
+    "short_label": "Punt Avg",
+    "category": "Special Teams",
+    "sub_category": "Punts",
+    "aliases": [
+      "avg punt yds",
+      "avg punt yards"
+    ]
+  },
+  {
+    "stat": "s_yards_offensive_total",
+    "name": "Total Offensive Yards",
+    "description": "The total number of yards gained by the player on offense.",
+    "short_label": "Tot Off Yds",
+    "category": "Offense",
+    "sub_category": "Total Offense",
+    "aliases": [
+      "total offense yds",
+      "total off yds"
+    ]
+  },
+  {
+    "stat": "s_yards_all_purpose_total",
+    "name": "All-Purpose Yards",
+    "description": "The total yards gained by the player from rushing, receiving, and returns.",
+    "short_label": "AP Yds",
+    "category": "Offense",
+    "sub_category": "Total Offense",
+    "aliases": [
+      "all purp yds",
+      "all purpose yds"
+    ]
+  },
+  {
+    "stat": "s_turnovers_committed",
+    "name": "Turnovers Committed",
+    "description": "The number of times the player turned the ball over, via fumble or interception.",
+    "short_label": "TOs",
+    "category": "Offense",
+    "sub_category": "Total Offense",
+    "aliases": [
+      "turnovers"
+    ]
+  }
+]

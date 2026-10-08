@@ -1,0 +1,229 @@
+Follow the entire prompt exactly. Forget any memory you have related to this prompt
+Convert the following natural language query into a structured JSON using the provided stat mapping.
+## Instructions:
+- **Ensure that all column names in the output strictly come from the keys in the provided stat mapping.**
+- **Match query terms to the closest key in stat mapping if an exact match is not found.**
+- **Do not introduce any column names that are not in the stat mapping.**
+- **Match the stat values and the operators exactly**
+- Use the best possible match when multiple similar keys exist.
+- Extract the query type from the list of valid query types. 
+- Extract the qualifiers separately from conditions.
+
+### Here is some additional context
+Team Name of the person logged in : {{ context['teamName'] }}
+
+### Query Types:
+The query type must be determined from the natural language query. It should be one of the following:
+1. "basic" → Extracts player/game statistics based on given conditions.
+2. "min" → Finds the player/game with the minimum or lowest value of a given stat.
+3. "max" → Finds the player/game with the maximum or highest value of a given stat.
+4. "ltw" → Finds the last occurrence when a condition was met (e.g., last time a player had more than X of a stat).
+
+- If the query asks for "most", "highest", "top", "best", it is a "max" query.
+- If the query asks for "least", "lowest", "bottom", "worst", it is a "min" query.
+- If the query includes comparisons like `>`, `<`, `>=`, `<=`, it is a "basic" query.
+- If the query asks "last time when", "last instance when", or **"show me the last game where", it is an `"ltw"` query.
+
+
+### **Condition Mapping Rules:**
+1. Convert comparative conditions into their proper mathematical operators:
+- "over X", "more than X" → `> X`
+- "at least X", "X or more", "X+" (e.g., "250+ passing yards") → `>= X`
+- "fewer than X", "under X" → `< X`
+- "at most X", "X or fewer" → `<= X`
+- "exactly X" → `= X`
+- "a sack" → `=1`
+2. **Default to `>=` over `=` unless `=` is explicitly required.**
+- Example: "4000 passing yards" should translate to `"Total passing yards" >= 4000` unless the query explicitly says "exactly 4000."
+3. **Ensure proper singular/plural handling.**
+- Example: "a sack" and "1 sack" should both map to `"Total Sacks" = 1`.
+4. **If a time period (Game, Season, Career) is mentioned, set `"stat_period"` accordingly.**
+- Default to `"GAME"` if no time period is specified.
+- The only valid outputs for `stat_period` are `"GAME"`, `"SEASON"`, and `"CAREER"`.
+5. **Take into account player position when mapping stats.**
+- Example: A defender would map to `"Defensive pass interception"` over `"Pass interceptions"`.
+## Query:
+"{{ natural_language_query }}"
+								
+## Stat Mapping:
+{{ stat_mapping }}
+								
+## Position Mapping
+							
+{{ position_mapping }}
+							
+# Player Class Mapping
+							
+playerClass = ["FRESHMAN", "JUNIOR", "SOPHOMORE", "SENIOR"]
+## Expected Output (Strict JSON Format):
+{
+"conditions": "YOUR_CONVERTED_QUERY_HERE",
+"qualifiers": {
+    "ONLY INCLUDE NON-EMPTY FIELDS HERE"
+},
+"stat_period": "STAT_PERIOD"
+}
+### Examples:
+#### Input Query:
+"rushing yards over 25 and receiving yards greater than 20"
+#### Output:
+{
+"conditions": "sRushingYardsNet >= 26 AND sReceptionYards > 20",
+								"qualifiers": {},
+"stat_period": "game"
+}
+#### Input Query:
+"250+ passing yards while having 50+ rushing yards in a season"
+#### Output:
+{
+"conditions": "sPassesYards >= 250 AND sRushingYardsNet >= 50",
+								"qualifiers": {},
+"stat_period": "season"
+}
+#### Input Query:
+"Players with at most 4 sacks in a game"
+#### Output:
+{
+"conditions": "sSacksTotal <= 4",
+								"qualifiers": {},								
+     	 	"stat_period": "game"
+}
+
+
+#### Input Query :
+"What is the lowest number of passing touchdowns by WOODARD, JACKSON ?"
+#### Output :
+{
+    "query_type": "min",
+    "conditions": "sPassesTouchdowns"
+    "qualifiers": {
+        "playerName": "WOODARD, JACKSON",
+    },
+    "stat_period": "game"
+}
+
+#### Input Query :
+"What is the lowest number of passing touchdowns by WOODARD, JACKSON ?"
+#### Output : 
+{
+    "query_type": "max",
+    "conditions": "sReceptionsTouchdown", 
+    "qualifiers": {
+        "opponentTeamName": "Lawrence Tech"
+    },
+    "stat_period": "season"
+},
+
+
+#### Input Query : 
+"rushing yards over 25 and receiving yards greater than 20"
+#### Output : 
+{
+    "query_type": "basic",
+    "conditions": "sRushingYardsNet > 25 AND sReceptionsYards > 20",
+    "qualifier": {},
+    "stat_period": "game"
+}
+
+
+#### Input Query : 
+"Last time when a player had more than 175 field goals attempted"
+#### Output : 
+{
+    "query_type": "ltw",
+    "conditions": "sFieldGoalsAttempted > 175",
+    "qualifier": {},
+    "stat_period": "game"
+}
+
+
+###  Valid Qualifiers:**
+These are optional and should only be included if explicitly mentioned in the query**:
+    {
+"playerName": "Extract player name(s) if mentioned.",
+"playerClass": "Extract player class (e.g., Freshman, Senior) if mentioned.",
+"teamName": "Extract team name if mentioned.",
+"teamConferenceName": "Extract team conference if mentioned.",
+"opponentTeamName": "Extract opponent team name if mentioned.",
+"position" : "Extract player position",
+"opponentConferenceName": "Extract opponent team conference if mentioned.",
+"season": "Extract season number if explicitly stated.",
+"isHomeGame" : "Indicate if it is a home game or not (true / false)"
+    }
+
+
+1. If the query references "my team", make the "teamName" as the team name of the person logged in.
+2. If you see that the teamName is given as "any team", set "teamName" qualifier to "any"
+
+    examples:
+    #### Input Query :
+    "Players in MIT with 191+ kickoffs gross yards in a game against Birmingham-So. without a punts fair caught"
+    #### Output :
+    {
+        "query_type": "basic",
+        "conditions": "sKickoffsGrossYards >= 191 AND sPuntsFairCatches = 0",
+        "qualifiers": {
+            "teamName": "MIT",
+            "opponentTeamName": "Birmingham-So."
+        },
+        "stat_period": "game"
+    }
+    #### Input Query :
+    "Special Teams Players with over 90 fumbles recovered"
+    #### Output Query :
+    {
+        "query_type": "basic",
+        "conditions": "sFumblesRecovered >= 90",
+        "qualifiers": {
+            "position": "STP"
+        },
+        "stat_period": "game"
+    }
+    #### Input Query :
+    "Players facing teams from G-MAC with more than 198 kickoffs out of bounds in a season"
+    #### Output Query :
+    {
+        "query_type": "basic",
+        "conditions": "sKickoffsOutOfBound >= 198",
+        "qualifiers": {
+            "opponentConferenceName": "G-MAC"
+        },
+        "stat_period": "season"
+    }
+    #### Input Query :
+    "Players in Great Northwest with 164+ assisted tackles for loss and 111+ punt returns and 167+ longest pass completion"
+    #### Output Query :
+    {
+        "query_type": "basic",
+        "conditions": "sTacklesForLossAssisted >= 164 AND sPuntReturns >= 111 AND sPassesLongest >= 167",
+        "qualifiers": {
+            "teamConferenceName": "Great Northwest"
+        },
+        "stat_period": "game"
+    }
+
+    #### Input Query
+    "players against Sacred Heart in home games with more than 138 sack yards"
+    #### Output Query : 
+    {
+        "query_type": "basic",
+        "conditions": "sSacksYards > 138",
+        "qualifiers": {
+            "opponentTeamName": "Sacred Heart",
+            "isHomeGame": "true"
+        },
+        "stat_period": "game",
+    }
+
+    ### **Final Checklist:**
+    1. The **column names** in the output strictly follow the stat mapping key (the value is only the description).
+    2. If no exact key match exists, find the **closest key**.
+    3. Avoid using any undefined terms.
+    4. For "min" and "max" queries:
+       - The "conditions" field should contain only the stat column name, without any comparison operators.
+       - Only one stat column name should be extracted—no multiple conditions allowed.\
+       - Ensure conditions is not empty
+    5. If a query uses the **"X+" format**, always default to `>= X`. Prefer '>=' in general when there is ambiguity unless indicated otherwise
+    6. **Only return the expected JSON output. No other text.**
+    7. **Ensure empty qualifiers are NOT included** in the response.
+    8. If the stat period is not specified explicitly, always assume it is "game" by default

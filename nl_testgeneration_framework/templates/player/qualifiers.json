@@ -1,0 +1,265 @@
+[
+    {
+        "nlp_query": "players in {teamConferenceName} with {value1}+ {stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "teamConferenceName": "{teamConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 1
+    },
+    {
+        "nlp_query": "{playerClass} with {value1}+ {stat1} in a game",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "playerClass": "{playerClass}"
+        },
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 2
+    },
+    {
+        "nlp_query": "players from {teamConferenceName} with more than {value1} {stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "teamConferenceName": "{teamConferenceName}"
+        },
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "game",
+        "id": 3
+    },
+    {
+        "nlp_query": "players facing teams from {opponentConferenceName} with more than {value1} {stat1} in a season",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "season",
+        "id": 4
+    },
+    {
+        "nlp_query": "Games played by {playerName} with over {value1} {stat1} ",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "playerName": "{playerName}"
+        },
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "game",
+        "id": 5
+    },
+    {
+        "nlp_query": " Seasons where {playerName} has {value1}+ overall {stat1}  ",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "playerName": "{playerName}"
+        },
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "season",
+        "id": 5
+    },
+    {
+        "nlp_query": "Show me teams in {opponentConferenceName} against whom {playerName} has atleast {value1} {stat1} in his overall career",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "playerName": "{playerName}",
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "career",
+        "id": 6
+    },
+    {
+        "nlp_query": "players against {opponentTeamName} in home games with more than {value1} {stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}",
+            "isHomeGame": "true"
+        },
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "game",
+        "id": 7
+    },
+    {
+        "nlp_query": "{playerClass} {position} players who have at most {value1} {stat1} against {opponentTeamName} in away games",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}",
+            "playerClass": "{playerClass}",
+            "position": "{position}",
+            "isHomeGame": "false"
+        },
+        "expected_output": "{stat1_label} <= {value1}",
+        "stat_period": "game",
+        "id": 8
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} in a single game against {opponentTeamName} without a {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} = 0",
+        "stat_period": "game",
+        "id": 9
+    },
+    {
+        "nlp_query": "{position} with over {value1} {stat1} ",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "position": "{position}"
+        },
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "game",
+        "id": 10
+    },
+    {
+        "nlp_query": "{playerClass} {position} having {value1}+ {stat1} and {value2}+ {stat2} ",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "position": "{position}",
+            "playerClass": "{playerClass}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2}",
+        "stat_period": "game",
+        "id": 11
+    },
+    {
+        "nlp_query": "players in {teamName} with {value1}+ {stat1} in a game against {opponentTeamName} without a {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "teamName": "{teamName}",
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} = 0",
+        "stat_period": "game",
+        "id": 12
+    },
+    {
+        "nlp_query": "players in {teamName} with {value1}+ {stat1} and {value2}+ {stat2} against teams in {opponentConferenceName}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "teamName": "{teamName}",
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2}",
+        "stat_period": "game",
+        "id": 13
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} or {value2}+ {stat2} in games versus teams in {opponentConferenceName}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} OR {stat2_label} >= {value2}",
+        "stat_period": "game",
+        "id": 14
+    },
+    {
+        "nlp_query": "players in {teamConferenceName} with {value1}+ {stat1} and {value2}+ {stat2} and {value3}+ {stat3}",
+        "query_type": "basic",
+        "num_stats": 3,
+        "qualifiers": {
+            "teamConferenceName": "{teamConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2} AND {stat3_label} >= {value3}",
+        "stat_period": "game",
+        "id": 15
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} and {value2}+ {stat2} and {value3}+ {stat3} and {value4}+ {stat4} against opponents in {opponentConferenceName}",
+        "query_type": "basic",
+        "num_stats": 4,
+        "qualifiers": {
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2} AND {stat3_label} >= {value3} AND {stat4_label} >= {value4}",
+        "stat_period": "game",
+        "id": 16
+    },
+    {
+        "nlp_query": "players in {teamConferenceName} with {value1}+ {stat1} in a season and less than {value2} {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "teamConferenceName": "{teamConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} < {value2}",
+        "stat_period": "season",
+        "id": 17
+    },
+    {
+        "nlp_query": "players in {teamConferenceName} with {value1}+ {stat1} in a season and less than {value2} {stat2} against {opponentConferenceName}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "teamConferenceName": "{teamConferenceName}",
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} < {value2}",
+        "stat_period": "season",
+        "id": 18
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} in a season and less than {value2} {stat2} against {opponentTeamName}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} < {value2}",
+        "stat_period": "season",
+        "id": 19
+    },
+    {
+        "nlp_query": "players in {teamName} with {value1}+ career {stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "qualifiers": {
+            "teamName": "{teamName}"
+        },
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "career",
+        "id": 20
+    },
+    {
+        "nlp_query": "players  with {value1}+ career {stat1} and {value2}+ career {stat2} against {opponentConferenceName}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} and {stat2_label} >= {value2}",
+        "stat_period": "career",
+        "id": 21
+    },
+    {
+        "nlp_query": "players in {teamConferenceName} with {value1}+ career {stat1} and {value2}+ career {stat2} against {opponentTeamName}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "qualifiers": {
+            "teamConferenceName": "{teamConferenceName}",
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label} >= {value1} and {stat2_label} >= {value2}",
+        "stat_period": "career",
+        "id": 22
+    }
+]

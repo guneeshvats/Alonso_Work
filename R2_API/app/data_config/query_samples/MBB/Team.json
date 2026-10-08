@@ -1,0 +1,193 @@
+[
+    {
+        "entity": "team",
+        "query": "teams having 180+ free throws made in a single game without a three-pointers made",
+        "aql": {
+            "query_type": "basic",
+            "entity": "team",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_free_throws_made >= 180 AND s_three_pointers_made = 0",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": " Seasons where Southwestern (KS) has 157+ overall technical fouls  ",
+        "aql": {
+            "query_type": "basic",
+            "entity": "team",
+            "qualifiers": {
+                "teamName": "Southwestern (KS)"
+            },
+            "stat_period": "season",
+            "conditions": "s_fouls_technical >= 157",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Teams who won against North Park with atleast 110  field goals made ",
+        "aql": {
+            "query_type": "basic",
+            "entity": "team",
+            "qualifiers": {
+                "opponentTeamName": "North Park"
+            },
+            "stat_period": "game",
+            "conditions": "s_field_goals_made >= 110 AND game_result=1",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "teams in Liberty League with 182+ three-pointers made",
+        "aql": {
+            "query_type": "basic",
+            "entity": "team",
+            "qualifiers": {
+                "teamConferenceName": "Liberty League"
+            },
+            "stat_period": "game",
+            "conditions": "s_three_pointers_made >= 182",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "teams against British Colum. (CAN) in home games with more than 83 free throw percentage",
+        "aql": {
+            "query_type": "basic",
+            "entity": "team",
+            "qualifiers": {
+                "opponentTeamName": "British Colum. (CAN)",
+                "isHomeGame": "true"
+            },
+            "stat_period": "game",
+            "conditions": "s_free_throws_percentage > 83",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Highest team technical fouls against Westminster (PA) in a season",
+        "aql": {
+            "query_type": "max",
+            "entity": "team",
+            "qualifiers": {
+                "opponentTeamName": "Westminster (PA)"
+            },
+            "stat_period": "season",
+            "conditions": "s_fouls_technical",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Lowest team free throws attempted against teams in No Conference",
+        "aql": {
+            "query_type": "min",
+            "entity": "team",
+            "qualifiers": {
+                "opponentConferenceName": "No Conference"
+            },
+            "stat_period": "game",
+            "conditions": "s_free_throws_attempted",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "What is the lowest three-pointers attempted against North Ala. by any team",
+        "aql": {
+            "query_type": "min",
+            "entity": "team",
+            "qualifiers": {
+                "opponentTeamName": "North Ala.",
+                "teamName": "any"
+            },
+            "stat_period": "game",
+            "conditions": "s_three_pointers_attempted",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Last time when a team had more than 180 total points",
+        "aql": {
+            "query_type": "ltw",
+            "entity": "team",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_points > 180",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Last time a team had more than 52 total rebounds without any personal fouls in a game",
+        "aql": {
+            "query_type": "ltw",
+            "entity": "team",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_rebounds_total > 52 AND s_fouls_personal = 0",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Teams with at least 34 consecutive wins against LSU while recording 164+ total rebounds",
+        "aql": {
+            "query_type": "streak",
+            "entity": "team",
+            "qualifiers": {
+                "opponentTeamName": "LSU"
+            },
+            "stat_period": "game",
+            "conditions": "s_rebounds_total >= 164 AND game_result = 1",
+            "streak_len": 34
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Teams with at least 37 consecutive wins against St. John Fisher while recording 198+ blocks",
+        "aql": {
+            "query_type": "streak",
+            "entity": "team",
+            "qualifiers": {
+                "opponentTeamName": "St. John Fisher"
+            },
+            "stat_period": "game",
+            "conditions": "s_blocks >= 198 AND game_result = 1",
+            "streak_len": 37
+        }
+    },
+    {
+        "entity": "team",
+        "query": "Teams with at least 41 consecutive wins while recording 119+ steals",
+        "aql": {
+            "query_type": "streak",
+            "entity": "team",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_steals >= 119 AND game_result = 1",
+            "streak_len": 41
+        }
+    },
+    {
+      "entity": "team",
+      "query": "Opponent Teams with 50+ three pointers attempted against Alabama",
+      "aql": {
+        "query_type": "basic",
+        "entity": "team",
+        "qualifiers": {
+          "opponentTeamName" : "Alabama",
+          "teamName" : "ALL"
+        },
+        "stat_period": "game",
+        "conditions": "s_three_pointers_attempted >= 50",
+        "streak_len": null
+      }
+    }
+]

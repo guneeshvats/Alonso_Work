@@ -1,0 +1,115 @@
+[
+
+    {
+        "nlp_query": "players with {value1}+ {stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 1
+    },
+    {
+        "nlp_query": "players who have {value1}+ {stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 2
+    },
+    {
+        "nlp_query": "players having {value1}+ {stat1} in a single game without a {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} = 0",
+        "stat_period": "game",
+        "id": 3
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} and {value2}+ {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2}",
+        "stat_period": "game",
+        "id": 4
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} or {value2}+ {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "expected_output": "{stat1_label} >= {value1} OR {stat2_label} >= {value2}",
+        "stat_period": "game",
+        "id": 5
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} and {value2}+ {stat2} and {value3}+ {stat3}",
+        "query_type": "basic",
+        "num_stats": 3,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2} AND {stat3_label} >= {value3}",
+        "stat_period": "game",
+        "id": 6
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} and {value2}+ {stat2} and {value3}+ {stat3} and {value4}+ {stat4}",
+        "query_type": "basic",
+        "num_stats": 4,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2} AND {stat3_label} >= {value3} AND {stat4_label} >= {value4}",
+        "stat_period": "game",
+        "id": 7
+    },
+    {
+        "nlp_query": "players with {value1}+ {stat1} in a season",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "season",
+        "id": 8
+    },
+    {
+        "nlp_query": "players with atleast {value1} {stat1} in a season and less than {value2} {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} < {value2}",
+        "stat_period": "season",
+        "id": 9
+    },
+    {
+        "nlp_query": "players with {value1}+ career {stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "career",
+        "id": 10
+    },
+    {
+        "nlp_query": "players with atleast {value1} all time {stat1} ",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "career",
+        "id": 11
+    },
+    {
+        "nlp_query": "players with {value1}+ career {stat1} and {value2}+ career {stat2}",
+        "query_type": "basic",
+        "num_stats": 2,
+        "expected_output": "{stat1_label} >= {value1} AND {stat2_label} >= {value2}",
+        "stat_period": "career",
+        "id": 12
+    },
+    {
+        "nlp_query": "{stat1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} IS NOT NULL",
+        "stat_period": "game",
+        "id": 13
+    },
+     {
+        "nlp_query": "{stat1} > {value1}",
+        "query_type": "basic",
+        "num_stats": 1,
+        "expected_output": "{stat1_label} >= {value1}",
+        "stat_period": "game",
+        "id": 14
+    }
+]

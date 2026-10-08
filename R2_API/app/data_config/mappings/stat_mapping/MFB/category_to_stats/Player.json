@@ -1,0 +1,679 @@
+{
+    "QB": {
+        "All-purpose": [
+            "AllPurYds"
+        ],
+        "Fumbles": [
+            "fumbLost",
+            "dFr",
+            "fumbTotal"
+        ],
+        "PATs": [
+            "passatt",
+            "passmade",
+            "rushmade"
+        ],
+        "Passes": [
+            "passAtt",
+            "passComp",
+            "passInt",
+            "passLong",
+            "passSacks",
+            "passTd",
+            "passYards",
+            "passSackYards",
+            "irNo"
+        ],
+        "Rushing": [
+            "rushAtt",
+            "rushLong",
+            "rushTd",
+            "rushGain",
+            "rushLoss",
+            "rushYards"
+        ],
+        "Scoring": [
+            "td"
+        ],
+        "Total Offense": [
+            "TotOffYds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "WR": {
+        "All-purpose": [
+            "AllPurYds"
+        ],
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "fumbLost",
+            "dFr",
+            "fumbTotal"
+        ],
+        "PATs": [
+            "rushatt",
+            "rushmade"
+        ],
+        "Punt return": [
+            "prNo",
+            "prLong",
+            "prTd",
+            "prYards"
+        ],
+        "Receiving": [
+            "rcvNum",
+            "rcvLong",
+            "rcvTd",
+            "rcvYards"
+        ],
+        "Rushing": [
+            "rushAtt",
+            "rushLong",
+            "rushTd",
+            "rushGain",
+            "rushLoss",
+            "rushYards"
+        ],
+        "Scoring": [
+            "td"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "Total Offense": [
+            "TotOffYds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "K": {
+        "Field Goal": [
+            "fgLong",
+            "fgAtt",
+            "fgBlocked",
+            "fg"
+        ],
+        "Kickoff": [
+            "koYards",
+            "koOb",
+            "koNum",
+            "koTb",
+            "ona",
+            "krLong",
+            "krNo",
+            "krTd",
+            "krYards",
+            "dblkd",
+            "onm"
+        ],
+        "PATs": [
+            "kickatt",
+            "patKick"
+        ],
+        "Punts": [
+            "puntNum",
+            "puntPlus50",
+            "puntBlocked",
+            "puntFc",
+            "puntInside20",
+            "puntLong",
+            "puntTb",
+            "puntYards"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "P": {
+        "Field Goal": [
+            "fgLong",
+            "fgAtt",
+            "fgBlocked",
+            "fg"
+        ],
+        "Kickoff": [
+            "koYards",
+            "koOb",
+            "koNum",
+            "koTb",
+            "ona",
+            "dblkd",
+            "onm"
+        ],
+        "PATs": [
+            "kickatt",
+            "patKick"
+        ],
+        "Punts": [
+            "puntNum",
+            "puntPlus50",
+            "puntBlocked",
+            "puntFc",
+            "puntInside20",
+            "puntLong",
+            "puntTb",
+            "puntYards"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "RB": {
+        "All-purpose": [
+            "AllPurYds"
+        ],
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "fumbLost",
+            "dFr",
+            "fumbTotal"
+        ],
+        "PATs": [
+            "rushatt",
+            "rushmade"
+        ],
+        "Receiving": [
+            "rcvNum",
+            "rcvLong",
+            "rcvTd",
+            "rcvYards"
+        ],
+        "Rushing": [
+            "rushAtt",
+            "rushLong",
+            "rushTd",
+            "rushGain",
+            "rushLoss",
+            "rushYards"
+        ],
+        "Scoring": [
+            "td"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "Total Offense": [
+            "TotOffYds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "FB": {
+        "All-purpose": [
+            "AllPurYds"
+        ],
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "fumbLost",
+            "dFr",
+            "fumbTotal"
+        ],
+        "PATs": [
+            "rushatt",
+            "rushmade"
+        ],
+        "Receiving": [
+            "rcvNum",
+            "rcvLong",
+            "rcvTd",
+            "rcvYards"
+        ],
+        "Rushing": [
+            "rushAtt",
+            "rushLong",
+            "rushTd",
+            "rushGain",
+            "rushLoss",
+            "rushYards"
+        ],
+        "Scoring": [
+            "td"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "Total Offense": [
+            "TotOffYds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "TE": {
+        "All-purpose": [
+            "AllPurYds"
+        ],
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "fumbLost",
+            "dFr",
+            "fumbTotal"
+        ],
+        "PATs": [
+            "rushatt",
+            "rushmade"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Receiving": [
+            "rcvNum",
+            "rcvLong",
+            "rcvTd",
+            "rcvYards"
+        ],
+        "Rushing": [
+            "rushAtt",
+            "rushLong",
+            "rushTd",
+            "rushGain",
+            "rushLoss",
+            "rushYards"
+        ],
+        "Scoring": [
+            "td"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "Total Offense": [
+            "TotOffYds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "DL": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFf",
+            "dFr"
+        ],
+        "Interception Return": [
+            "irLong",
+            "irYards",
+            "irTd"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "Sacks": [
+            "dSackA",
+            "dSacks",
+            "dSackUa",
+            "dSackYards"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTfla",
+            "dTflua",
+            "dTflTot",
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "DE": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFf",
+            "dFr"
+        ],
+        "Interception Return": [
+            "irLong",
+            "irYards",
+            "irTd"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "Sacks": [
+            "dSackA",
+            "dSacks",
+            "dSackUa",
+            "dSackYards"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTfla",
+            "dTflua",
+            "dTflTot",
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "DT": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFf",
+            "dFr"
+        ],
+        "Interception Return": [
+            "irLong",
+            "irYards",
+            "irTd"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "Sacks": [
+            "dSackA",
+            "dSacks",
+            "dSackUa",
+            "dSackYards"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTfla",
+            "dTflua",
+            "dTflTot",
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "LB": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFf",
+            "dFr"
+        ],
+        "Interception Return": [
+            "irLong",
+            "irYards",
+            "irTd"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "Sacks": [
+            "dSackA",
+            "dSacks",
+            "dSackUa",
+            "dSackYards"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTfla",
+            "dTflua",
+            "dTflTot",
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "DB": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFf",
+            "dFr"
+        ],
+        "Interception Return": [
+            "irLong",
+            "irYards",
+            "irTd"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "CB": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFf",
+            "dFr"
+        ],
+        "Interception Return": [
+            "irLong",
+            "irYards",
+            "irTd"
+        ],
+        "Kickoff": [
+            "krLong",
+            "krNo",
+            "krTd",
+            "krYards"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "Punt return": [
+            "prNo",
+            "prLong",
+            "prTd",
+            "prYards"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "S": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFf",
+            "dFr"
+        ],
+        "Interception Return": [
+            "irLong",
+            "irYards",
+            "irTd"
+        ],
+        "PBU": [
+            "dBrup"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "Tackles": [
+            "dTackA",
+            "dTackUa",
+            "dTackTot"
+        ],
+        "Tackles for Loss": [
+            "dTflyds"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "OL": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFr"
+        ],
+        "Passes": [
+            "dQbh"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "OT": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFr"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "OC": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFr"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    },
+    "OG": {
+        "Fumble Return": [
+            "dFrTds",
+            "dFryds"
+        ],
+        "Fumbles": [
+            "dFr"
+        ],
+        "miscellaneous": [
+            "penTotal",
+            "penYards"
+        ]
+    }
+}

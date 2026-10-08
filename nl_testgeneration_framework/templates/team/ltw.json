@@ -1,0 +1,40 @@
+[
+    {
+        "nlp_query": "Last time when a team had more than {value1} {stat1}",
+        "query_type": "ltw",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "game",
+        "id": 1
+    },
+    {
+        "nlp_query": "Last time when a team had more than {value1} {stat1} in a season",
+        "query_type": "ltw",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} > {value1}",
+        "stat_period": "season",
+        "id": 2
+    },
+    {
+        "nlp_query": "Last time a team had less than {value1} {stat1} against {opponentTeamName}",
+        "query_type": "ltw",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label} < {value1}",
+        "stat_period": "game",
+        "id": 3
+    },
+    {
+        "nlp_query": "Last time a team had more than {value1} {stat1} without any {stat2} in a game",
+        "query_type": "ltw",
+        "num_stats": 2,
+        "qualifiers": {},
+        "expected_output": "{stat1_label} > {value1} AND {stat2_label} = 0",
+        "stat_period": "game",
+        "id": 4
+    }
+]

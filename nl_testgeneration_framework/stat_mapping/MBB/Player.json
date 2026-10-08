@@ -1,0 +1,162 @@
+[
+   {
+      "stat": "s_field_goals_made",
+      "short_label": "fgm",
+      "name": "Field Goals Made",
+      "description": "The total number of field goals successfully made by the player or team.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_field_goals_attempted",
+      "short_label": "fga",
+      "name": "Field Goals Attempted",
+      "description": "The total number of field goal shots attempted by the player or team.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_three_pointers_made",
+      "short_label": "fgm3",
+      "name": "Three-Pointers Made",
+      "description": "The total number of three-point shots successfully made.",
+      "category": "Offense", 
+      "aliases": []
+   },
+   {
+      "stat": "s_three_pointers_attempted",
+      "short_label": "fga3",
+      "name": "Three-Pointers Attempted",
+      "description": "The total number of three-point shot attempts.", 
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_free_throws_made",
+      "short_label": "ftm",
+      "name": "Free Throws Made",
+      "description": "The total number of successful free throw shots.", 
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_free_throws_attempted",
+      "short_label": "fta",
+      "name": "Free Throws Attempted",
+      "description": "The total number of free throw shots attempted.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_points",
+      "short_label": "tp",
+      "name": "Total Points",
+      "description": "The total number of points scored by the player or team.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_blocks",
+      "short_label": "blk",
+      "name": "Blocks",
+      "description": "The number of opponent shot attempts that were deflected or stopped by the player or team.",
+      "category": "Defense",
+      "aliases": []
+   },
+   {
+      "stat": "s_steals",
+      "short_label": "stl",
+      "name": "Steals",
+      "description": "The number of times a player or team legally took the ball away from an opponent, resulting in a change of possession.",
+      "category": "Defense",
+      "aliases": []
+   },
+   {
+      "stat": "s_assists",
+      "short_label": "ast",
+      "name": "Assists",
+      "description": "The number of passes that directly led to a made basket by a teammate.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_minutes",
+      "short_label": "min",
+      "name": "Minutes Played",
+      "description": "The total number of minutes the player was on the court.",
+      "category": "Combined",
+      "aliases": []
+   },
+   {
+      "stat": "s_rebounds_offensive",
+      "short_label": "oreb",
+      "name": "Offensive Rebounds",
+      "description": "The number of rebounds collected by the player or team on the offensive end after a missed shot.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_rebounds_defensive",
+      "short_label": "dreb",
+      "name": "Defensive Rebounds",
+      "description": "The number of rebounds collected by the player or team on the defensive end after a missed shot.",
+      "category": "Defense",
+      "aliases": []
+   },
+   {
+      "stat": "s_rebounds_total",
+      "short_label": "treb",
+      "name": "Total Rebounds",
+      "description": "The total number of rebounds collected by the player or team, including both offensive and defensive rebounds.",
+      "category": "Combined",
+      "aliases": []
+   },
+   {
+      "stat": "s_fouls_personal",
+      "short_label": "pf",
+      "name": "Personal Fouls",
+      "description": "The number of fouls committed by a player that are not technical or flagrant.",
+      "category": "Fouls",
+      "aliases": []
+   },
+   {
+      "stat": "s_fouls_technical",
+      "short_label": "tf",
+      "name": "Technical Fouls",
+      "description": "The number of technical fouls called against the player or team due to unsportsmanlike conduct or other infractions.",
+      "category": "Fouls",
+      "aliases": []
+   },
+   {
+      "stat": "s_turnovers",
+      "short_label": "to",
+      "name": "Turnovers",
+      "description": "The number of times a player or team lost possession of the ball to the opposing team.",
+      "category": "Fouls",
+      "aliases": []
+   },
+   {
+      "stat": "s_field_goals_percentage",
+      "short_label": "fgpct",
+      "name": "Field Goal Percentage",
+      "description": "The shooting percentage calculated from field goals made divided by field goals attempted.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_three_pointers_percentage",
+      "short_label": "fg3pct",
+      "name": "Three-Point Percentage",
+      "description": "The shooting percentage calculated from three-point shots made divided by three-point shots attempted.",
+      "category": "Offense",
+      "aliases": []
+   },
+   {
+      "stat": "s_free_throws_percentage",
+      "short_label": "ftpct",
+      "name": "Free Throw Percentage",
+      "description": "The shooting percentage calculated from free throws made divided by free throws attempted.",
+      "category": "Offense",
+      "aliases": []
+   }
+]

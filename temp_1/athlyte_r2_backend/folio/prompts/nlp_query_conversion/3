@@ -1,0 +1,163 @@
+                Follow the entire prompt exactly. Forget any memory you have related to this prompt
+                Convert the following natural language query into a **Regex-style query** using the provided stat mapping.
+
+                ## Instructions:
+                - **Ensure that all column names in the output strictly come from the keys in the provided stat mapping.**
+                - **Ensure the column names are not mapped to the value in the provided stat mapping. The value is only a description to help you decide**
+                - **Match query terms to the closest key in stat mapping if an exact match is not found.**
+                - **Do not introduce any column names that are not in the stat mapping.**
+                - Use the best possible match when multiple similar keys exist.
+                - Extract the qualifiers separately from conditions
+
+                ### **Condition Mapping Rules:**
+                1. Convert comparative conditions into their proper mathematical operators:
+                - "over X", "more than X" → `>= X`
+                - "at least X", "X or more", "X+" (e.g., "250+ passing yards") → `>= X`
+                - "fewer than X", "under X" → `< X`
+                - "at most X", "X or fewer" → `<= X`
+                - "exactly X" → `= X`
+                - "a sack" → `=1`
+
+                2. **Default to `>=` over `=` unless `=` is explicitly required.**
+                - Example: "4000 passing yards" should translate to `"Total passing yards" >= 4000` unless the query explicitly says "exactly 4000."
+
+                3. **Join multiple conditions using `AND` unless `OR` is explicitly mentioned in the query.**
+                - Example: "A defensive TD" may refer to both `"Fumble return for TD" >= 1 OR "Interception return for TD" >= 1`
+
+                4. **Ensure proper singular/plural handling.**
+                - Example: "a sack" and "1 sack" should both map to `"Total Sacks" = 1`.
+
+                5. **If a time period (Game, Season, Career) is mentioned, set `"stat_period"` accordingly.**
+                - Default to `"GAME"` if no time period is specified.
+                - The only valid outputs for `stat_period` are `"GAME"`, `"SEASON"`, and `"CAREER"`.
+
+                6. **Take into account player position when mapping stats.**
+                - Example: A defender would map to `"Defensive pass interception"` over `"Pass interceptions"`.
+
+                7. **A term may refer to multiple values.**
+                - Example: A defensive TD may refer to both `"fumble return for TD"` and `"Interception return for TD"`, so the output should contain:
+                    `"sFumbleReturnTouchdowns" >= 1 OR "sInterceptionsTouchdowns" >= 1`
+
+                8. **The final output must be a single JSON object with the key `"conditions"` and a string value.**
+                - No extra text, only return the expected JSON format.
+
+                ## Query:
+                "{natural_language_query}"
+
+                ## Stat Mapping:
+                {json.dumps(self.stat_mapping, indent=2)}
+
+                ## Expected Output (Strict JSON Format):
+                {{
+                "conditions": "YOUR_CONVERTED_QUERY_HERE",
+                "stat_period": "STAT_PERIOD"
+                }}
+
+                ### Examples:
+
+                #### Input Query:
+                "rushing yards over 25 and receiving yards greater than 20"
+                #### Output:
+                {{
+                "conditions": "sRushingYardsNet" >= 26 AND sReceptionYards" > 20",
+                "stat_period": "game"
+                }}
+
+                #### Input Query:
+                "250+ passing yards while having 50+ rushing yards in a season"
+                #### Output:
+                {{
+                "conditions": "sPassesYards >= 250 AND sRushingYardsNet >= 50",
+                "stat_period": "season"
+                }}
+
+                #### Input Query:
+                "Players with at most 4 sacks in a game"
+                #### Output:
+                {{
+                "conditions": "sSacksTotal <= 4",
+                "stat_period": "game"
+                }}
+
+                    ###  Valid Qualifiers:**
+                    These are optional and should only be included if explicitly mentioned in the query**:
+                    {
+                        "playerName": "Extract player name(s) if mentioned.",
+                        "playerClass": "Extract player class (e.g., Freshman, Senior) if mentioned.",
+                        "teamName": "Extract team name if mentioned.",
+                        "teamConferenceName": "Extract team conference if mentioned.",
+                        "opponentTeamName": "Extract opponent team name if mentioned.",
+                        "opponentConferenceName": "Extract opponent team conference if mentioned.",
+                        "Season": "Extract season number if explicitly stated."
+                    }
+
+                    structure should be : 
+                    {
+                        "conditions": "YOUR_CONVERTED_QUERY_HERE",
+                        "qualifiers": {
+                            "ONLY INCLUDE NON-EMPTY FIELDS HERE"
+                        },
+                        "stat_period": "STAT_PERIOD"
+                    }
+
+
+                    examples: 
+
+                    #### Input Query :
+                    "Players in MIT with 191+ kickoffs gross yards in a game against Birmingham-So. without a punts fair caught"
+                    #### Output : 
+                    {
+                        "conditions": "\"sKickoffsGrossYards\" >= 191 AND \"sPuntsFairCatches\" = 0",
+                        "qualifiers": {
+                            "teamName": "MIT",
+                            "opponentTeamName": "Birmingham-So."
+                        },
+                        "stat_period": "game"
+                    }
+
+
+
+                    #### Input Query : 
+                    "Special Teams Players with over 90 fumbles recovered"
+                    #### Output Query : 
+                    {
+                        "conditions": "\"sFumblesRecovered\" >= 90",
+                        "qualifiers": {
+                            "position": ["K", "P", "LS"]
+                        },
+                        "stat_period": "game"
+                    }
+
+
+                    #### Input Query : 
+                    "Players facing teams from G-MAC with more than 198 kickoffs out of bounds in a season"
+                    #### Output Query : 
+                    {
+                        "conditions": "\"sKickoffsOutOfBound\" >= 198",
+                        "qualifiers": {
+                            "opponentConferenceName": "G-MAC"
+                        },
+                        "stat_period": "season"
+                    }
+
+
+                    #### Input Query : 
+                    "Players in Great Northwest with 164+ assisted tackles for loss and 111+ punt returns and 167+ longest pass completion"
+                    #### Output Query :
+                    {
+                        "conditions": "\"sTacklesForLossAssisted\" >= 164 AND \"sPuntReturns\" >= 111 AND \"sPassesLongest\" >= 167",
+                        "qualifiers": {
+                            "teamConferenceName": "Great Northwest"
+                        },
+                        "stat_period": "game"
+                    }
+
+                    ### **Final Checklist:**
+                    1. The **column names** in the output strictly follow the stat mapping key (the value is only the description).
+                    2. If no exact key match exists, find the **closest key**.
+                    3. Avoid using any undefined terms.
+                    4. If a query uses the **"X+" format**, always default to `>= X`. Prefer '>=' in general when there is ambiguity unless indicated otherwise
+                    5. **Only return the expected JSON output. No other text.**
+                    6. **Ensure empty qualifiers are NOT included** in the response. 
+                    7. If the stat period is not specified explicitly, always assume it is "game" by default
+            

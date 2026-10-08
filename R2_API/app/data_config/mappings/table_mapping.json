@@ -1,0 +1,24 @@
+{
+    "MFB": {
+        "Player": {
+            "career": "pcs_interim_mfb_pilot",
+            "season": "pss_interim_mfb_pilot",
+            "game": "pgs_interim_mfb_pilot"
+        },
+        "Team": {
+            "season": "tss_interim_mfb_pilot",
+            "game" : "tgs_interim_mfb_pilot"
+        }
+    },
+    "MBB" : {
+        "Player": {
+            "career": "pcs_interim_mbb_pilot",
+            "season": "pss_interim_mbb_pilot",
+            "game": "pgs_interim_mbb_pilot"
+        },
+        "Team": {
+            "season": "tss_interim_mbb_pilot",
+            "game" : "tgs_interim_mbb_pilot"
+        }
+    }
+}

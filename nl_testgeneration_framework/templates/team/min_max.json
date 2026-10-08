@@ -1,0 +1,135 @@
+[
+    {
+        "nlp_query": "Team with the highest {stat1} in a game",
+        "query_type": "max",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 1
+    },
+    {
+        "nlp_query": "Team with the lowest {stat1} in a game",
+        "query_type": "min",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 2
+    },
+    {
+        "nlp_query": "Team with the highest {stat1} in a season",
+        "query_type": "max",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label}",
+        "stat_period": "season",
+        "id": 3
+    },
+    {
+        "nlp_query": "Team with the lowest {stat1} in a season",
+        "query_type": "min",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label}",
+        "stat_period": "season",
+        "id": 4
+    },
+    {
+        "nlp_query": "What is the team record for most {stat1} in a game",
+        "query_type": "max",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 7
+    },
+    {
+        "nlp_query": "What is the team record for least {stat1} in a game",
+        "query_type": "min",
+        "num_stats": 1,
+        "qualifiers": {},
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 8
+    },
+    {
+        "nlp_query": "Highest {stat1} by {teamName}",
+        "query_type": "max",
+        "num_stats": 1,
+        "qualifiers": {
+            "teamName": "{teamName}"
+        },
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 9
+    },
+    {
+        "nlp_query": "What is the lowest {stat1} by {teamName}",
+        "query_type": "min",
+        "num_stats": 1,
+        "qualifiers": {
+            "teamName": "{teamName}"
+        },
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 10
+    },
+    {
+        "nlp_query": "Highest team {stat1} against {opponentTeamName} in a season",
+        "query_type": "max",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label}",
+        "stat_period": "season",
+        "id": 11
+    },
+    {
+        "nlp_query": "Lowest team {stat1} against teams in {opponentConferenceName}",
+        "query_type": "min",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentConferenceName": "{opponentConferenceName}"
+        },
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 12
+    },
+    {
+        "nlp_query": "What is the highest {stat1} made by a team against {opponentTeamName} in a season?",
+        "query_type": "max",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}"
+        },
+        "expected_output": "{stat1_label}",
+        "stat_period": "season",
+        "id": 13
+    },
+    {
+        "nlp_query": "Show me the record for most number of {stat1} by teams in {teamConferenceName} against teams in {opponentConferenceName} in a game?",
+        "query_type": "max",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentConferenceName": "{opponentConferenceName}",
+            "teamConferenceName": "{teamConferenceName}"
+        },
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 14
+    },
+     {
+        "nlp_query": "What is the lowest {stat1} against {opponentTeamName} by any team",
+        "query_type": "min",
+        "num_stats": 1,
+        "qualifiers": {
+            "opponentTeamName": "{opponentTeamName}",
+            "teamName": "any"
+        },
+        "expected_output": "{stat1_label}",
+        "stat_period": "game",
+        "id": 2
+    }
+]

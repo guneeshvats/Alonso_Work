@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  web:
+    volumes:
+      - progress_data:/tmp1/progress 
+    build:
+      context: .                  
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env  # ✅ Load environment variables from .env file
+    depends_on:
+      - redis
+      - mongodb  # Ensure MongoDB starts before FastAPI
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  worker:
+    volumes:
+      - progress_data:/tmp1/progress  
+    env_file:
+      - .env  # ✅ Load environment variables from .env file
+    environment:
+      - CELERYD_PREFETCH_MULTIPLIER=1  # Prevents Celery from overloading memory
+      - CELERY_BROKER_URL=redis://redis:6379/0  # ✅ Add missing Celery broker
+    build:
+      context: .                  
+      dockerfile: docker/Dockerfile
+    command: celery -A app.celery_worker worker --loglevel=info
+    depends_on:
+      - redis
+      - mongodb  # Ensure MongoDB starts before Celery worker
+    mem_limit: 2g  # Prevents memory overuse and worker crashes
+    mem_reservation: 1g
+
+  flower:
+    image: mher/flower
+    ports:
+      - "5555:5555"
+    env_file:
+      - .env  # ✅ Load environment variables from .env file
+    depends_on:
+      - redis
+
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: always
+
+volumes:
+  mongo_data:
+  progress_data:

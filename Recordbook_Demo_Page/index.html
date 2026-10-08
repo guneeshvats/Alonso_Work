@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious@2.6.1/dist/annotorious.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious@2.6.1/dist/annotorious.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Panel: Image -->
+        <div class="left-panel">
+            <h1>Interactive Table Demo</h1>
+            <p class="subheading"><strong>College:</strong> Vanderbilt &nbsp;&nbsp; | &nbsp;&nbsp; <strong>Page No:</strong> 7</p>
+    
+            <div class="image-container">
+                <img src="images/page-0007.png" alt="Page 7" id="page-image">
+            </div>
+        </div>
+    
+        <!-- Right Panel: Metadata + Table Data -->
+        <div class="right-panel">
+            
+            <!-- New Dropdowns Container -->
+            <div id="dropdown-container">
+                <label for="statPeriod">Stat Period:</label>
+                <select id="statPeriod">
+                    <option value="">Select Stat Period</option>
+                    <option value="Game">Game</option>
+                    <option value="Season">Season</option>
+                    <option value="Career">Career</option>
+                </select>
+            
+                <label for="statLabel">Stat Label:</label>
+                <select id="statLabel">
+                    <option value="">Select Stat Label</option>
+                    <option value="Blocked Kicks">Blocked Kicks</option>
+                    <option value="Defensive Blocks">Defensive Blocks</option>
+                    <option value="Defensive Interceptions">Defensive Interceptions</option>
+                    <option value="Defensive Passes Broken Up">Defensive Passes Broken Up</option>
+                    <option value="Defensive QB Hurries">Defensive QB Hurries</option>
+                    <option value="Defensive Rebounds">Defensive Rebounds</option>
+                    <option value="Defensive Sack Yards">Defensive Sack Yards</option>
+                    <option value="Defensive Sacks (Total)">Defensive Sacks (Total)</option>
+                    <option value="Defensive Tackles (Total)">Defensive Tackles (Total)</option>
+                    <option value="Field Goals Attempted">Field Goals Attempted</option>
+                    <option value="Field Goals Blocked">Field Goals Blocked</option>
+                    <option value="Field Goals Made">Field Goals Made</option>
+                    <option value="Forced Fumbles">Forced Fumbles</option>
+                    <option value="Free Throws Attempted">Free Throws Attempted</option>
+                    <option value="Free Throws Made">Free Throws Made</option>
+                    <option value="Fumble Recoveries">Fumble Recoveries</option>
+                    <option value="Long Field Goal">Long Field Goal</option>
+                    <option value="Long Receptions">Long Receptions</option>
+                    <option value="Offensive Assists">Offensive Assists</option>
+                    <option value="Offensive First Downs">Offensive First Downs</option>
+                    <option value="Offensive Plays">Offensive Plays</option>
+                    <option value="Offensive Rebounds">Offensive Rebounds</option>
+                    <option value="Offensive Yards">Offensive Yards</option>
+                    <option value="Passing Attempts">Passing Attempts</option>
+                    <option value="Passing Completions">Passing Completions</option>
+                    <option value="Passing Interceptions">Passing Interceptions</option>
+                    <option value="Passing Long">Passing Long</option>
+                    <option value="Passing Sacks">Passing Sacks</option>
+                    <option value="Passing Touchdowns">Passing Touchdowns</option>
+                    <option value="Passing Yards">Passing Yards</option>
+                    <option value="Personal Fouls">Personal Fouls</option>
+                    <option value="Punt Attempts">Punt Attempts</option>
+                    <option value="Receiving Touchdowns">Receiving Touchdowns</option>
+                    <option value="Receiving Yards">Receiving Yards</option>
+                    <option value="Receptions">Receptions</option>
+                    <option value="Rushing Attempts">Rushing Attempts</option>
+                    <option value="Rushing Touchdowns">Rushing Touchdowns</option>
+                    <option value="Rushing Yards">Rushing Yards</option>
+                    <option value="Scoring Field Goals">Scoring Field Goals</option>
+                    <option value="Scoring PAT Kicks">Scoring PAT Kicks</option>
+                    <option value="Scoring Touchdowns">Scoring Touchdowns</option>
+                    <option value="Steals">Steals</option>
+                    <option value="Tackles For Loss Yards">Tackles For Loss Yards</option>
+                    <option value="Tackles for Loss">Tackles for Loss</option>
+                    <option value="Three Point Field Goals Attempted">Three Point Field Goals Attempted</option>
+                    <option value="Three Point Field Goals Made">Three Point Field Goals Made</option>
+                    <option value="Total Minutes">Total Minutes</option>
+                    <option value="Total Points">Total Points</option>
+                    <option value="Total Rebounds">Total Rebounds</option>
+                    <option value="Turnovers">Turnovers</option>
+                </select>
+            
+                <label for="entity">Entity:</label>
+                <select id="entity">
+                    <option value="">Select Entity</option>
+                    <option value="Player">Player</option>
+                    <option value="Team">Team</option>
+                </select>
+            </div>
+    
+            <!-- Table Data -->
+            <table id="table-data">
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                        <th>Stat Value</th>
+                        <th>Opponent</th>
+                        <th>Game Date</th>
+                        <th>Season</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table Data Populates Here -->
+                </tbody>
+            </table>
+    
+            <!-- Metadata (Now Below the Table) -->
+            <div id="metadata-container">
+                <p><strong>Entity:</strong> <span id="entity-value">N/A</span></p>
+                <p><strong>Stat Label:</strong> <span id="statLabel-value">N/A</span></p>
+                <p><strong>Stat Period:</strong> <span id="statPeriod-value">N/A</span></p>
+
+            </div>
+    
+            <div id="button-container">
+                <button id="edit-button" class="disabled">Edit</button>
+                <button id="submit-button" class="disabled">Submit</button>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,1141 @@
+{
+  "QB": {
+    "All-purpose": [
+      "s_yards_all_purpose_total"
+    ],
+    "Fumbles": [
+      "s_fumbles_lost",
+      "s_fumbles_recovered",
+      "s_fumbles_total"
+    ],
+    "Giveaways": [
+      "s_turnovers_committed"
+    ],
+    "PATs": [
+      "s_pat_pass_attempts",
+      "s_pat_passes",
+      "s_pat_percentage",
+      "s_pat_rushes",
+      "s_pat_two_points_attempt",
+      "s_pat_two_points_made"
+    ],
+    "Passes": [
+      "s_pass_efficiency",
+      "s_passes",
+      "s_passes_average_yards_per_completion",
+      "s_passes_completed",
+      "s_passes_intercepted",
+      "s_passes_interception_percentage",
+      "s_passes_left",
+      "s_passes_longest",
+      "s_passes_middle",
+      "s_passes_percentage",
+      "s_passes_right",
+      "s_passes_sacked",
+      "s_passes_touch_down_percentage",
+      "s_passes_touchdowns",
+      "s_passes_yards",
+      "s_passes_yards_per_attempt",
+      "s_passes_yards_per_catch",
+      "s_passes_yards_sacked",
+      "s_passing_0",
+      "s_passing_10",
+      "s_passing_20",
+      "s_passing_30",
+      "s_passing_40",
+      "s_passing_50",
+      "s_passing_negative",
+      "s_pass_interceptions"
+    ],
+    "Plays": [
+      "s_plays_all_purpose_total",
+      "s_plays_total",
+      "s_yards_per_play_average"
+    ],
+    "Red Zone": [
+      "s_goal_efficiency_percentage",
+      "s_goal_efficiency_touchdowns",
+      "s_red_zone_passing"
+    ],
+    "Rushing": [
+      "s_rushing_0",
+      "s_rushing_10",
+      "s_rushing_20",
+      "s_rushing_30",
+      "s_rushing_40",
+      "s_rushing_50",
+      "s_rushing_attempts",
+      "s_rushing_left",
+      "s_rushing_longest",
+      "s_rushing_middle",
+      "s_rushing_net_yards_average",
+      "s_rushing_right",
+      "s_rushing_touchdowns",
+      "s_rushing_yards_gain",
+      "s_rushing_yards_loss",
+      "s_rushing_yards_net"
+    ],
+    "Scoring": [
+      "s_points",
+      "s_touchdowns"
+    ],
+    "Total Offense": [
+      "s_yards_offensive_total"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "WR": {
+    "All-purpose": [
+      "s_yards_all_purpose_total"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_lost",
+      "s_fumbles_recovered",
+      "s_fumbles_total"
+    ],
+    "Giveaways": [
+      "s_turnovers_committed"
+    ],
+    "PATs": [
+      "s_pat_receives",
+      "s_pat_rush_attempts",
+      "s_pat_rushes",
+      "s_pat_two_points_attempt",
+      "s_pat_two_points_made"
+    ],
+    "Plays": [
+      "s_plays_all_purpose_total",
+      "s_plays_total",
+      "s_yards_per_play_average"
+    ],
+    "Punt return": [
+      "s_punt_returns",
+      "s_punt_returns_0",
+      "s_punt_returns_10",
+      "s_punt_returns_20",
+      "s_punt_returns_30",
+      "s_punt_returns_40",
+      "s_punt_returns_50",
+      "s_punt_returns_average",
+      "s_punt_returns_longest",
+      "s_punt_returns_touchdown",
+      "s_punt_returns_yards"
+    ],
+    "Receiving": [
+      "s_receiving_0",
+      "s_receiving_10",
+      "s_receiving_20",
+      "s_receiving_30",
+      "s_receiving_40",
+      "s_receiving_50",
+      "s_receiving_negative",
+      "s_receptions",
+      "s_receptions_average",
+      "s_receptions_longest",
+      "s_receptions_touchdown",
+      "s_receptions_yards",
+      "s_receptions_yards_after_catch"
+    ],
+    "Red Zone": [
+      "s_goal_efficiency_percentage",
+      "s_goal_efficiency_touchdowns"
+    ],
+    "Rushing": [
+      "s_rushing_0",
+      "s_rushing_10",
+      "s_rushing_20",
+      "s_rushing_30",
+      "s_rushing_40",
+      "s_rushing_50",
+      "s_rushing_attempts",
+      "s_rushing_left",
+      "s_rushing_longest",
+      "s_rushing_middle",
+      "s_rushing_net_yards_average",
+      "s_rushing_right",
+      "s_rushing_touchdowns",
+      "s_rushing_yards_gain",
+      "s_rushing_yards_loss",
+      "s_rushing_yards_net"
+    ],
+    "Scoring": [
+      "s_points",
+      "s_touchdowns"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Total Offense": [
+      "s_yards_offensive_total"
+    ],
+    "Turnovers": [
+      "s_takeaways"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "K": {
+    "Field Goal": [
+      "s_field_goal_attempt_longest",
+      "s_field_goal_attempts_1to19",
+      "s_field_goal_attempts_20to29",
+      "s_field_goal_attempts_30to39",
+      "s_field_goal_attempts_40to49",
+      "s_field_goal_attempts_50to59",
+      "s_field_goal_attempts_60plus",
+      "s_field_goal_made_longest",
+      "s_field_goals_attempted",
+      "s_field_goals_blocked",
+      "s_field_goals_made",
+      "s_field_goals_made_1to19",
+      "s_field_goals_made_20to29",
+      "s_field_goals_made_30to39",
+      "s_field_goals_made_40to49",
+      "s_field_goals_made_50to59",
+      "s_field_goals_made_60plus",
+      "s_field_goals_percentage"
+    ],
+    "Kickoff": [
+      "s_kickoffs_gross_average",
+      "s_kickoffs_gross_yards",
+      "s_kickoffs_net_average",
+      "s_kickoffs_net_yards",
+      "s_kickoffs_out_of_bound",
+      "s_kickoffs_returned",
+      "s_kickoffs_total",
+      "s_kickoffs_touchbacks",
+      "s_kick_on_side_attempts",
+      "s_kick_returns_average",
+      "s_kick_returns_longest",
+      "s_kick_returns_total",
+      "s_kick_returns_touchdowns",
+      "s_kick_returns_yards",
+      "s_kicks_blocked",
+      "s_kicks_on_side"
+    ],
+    "PATs": [
+      "s_pat_attempts",
+      "s_pat_blocked_kicks",
+      "s_pat_kicks_attempted",
+      "s_pat_kicks_made",
+      "s_pat_kicks_percentage",
+      "s_pat_made"
+    ],
+    "Punts": [
+      "s_punts",
+      "s_punts_50plus",
+      "s_punts_average",
+      "s_punts_blocked",
+      "s_punts_fair_catches",
+      "s_punts_inside20",
+      "s_punts_longest",
+      "s_punts_net_average",
+      "s_punts_touchbacks",
+      "s_punts_yards",
+      "s_punts_yards_net"
+    ],
+    "Red Zone": [
+      "s_goal_efficiency_percentage"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "P": {
+    "Field Goal": [
+      "s_field_goal_attempt_longest",
+      "s_field_goal_attempts_1to19",
+      "s_field_goal_attempts_20to29",
+      "s_field_goal_attempts_30to39",
+      "s_field_goal_attempts_40to49",
+      "s_field_goal_attempts_50to59",
+      "s_field_goal_attempts_60plus",
+      "s_field_goal_made_longest",
+      "s_field_goals_attempted",
+      "s_field_goals_blocked",
+      "s_field_goals_made",
+      "s_field_goals_made_1to19",
+      "s_field_goals_made_20to29",
+      "s_field_goals_made_30to39",
+      "s_field_goals_made_40to49",
+      "s_field_goals_made_50to59",
+      "s_field_goals_made_60plus",
+      "s_field_goals_percentage"
+    ],
+    "Kickoff": [
+      "s_kickoffs_gross_average",
+      "s_kickoffs_gross_yards",
+      "s_kickoffs_net_average",
+      "s_kickoffs_net_yards",
+      "s_kickoffs_out_of_bound",
+      "s_kickoffs_returned",
+      "s_kickoffs_total",
+      "s_kickoffs_touchbacks",
+      "s_kick_on_side_attempts",
+      "s_kicks_blocked",
+      "s_kicks_on_side"
+    ],
+    "PATs": [
+      "s_pat_attempts",
+      "s_pat_kicks_attempted",
+      "s_pat_kicks_made",
+      "s_pat_kicks_percentage",
+      "s_pat_made"
+    ],
+    "Punts": [
+      "s_punts",
+      "s_punts_50plus",
+      "s_punts_average",
+      "s_punts_blocked",
+      "s_punts_fair_catches",
+      "s_punts_inside20",
+      "s_punts_longest",
+      "s_punts_net_average",
+      "s_punts_touchbacks",
+      "s_punts_yards",
+      "s_punts_yards_net"
+    ],
+    "Red Zone": [
+      "s_goal_efficiency_percentage"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "RB": {
+    "All-purpose": [
+      "s_yards_all_purpose_total"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_lost",
+      "s_fumbles_recovered",
+      "s_fumbles_total"
+    ],
+    "Giveaways": [
+      "s_turnovers_committed"
+    ],
+    "PATs": [
+      "s_pat_receives",
+      "s_pat_rush_attempts",
+      "s_pat_rushes",
+      "s_pat_two_points_attempt",
+      "s_pat_two_points_made"
+    ],
+    "Plays": [
+      "s_plays_all_purpose_total",
+      "s_plays_total",
+      "s_yards_per_play_average"
+    ],
+    "Receiving": [
+      "s_receiving_0",
+      "s_receiving_10",
+      "s_receiving_20",
+      "s_receiving_30",
+      "s_receiving_40",
+      "s_receiving_50",
+      "s_receiving_negative",
+      "s_receptions",
+      "s_receptions_average",
+      "s_receptions_longest",
+      "s_receptions_touchdown",
+      "s_receptions_yards",
+      "s_receptions_yards_after_catch"
+    ],
+    "Red Zone": [
+      "s_goal_efficiency_percentage",
+      "s_goal_efficiency_touchdowns"
+    ],
+    "Rushing": [
+      "s_rushing_0",
+      "s_rushing_10",
+      "s_rushing_20",
+      "s_rushing_30",
+      "s_rushing_40",
+      "s_rushing_50",
+      "s_rushing_attempts",
+      "s_rushing_left",
+      "s_rushing_longest",
+      "s_rushing_middle",
+      "s_rushing_net_yards_average",
+      "s_rushing_right",
+      "s_rushing_touchdowns",
+      "s_rushing_yards_gain",
+      "s_rushing_yards_loss",
+      "s_rushing_yards_net"
+    ],
+    "Scoring": [
+      "s_points",
+      "s_touchdowns"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Total Offense": [
+      "s_yards_offensive_total"
+    ],
+    "Turnovers": [
+      "s_takeaways"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "FB": {
+    "All-purpose": [
+      "s_yards_all_purpose_total"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_lost",
+      "s_fumbles_recovered",
+      "s_fumbles_total"
+    ],
+    "Giveaways": [
+      "s_turnovers_committed"
+    ],
+    "PATs": [
+      "s_pat_receives",
+      "s_pat_rush_attempts",
+      "s_pat_rushes",
+      "s_pat_two_points_attempt",
+      "s_pat_two_points_made"
+    ],
+    "Plays": [
+      "s_plays_all_purpose_total",
+      "s_plays_total",
+      "s_yards_per_play_average"
+    ],
+    "Receiving": [
+      "s_receiving_0",
+      "s_receiving_10",
+      "s_receiving_20",
+      "s_receiving_30",
+      "s_receiving_40",
+      "s_receiving_50",
+      "s_receiving_negative",
+      "s_receptions",
+      "s_receptions_average",
+      "s_receptions_longest",
+      "s_receptions_touchdown",
+      "s_receptions_yards",
+      "s_receptions_yards_after_catch"
+    ],
+    "Red Zone": [
+      "s_goal_efficiency_percentage",
+      "s_goal_efficiency_touchdowns"
+    ],
+    "Rushing": [
+      "s_rushing_0",
+      "s_rushing_10",
+      "s_rushing_20",
+      "s_rushing_30",
+      "s_rushing_40",
+      "s_rushing_50",
+      "s_rushing_attempts",
+      "s_rushing_left",
+      "s_rushing_longest",
+      "s_rushing_middle",
+      "s_rushing_net_yards_average",
+      "s_rushing_right",
+      "s_rushing_touchdowns",
+      "s_rushing_yards_gain",
+      "s_rushing_yards_loss",
+      "s_rushing_yards_net"
+    ],
+    "Scoring": [
+      "s_points",
+      "s_touchdowns"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Total Offense": [
+      "s_yards_offensive_total"
+    ],
+    "Turnovers": [
+      "s_takeaways"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "TE": {
+    "All-purpose": [
+      "s_yards_all_purpose_total"
+    ],
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_lost",
+      "s_fumbles_recovered",
+      "s_fumbles_total"
+    ],
+    "Giveaways": [
+      "s_turnovers_committed"
+    ],
+    "PATs": [
+      "s_pat_receives",
+      "s_pat_rush_attempts",
+      "s_pat_rushes",
+      "s_pat_two_points_attempt",
+      "s_pat_two_points_made"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Plays": [
+      "s_plays_all_purpose_total",
+      "s_plays_total",
+      "s_yards_per_play_average"
+    ],
+    "Receiving": [
+      "s_receiving_0",
+      "s_receiving_10",
+      "s_receiving_20",
+      "s_receiving_30",
+      "s_receiving_40",
+      "s_receiving_50",
+      "s_receiving_negative",
+      "s_receptions",
+      "s_receptions_average",
+      "s_receptions_longest",
+      "s_receptions_touchdown",
+      "s_receptions_yards",
+      "s_receptions_yards_after_catch"
+    ],
+    "Red Zone": [
+      "s_goal_efficiency_percentage",
+      "s_goal_efficiency_touchdowns"
+    ],
+    "Rushing": [
+      "s_rushing_0",
+      "s_rushing_10",
+      "s_rushing_20",
+      "s_rushing_30",
+      "s_rushing_40",
+      "s_rushing_50",
+      "s_rushing_attempts",
+      "s_rushing_left",
+      "s_rushing_longest",
+      "s_rushing_middle",
+      "s_rushing_net_yards_average",
+      "s_rushing_right",
+      "s_rushing_touchdowns",
+      "s_rushing_yards_gain",
+      "s_rushing_yards_loss",
+      "s_rushing_yards_net"
+    ],
+    "Scoring": [
+      "s_points",
+      "s_touchdowns"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Total Offense": [
+      "s_yards_offensive_total"
+    ],
+    "Turnovers": [
+      "s_takeaways"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "DL": {
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_forced",
+      "s_fumbles_recovered"
+    ],
+    "Interception Return": [
+      "s_interceptions_average",
+      "s_interceptions_return_longest",
+      "s_interceptions_return_yards",
+      "s_interceptions_touchdowns"
+    ],
+    "PATs": [
+      "s_pat_fumble_return_conversions",
+      "s_pat_fumble_returns",
+      "s_pat_interception_return_conversions",
+      "s_pat_kick_return_conversions",
+      "s_pat_kick_returns"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "Sacks": [
+      "s_sacks_assisted",
+      "s_sacks_total",
+      "s_sacks_unassisted",
+      "s_sacks_yards"
+    ],
+    "Safety": [
+      "s_safeties_two_points"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_for_loss_assisted",
+      "s_tackles_for_loss_solo",
+      "s_tackles_for_loss_total",
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways",
+      "s_turnovers_caused"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "DE": {
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_forced",
+      "s_fumbles_recovered"
+    ],
+    "Interception Return": [
+      "s_interceptions_average",
+      "s_interceptions_return_longest",
+      "s_interceptions_return_yards",
+      "s_interceptions_touchdowns"
+    ],
+    "PATs": [
+      "s_pat_fumble_return_conversions",
+      "s_pat_fumble_returns",
+      "s_pat_interception_return_conversions",
+      "s_pat_kick_return_conversions",
+      "s_pat_kick_returns"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "Sacks": [
+      "s_sacks_assisted",
+      "s_sacks_total",
+      "s_sacks_unassisted",
+      "s_sacks_yards"
+    ],
+    "Safety": [
+      "s_safeties_two_points"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_for_loss_assisted",
+      "s_tackles_for_loss_solo",
+      "s_tackles_for_loss_total",
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways",
+      "s_turnovers_caused"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "DT": {
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_forced",
+      "s_fumbles_recovered"
+    ],
+    "Interception Return": [
+      "s_interceptions_average",
+      "s_interceptions_return_longest",
+      "s_interceptions_return_yards",
+      "s_interceptions_touchdowns"
+    ],
+    "PATs": [
+      "s_pat_fumble_return_conversions",
+      "s_pat_fumble_returns",
+      "s_pat_interception_return_conversions",
+      "s_pat_kick_return_conversions",
+      "s_pat_kick_returns"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "Sacks": [
+      "s_sacks_assisted",
+      "s_sacks_total",
+      "s_sacks_unassisted",
+      "s_sacks_yards"
+    ],
+    "Safety": [
+      "s_safeties_two_points"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_for_loss_assisted",
+      "s_tackles_for_loss_solo",
+      "s_tackles_for_loss_total",
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways",
+      "s_turnovers_caused"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "LB": {
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_forced",
+      "s_fumbles_recovered"
+    ],
+    "Interception Return": [
+      "s_interceptions_average",
+      "s_interceptions_return_longest",
+      "s_interceptions_return_yards",
+      "s_interceptions_touchdowns"
+    ],
+    "PATs": [
+      "s_pat_fumble_return_conversions",
+      "s_pat_fumble_returns",
+      "s_pat_interception_return_conversions",
+      "s_pat_kick_return_conversions",
+      "s_pat_kick_returns"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "Sacks": [
+      "s_sacks_assisted",
+      "s_sacks_total",
+      "s_sacks_unassisted",
+      "s_sacks_yards"
+    ],
+    "Safety": [
+      "s_safeties_two_points"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_for_loss_assisted",
+      "s_tackles_for_loss_solo",
+      "s_tackles_for_loss_total",
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways",
+      "s_turnovers_caused"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "DB": {
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_forced",
+      "s_fumbles_recovered"
+    ],
+    "Interception Return": [
+      "s_interceptions_average",
+      "s_interceptions_return_longest",
+      "s_interceptions_return_yards",
+      "s_interceptions_touchdowns"
+    ],
+    "PATs": [
+      "s_pat_fumble_return_conversions",
+      "s_pat_fumble_returns",
+      "s_pat_interception_return_conversions",
+      "s_pat_kick_return_conversions",
+      "s_pat_kick_returns"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways",
+      "s_turnovers_caused"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "CB": {
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_forced",
+      "s_fumbles_recovered"
+    ],
+    "Interception Return": [
+      "s_interceptions_average",
+      "s_interceptions_return_longest",
+      "s_interceptions_return_yards",
+      "s_interceptions_touchdowns"
+    ],
+    "Kickoff": [
+      "s_kick_returns_average",
+      "s_kick_returns_longest",
+      "s_kick_returns_total",
+      "s_kick_returns_touchdowns",
+      "s_kick_returns_yards"
+    ],
+    "PATs": [
+      "s_pat_fumble_return_conversions",
+      "s_pat_fumble_returns",
+      "s_pat_interception_return_conversions",
+      "s_pat_kick_return_conversions",
+      "s_pat_kick_returns"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "Punt return": [
+      "s_punt_returns",
+      "s_punt_returns_0",
+      "s_punt_returns_10",
+      "s_punt_returns_20",
+      "s_punt_returns_30",
+      "s_punt_returns_40",
+      "s_punt_returns_50",
+      "s_punt_returns_average",
+      "s_punt_returns_longest",
+      "s_punt_returns_touchdown",
+      "s_punt_returns_yards"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways",
+      "s_turnovers_caused"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "S": {
+    "Blocks": [
+      "s_punts_blocked_by",
+      "s_pat_blocked_kicks_by",
+      "s_field_goals_blocked_by",
+      "s_kicks_blocked_by"
+    ],
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_forced",
+      "s_fumbles_recovered"
+    ],
+    "Interception Return": [
+      "s_interceptions_average",
+      "s_interceptions_return_longest",
+      "s_interceptions_return_yards",
+      "s_interceptions_touchdowns"
+    ],
+    "PATs": [
+      "s_pat_fumble_return_conversions",
+      "s_pat_fumble_returns",
+      "s_pat_interception_return_conversions",
+      "s_pat_kick_return_conversions",
+      "s_pat_kick_returns"
+    ],
+    "PBU": [
+      "s_pass_break_ups"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "Tackles": [
+      "s_tackles_assisted",
+      "s_tackles_solo",
+      "s_tackles_total"
+    ],
+    "Tackles for Loss": [
+      "s_tackles_yards"
+    ],
+    "Turnovers": [
+      "s_takeaways",
+      "s_turnovers_caused"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "OL": {
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_recovered"
+    ],
+    "Passes": [
+      "s_pass_quarterback_hurries"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "OT": {
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_recovered"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "OC": {
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_recovered"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  },
+  "OG": {
+    "Fumble Return": [
+      "s_fumble_return_longest",
+      "s_fumble_return_total",
+      "s_fumble_return_touchdowns",
+      "s_fumble_return_yards",
+      "s_fumble_return_yards_average"
+    ],
+    "Fumbles": [
+      "s_fumbles_recovered"
+    ],
+    "miscellaneous": [
+      "s_penalty",
+      "s_penalty_yards"
+    ]
+  }
+}

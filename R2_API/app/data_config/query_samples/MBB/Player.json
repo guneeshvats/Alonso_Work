@@ -1,0 +1,218 @@
+[
+    {
+        "entity": "player",
+        "query": "players with atleast 181 all time three-pointers made ",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "career",
+            "conditions": "s_three_pointers_made >= 181",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 175+ free throws attempted and 199+ total rebounds and 141+ minutes played",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_free_throws_attempted >= 175 AND s_rebounds_total >= 199 AND s_minutes >= 141",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players with 68+ field goals made or 199+ field goal percentage",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_field_goals_made >= 68 OR s_field_goals_percentage >= 199",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players in Landmark with 190+ career field goals made and 117+ career three-pointers attempted against UConn",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {
+                "teamConferenceName": "Landmark",
+                "opponentTeamName": "UConn"
+            },
+            "stat_period": "career",
+            "conditions": "s_field_goals_made >= 190 and s_three_pointers_attempted >= 117",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "Forward with over 181 technical fouls ",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {
+                "position": "F"
+            },
+            "stat_period": "game",
+            "conditions": "s_fouls_technical > 181",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "juniors with 66+ minutes played in a game",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {
+                "playerClass": "junior"
+            },
+            "stat_period": "game",
+            "conditions": "s_minutes >= 66",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": " Seasons where RAMSEY, RANDY has 101+ overall total rebounds  ",
+        "aql": {
+            "query_type": "basic",
+            "entity": "player",
+            "qualifiers": {
+                "playerName": "RAMSEY, RANDY"
+            },
+            "stat_period": "season",
+            "conditions": "s_rebounds_total > 101",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "What is the highest field goals attempted made by Guard juniors  against McNeese in a season?",
+        "aql": {
+            "query_type": "max",
+            "entity": "player",
+            "qualifiers": {
+                "opponentTeamName": "McNeese",
+                "playerClass": "junior",
+                "position": "G"
+            },
+            "stat_period": "season",
+            "conditions": "s_field_goals_attempted",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "Lowest turnovers made against teams in NESCAC",
+        "aql": {
+            "query_type": "min",
+            "entity": "player",
+            "qualifiers": {
+                "opponentConferenceName": "NESCAC"
+            },
+            "stat_period": "game",
+            "conditions": "s_turnovers",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "What is the lowest number of turnovers by SPAIGHT, MARTRELL ?",
+        "aql": {
+            "query_type": "min",
+            "entity": "player",
+            "qualifiers": {
+                "playerName": "SPAIGHT, MARTRELL"
+            },
+            "stat_period": "game",
+            "conditions": "s_turnovers",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "What is the last time when a Center had more than 53 blocks without a technical fouls in a game ?",
+        "aql": {
+            "query_type": "ltw",
+            "entity": "player",
+            "qualifiers": {
+                "position": "C"
+            },
+            "stat_period": "game",
+            "conditions": "s_blocks > 53 AND s_fouls_technical = 0",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "Last time when a player had more than 103 personal fouls in a season",
+        "aql": {
+            "query_type": "ltw",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "season",
+            "conditions": "s_fouls_personal > 103",
+            "streak_len": null
+        }
+    },
+    {
+        "entity": "player",
+        "query": "Players with at least 18 consecutive games recording 196+ offensive rebounds without a single free throws attempted.",
+        "aql": {
+            "query_type": "streak",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_rebounds_offensive >= 196 AND s_free_throws_attempted = 0",
+            "streak_len": 18
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players having atleast 7 consecutive games with 78+ personal fouls against Southern Ore.",
+        "aql": {
+            "query_type": "streak",
+            "entity": "player",
+            "qualifiers": {
+                "opponentTeamName": "Southern Ore."
+            },
+            "stat_period": "game",
+            "conditions": "s_fouls_personal >= 78",
+            "streak_len": 7
+        }
+    },
+    {
+        "entity": "player",
+        "query": "players having atleast 44 consecutive games with 187+ three-pointers attempted",
+        "aql": {
+            "query_type": "streak",
+            "entity": "player",
+            "qualifiers": {},
+            "stat_period": "game",
+            "conditions": "s_three_pointers_attempted >= 187",
+            "streak_len": 44
+        }
+    },
+    {
+      "entity": "player",
+      "query": "Opponent Players with 50+ three pointers attempted against Alabama",
+      "aql": {
+        "query_type": "basic",
+        "entity": "player",
+        "qualifiers": {
+          "opponentTeamName" : "Alabama",
+          "teamName" : "ALL"
+        },
+        "stat_period": "game",
+        "conditions": "s_three_pointers_attempted >= 50",
+        "streak_len": null
+      }
+    }
+]

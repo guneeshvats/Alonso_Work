@@ -1,0 +1,88 @@
+{
+  "MFB" : 
+  {
+    "Player": {
+      "game": {
+        "basic": ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name", "game_result", "player_class"],
+        "min" : ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name", "game_result", "player_class"],
+        "max" : ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name", "game_result", "player_class"],
+        "ltw" : ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name", "game_result", "player_class"],
+        "streak" : ["player_id","player_name", "team_name", "season", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      },
+      "season": {
+        "basic": ["player_id","player_name", "team_name", "position", "season", "player_class"],
+        "min": ["player_id","player_name", "team_name", "position", "season", "player_class"],
+        "max": ["player_id","player_name", "team_name", "position", "season", "player_class"],
+        "ltw": ["player_id","player_name", "team_name", "position", "season", "player_class"],
+        "streak": ["player_id","player_name", "team_name", "season", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      },
+      "career": {
+        "basic": ["player_id","player_name", "team_name", "position"],
+        "min": ["player_id","player_name", "team_name", "position"],
+        "max": ["player_id","player_name", "team_name", "position"],
+        "ltw": ["player_id","player_name", "team_name", "position"],
+        "streak" : ["player_id","player_name", "team_name", "season", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      }
+    },
+    "Team": {
+      "game": {
+        "basic": ["team_name", "game_date", "opponent_team_name", "game_result"],
+        "min" : ["team_name",  "game_date", "opponent_team_name", "game_result"],
+        "max" : ["team_name",  "game_date", "opponent_team_name", "game_result"],
+        "ltw" : ["team_name",  "game_date", "opponent_team_name", "game_result"],
+        "streak" : ["team_name", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+
+      },
+      "season": {
+        "basic": ["team_name", "season"],
+        "min" : ["team_name", "season"], 
+        "max" : ["team_name", "season"],
+        "ltw" : ["team_name", "season"], 
+        "streak" : ["team_name","streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      }
+    }
+  },
+  "MBB" : 
+  {
+    "Player": {
+      "game": {
+        "basic": ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name"],
+        "min" : ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name"],
+        "max" : ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name"],
+        "ltw" : ["player_id","player_name", "team_name", "position", "game_date", "opponent_team_name"],
+        "streak" : ["player_id","player_name", "team_name", "season", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      },
+      "season": {
+        "basic": ["player_id","player_name", "team_name", "position", "season"],
+        "min": ["player_id","player_name", "team_name", "position", "season"],
+        "max": ["player_id","player_name", "team_name", "position", "season"],
+        "ltw" : ["player_id","player_name", "team_name", "position", "season"],
+        "streak": ["player_id","player_name", "team_name", "season", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      },
+      "career": {
+        "basic": ["player_id","player_name", "team_name", "position"],
+        "min": ["player_id","player_name", "team_name", "position"],
+        "max": ["player_id","player_name", "team_name", "position"],
+        "ltw" : ["player_name", "team_name", "position"],
+        "streak" : ["player_id","player_name", "team_name", "season", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      }
+    },
+    "Team": {
+      "game": {
+        "basic": ["team_name", "game_date", "opponent_team_name"],
+        "min" : ["team_name",  "game_date", "opponent_team_name"],
+        "max" : ["team_name",  "game_date", "opponent_team_name"],
+        "ltw" : ["team_name",  "game_date", "opponent_team_name"],
+        "streak" : ["team_name", "streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+
+      },
+      "season": {
+        "basic": ["team_name", "season"],
+        "min" : ["team_name", "season"], 
+        "max" : ["team_name", "season"],
+        "ltw" : ["team_name", "season"], 
+        "streak" : ["team_name","streak_length", "start_game_date", "start_opponent", "end_game_date", "end_opponent"]
+      }
+    }
+  }
+}

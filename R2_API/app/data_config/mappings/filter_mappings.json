@@ -1,0 +1,9 @@
+{
+    "RES": ["game_result", "IN"],
+    "PLAYER": ["player_name", "IN"],
+    "CLASS": ["player_class", "IN"],
+    "OPP": ["opponent_team_name", "IN"],
+    "POS": ["position", "IN"],
+    "DATE_MIN": ["game_date", ">="],
+    "DATE_MAX": ["game_date", "<="]
+}
